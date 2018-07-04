@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Overall default text size. -->
+    <dimen name="comresTextSizeDefault">12sp</dimen>
+
+    <!-- Overall default side margin. -->
+    <dimen name="comresSideMarginDefault">14dp</dimen>
+
+
+    <!-- Common separator default dimens. -->
+    <dimen name="comresCommonSeparatorThicknessDefault">1dp</dimen>
+
+    <!-- Common button default dimens. -->
+    <dimen name="comresCommonBtnCornerRadiusDefault">5dp</dimen>
+    <dimen name="comresCommonBtnStrokeWidthDefault">0dp</dimen>
+    <dimen name="comresCommonBtnTextSizeDefault">19sp</dimen>
+
+    <!-- Common toggle button default dimens. -->
+    <dimen name="comresCommonTglBtnCornerRadiusDefault">10dp</dimen>
+    <dimen name="comresCommonTglBtnStrokeWidthDefault">0dp</dimen>
+    <dimen name="comresCommonTglBtnTextSizeDefault">19sp</dimen>
+
+    <!-- Common checkbox button default dimens. -->
+    <dimen name="comresCommonChkBtnCornerRadiusDefault">10dp</dimen>
+    <dimen name="comresCommonChkBtnStrokeWidthDefault">0dp</dimen>
+    <dimen name="comresCommonChkBtnTextSizeDefault">19sp</dimen>
+
+    <!-- Common label default dimens. -->
+    <dimen name="comresCommonLabelTextSizeDefault">19sp</dimen>
+
+    <!-- Common dialog default dimens. -->
+    <dimen name="comresCommonDialogCornerRadiusDefault">12dp</dimen>
+    <dimen name="comresCommonDialogStrokeWidthDefault">0dp</dimen>
+
+    <!-- Common dialog button default dimens. -->
+    <dimen name="comresCommonDialogBtnCornerRadiusDefault">5dp</dimen>
+    <dimen name="comresCommonDialogBtnStrokeWidthDefault">0dp</dimen>
+
+
+    <!-- Text size named by value. -->
+    <dimen name="comresTextSize10Sp">10sp</dimen>
+    <dimen name="comresTextSize11Sp">11sp</dimen>
+    <dimen name="comresTextSize12Sp">12sp</dimen>
+    <dimen name="comresTextSize13Sp">13sp</dimen>
+    <dimen name="comresTextSize14Sp">14sp</dimen>
+    <dimen name="comresTextSize15Sp">15sp</dimen>
+    <dimen name="comresTextSize16Sp">16sp</dimen>
+    <dimen name="comresTextSize17Sp">17sp</dimen>
+    <dimen name="comresTextSize18Sp">18sp</dimen>
+    <dimen name="comresTextSize19Sp">19sp</dimen>
+    <dimen name="comresTextSize20Sp">20sp</dimen>
+    <dimen name="comresTextSize22Sp">22sp</dimen>
+    <dimen name="comresTextSize24Sp">24sp</dimen>
+    <dimen name="comresTextSize28Sp">28sp</dimen>
+    <dimen name="comresTextSize36Sp">36sp</dimen>
+    <dimen name="comresTextSize40Sp">40sp</dimen>
+
+    <!-- Corner radius named by value. -->
+    <dimen name="comresCornerRadius0">0dp</dimen>
+    <dimen name="comresCornerRadius5">5dp</dimen>
+    <dimen name="comresCornerRadius100">100dp</dimen>
+
+    <!-- Stroke width named by value. -->
+    <dimen name="comresStrokeWidth0">0dp</dimen>
+    <dimen name="comresStrokeWidth1">1dp</dimen>
+</resources>

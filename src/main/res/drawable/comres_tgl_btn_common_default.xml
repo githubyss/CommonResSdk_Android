@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true"
+          android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comresCommonTglBtnBgColorDefaultChecked" />
+            <corners android:radius="@dimen/comresCommonTglBtnCornerRadiusDefault" />
+            <stroke android:width="@dimen/comresCommonTglBtnStrokeWidthDefault"
+                    android:color="@color/comresCommonTglBtnStrokeColorDefault" />
+        </shape>
+    </item>
+
+    <item android:state_checked="false"
+          android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comresCommonTglBtnBgColorDefaultUnChecked" />
+            <corners android:radius="@dimen/comresCommonTglBtnCornerRadiusDefault" />
+            <stroke android:width="@dimen/comresCommonTglBtnStrokeWidthDefault"
+                    android:color="@color/comresCommonTglBtnStrokeColorDefault" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comresCommonTglBtnBgColorDefaultDisabled" />
+            <corners android:radius="@dimen/comresCommonTglBtnCornerRadiusDefault" />
+            <stroke android:width="@dimen/comresCommonTglBtnStrokeWidthDefault"
+                    android:color="@color/comresCommonTglBtnStrokeColorDefault" />
+        </shape>
+    </item>
+</selector>

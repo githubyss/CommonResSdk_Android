@@ -1,3 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CommonResSdk Android</string>
+    <string name="comresAppName">Common Res Android</string>
+
+    <string name="comresOk">OK</string>
+    <string name="comresCancel">Cancel</string>
+    <string name="comresConfirm">Confirm</string>
+    <string name="comresSubmit">Submit</string>
+    <string name="comresSend">Send</string>
+    <string name="comresStart">Start</string>
+    <string name="comresStop">Stop</string>
+    <string name="comresOpen">Open</string>
+    <string name="comresClose">Close</string>
+    <string name="comresSetting">Setting</string>
 </resources>

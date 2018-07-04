@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="comresBaseAppTheme"
+           parent="Theme.AppCompat.NoActionBar" />
+
+    <!-- Application theme. -->
+    <style name="comresAppTheme"
+           parent="comresBaseAppTheme">
+        <item name="colorPrimary">@color/comresColorPrimary</item>
+        <item name="colorPrimaryDark">@color/comresColorPrimaryDark</item>
+        <item name="colorAccent">@color/comresColorAccent</item>
+    </style>
+
+    <!-- Translucent theme. -->
+    <style name="comresTranslucentTheme"
+           parent="comresBaseAppTheme">
+        <item name="android:windowBackground">@color/comresLayoutBgColorTransparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <!-- Translucent fullscreen theme. -->
+    <style name="comresTranslucentFullscreenTheme"
+           parent="comresTranslucentTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <!-- Default common button style. -->
+    <style name="comresCommonBtnDefaultStyle">
+        <item name="android:background">@drawable/comres_btn_common_default</item>
+        <item name="android:enabled">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/comresCommonBtnTextColorDefault</item>
+        <item name="android:textSize">@dimen/comresCommonBtnTextSizeDefault</item>
+    </style>
+
+    <!-- Default common toggle button style. -->
+    <style name="comresCommonTglBtnDefaultStyle">
+        <item name="android:background">@drawable/comres_tgl_btn_common_default</item>
+        <item name="android:enabled">true</item>
+        <item name="android:checkable">true</item>
+        <item name="android:checked">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/comresCommonTglBtnTextColorDefault</item>
+        <item name="android:textSize">@dimen/comresCommonTglBtnTextSizeDefault</item>
+    </style>
+
+    <!-- Default common checkbox button style. -->
+    <style name="comresCommonChkBtnDefaultStyle">
+        <item name="android:background">@drawable/comres_chk_btn_common_default</item>
+        <item name="android:enabled">true</item>
+        <item name="android:checkable">true</item>
+        <item name="android:checked">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/comresCommonChkBtnTextColorDefault</item>
+        <item name="android:textSize">@dimen/comresCommonChkBtnTextSizeDefault</item>
+    </style>
+
+    <!-- Default common label style. -->
+    <style name="comresCommonLabelStyle">
+        <item name="android:background">@color/comresColorTransparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/comresColorDarkslategray</item>
+        <item name="android:textSize">@dimen/comresTextSize16Sp</item>
+    </style>
+
+    <!-- Default common input style. -->
+    <style name="comresCommonInputStyle">
+        <item name="android:background">@color/comresColorTransparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/comresColorChocolate</item>
+        <item name="android:textSize">@dimen/comresTextSize16Sp</item>
+    </style>
+
+    <!-- Default common text display style. -->
+    <style name="comresCommonTextDisplayStyle">
+        <item name="android:background">@color/comresColorTransparent</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/comresColorDarkslategray</item>
+        <item name="android:textSize">@dimen/comresTextSize16Sp</item>
+    </style>
+
+    <!-- Common style. -->
+    <style name="comresCommonStyle">
+    </style>
+
+    <!-- Match parent style. -->
+    <style name="comresBothMatchParentStyle"
+           parent="comresCommonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Wrap content style. -->
+    <style name="comresBothWrapContentStyle"
+           parent="comresCommonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Width match height wrap layout style. -->
+    <style name="comresOnlyWidthMatchParentLayoutStyle"
+           parent="comresCommonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Width wrap height match layout style. -->
+    <style name="comresOnlyHeightMatchParentLayoutStyle"
+           parent="comresCommonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Arrange width using weight layout style. -->
+    <style name="comresArrangeWidthUsingWeightLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Arrange height using weight layout style. -->
+    <style name="comresArrangeHeightUsingWeightLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <!-- Arrange in one row layout style. -->
+    <style name="comresArrangeInOneRowLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Arrange in one column layout style. -->
+    <style name="comresArrangeInOneColumnLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>
