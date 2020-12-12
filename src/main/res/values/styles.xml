@@ -31,6 +31,8 @@
 
     <!-- Default common button style. -->
     <style name="comresCommonBtnDefaultStyle">
+        <item name="android:paddingLeft">@dimen/comresSideMarginDefault</item>
+        <item name="android:paddingRight">@dimen/comresSideMarginDefault</item>
         <item name="android:background">@drawable/comres_btn_common_default</item>
         <item name="android:enabled">true</item>
         <item name="android:clickable">true</item>
@@ -92,8 +94,7 @@
     </style>
 
     <!-- Common style. -->
-    <style name="comresCommonStyle">
-    </style>
+    <style name="comresCommonStyle"></style>
 
     <!-- Match parent style. -->
     <style name="comresBothMatchParentStyle"
