@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="comresAppName">Common Res Android</string>
+    <string name="comres_app_name">Common Res Android</string>
 
-    <string name="comresOk">OK</string>
-    <string name="comresCancel">Cancel</string>
-    <string name="comresConfirm">Confirm</string>
-    <string name="comresSubmit">Submit</string>
-    <string name="comresSend">Send</string>
-    <string name="comresStart">Start</string>
-    <string name="comresStop">Stop</string>
-    <string name="comresOpen">Open</string>
-    <string name="comresClose">Close</string>
-    <string name="comresSetting">Setting</string>
+    <string name="comres_ok">OK</string>
+    <string name="comres_cancel">Cancel</string>
+    <string name="comres_confirm">Confirm</string>
+    <string name="comres_submit">Submit</string>
+    <string name="comres_send">Send</string>
+    <string name="comres_start">Start</string>
+    <string name="comres_stop">Stop</string>
+    <string name="comres_open">Open</string>
+    <string name="comres_close">Close</string>
+    <string name="comres_setting">Setting</string>
 </resources>

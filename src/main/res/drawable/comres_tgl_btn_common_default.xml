@@ -3,29 +3,29 @@
     <item android:state_checked="true"
           android:state_enabled="true">
         <shape android:shape="rectangle">
-            <solid android:color="@color/comresCommonTglBtnBgColorDefaultChecked" />
-            <corners android:radius="@dimen/comresCommonTglBtnCornerRadiusDefault" />
-            <stroke android:width="@dimen/comresCommonTglBtnStrokeWidthDefault"
-                    android:color="@color/comresCommonTglBtnStrokeColorDefault" />
+            <solid android:color="@color/comres_common_tgl_btn_bg_color_default_checked" />
+            <corners android:radius="@dimen/comres_common_tgl_btn_corner_radius_default" />
+            <stroke android:width="@dimen/comres_common_tgl_btn_stroke_width_default"
+                    android:color="@color/comres_common_tgl_btn_stroke_color_default" />
         </shape>
     </item>
 
     <item android:state_checked="false"
           android:state_enabled="true">
         <shape android:shape="rectangle">
-            <solid android:color="@color/comresCommonTglBtnBgColorDefaultUnChecked" />
-            <corners android:radius="@dimen/comresCommonTglBtnCornerRadiusDefault" />
-            <stroke android:width="@dimen/comresCommonTglBtnStrokeWidthDefault"
-                    android:color="@color/comresCommonTglBtnStrokeColorDefault" />
+            <solid android:color="@color/comres_common_tgl_btn_bg_color_default_unchecked" />
+            <corners android:radius="@dimen/comres_common_tgl_btn_corner_radius_default" />
+            <stroke android:width="@dimen/comres_common_tgl_btn_stroke_width_default"
+                    android:color="@color/comres_common_tgl_btn_stroke_color_default" />
         </shape>
     </item>
 
     <item android:state_enabled="false">
         <shape android:shape="rectangle">
-            <solid android:color="@color/comresCommonTglBtnBgColorDefaultDisabled" />
-            <corners android:radius="@dimen/comresCommonTglBtnCornerRadiusDefault" />
-            <stroke android:width="@dimen/comresCommonTglBtnStrokeWidthDefault"
-                    android:color="@color/comresCommonTglBtnStrokeColorDefault" />
+            <solid android:color="@color/comres_common_tgl_btn_bg_color_default_disabled" />
+            <corners android:radius="@dimen/comres_common_tgl_btn_corner_radius_default" />
+            <stroke android:width="@dimen/comres_common_tgl_btn_stroke_width_default"
+                    android:color="@color/comres_common_tgl_btn_stroke_color_default" />
         </shape>
     </item>
 </selector>
