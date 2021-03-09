@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Common toolbar colors. -->
-    <color name="comres_color_primary">#3F51B5</color>
-    <color name="comres_color_primary_dark">#303F9F</color>
-    <color name="comres_color_accent">#FF4081</color>
+    <!-- Common toolbar blue colors. -->
+    <color name="comres_toolbar_color_blue_primary">#3F51B5</color>
+    <color name="comres_toolbar_color_blue_primary_dark">#303F9F</color>
+    <color name="comres_toolbar_color_blue_accent">#FF4081</color>
+
+    <!-- Common toolbar gray colors. -->
+    <color name="comres_toolbar_color_gray_primary">#008577</color>
+    <color name="comres_toolbar_color_gray_primary_dark">#00574B</color>
+    <color name="comres_toolbar_color_gray_accent">#D81B60</color>
+
+    <!-- Toolbar bg colors -->
+    <color name="comres_toolbar_bg_color_light_gray">#F2F2F2</color>
+    <color name="comres_toolbar_bg_color_gray">#8A8A8A</color>
+    <color name="comres_toolbar_bg_color_green">#45C01A</color>
 
     <!-- Layout background colors. -->
     <color name="comres_layout_bg_color_default">#F2F2F2</color>

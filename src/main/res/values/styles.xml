@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base application theme. -->
-    <style name="comresBaseAppTheme"
-           parent="Theme.AppCompat.NoActionBar" />
+    <style name="comres_base_app_theme"
+           parent="Theme.AppCompat.Light.NoActionBar" />
 
     <!-- Application theme. -->
-    <style name="comresAppTheme"
-           parent="comresBaseAppTheme">
-        <item name="colorPrimary">@color/comres_color_primary</item>
-        <item name="colorPrimaryDark">@color/comres_color_primary_dark</item>
-        <item name="colorAccent">@color/comres_color_accent</item>
+    <style name="comres_app_theme"
+           parent="comres_base_app_theme">
+        <item name="colorPrimary">@color/comres_toolbar_color_gray_primary</item>
+        <item name="colorPrimaryDark">@color/comres_toolbar_color_gray_primary_dark</item>
+        <item name="colorAccent">@color/comres_toolbar_color_gray_accent</item>
     </style>
 
+    <!-- Activity theme. -->
+    <style name="comres_activity_theme"
+           parent="Theme.AppCompat.Light.NoActionBar" />
+
     <!-- Translucent theme. -->
-    <style name="comresTranslucentTheme"
-           parent="comresBaseAppTheme">
+    <style name="comres_translucent_theme"
+           parent="comres_base_app_theme">
         <item name="android:windowBackground">@color/comres_layout_bg_color_transparent</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowAnimationStyle">@android:style/Animation</item>
@@ -23,8 +27,8 @@
     </style>
 
     <!-- Translucent fullscreen theme. -->
-    <style name="comresTranslucentFullscreenTheme"
-           parent="comresTranslucentTheme">
+    <style name="comres_translucent_fullscreen_theme"
+           parent="comres_translucent_theme">
         <item name="android:windowFullscreen">true</item>
     </style>
 
