@@ -1,87 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Common toolbar blue colors. -->
-    <color name="comres_toolbar_color_blue_primary">#3F51B5</color>
-    <color name="comres_toolbar_color_blue_primary_dark">#303F9F</color>
-    <color name="comres_toolbar_color_blue_accent">#FF4081</color>
+    <!-- Toolbar blue colors. -->
+    <color name="comres_toolbarPrimary_blue">#3F51B5</color>
+    <color name="comres_toolbarPrimaryDark_blue">#303F9F</color>
+    <color name="comres_toolbarAccent_blue">#FF4081</color>
 
-    <!-- Common toolbar gray colors. -->
-    <color name="comres_toolbar_color_gray_primary">#008577</color>
-    <color name="comres_toolbar_color_gray_primary_dark">#00574B</color>
-    <color name="comres_toolbar_color_gray_accent">#D81B60</color>
+    <!-- Toolbar gray colors. -->
+    <color name="comres_toolbarPrimary_gray">#008577</color>
+    <color name="comres_toolbarPrimaryDark_gray">#00574B</color>
+    <color name="comres_toolbarAccent_gray">#D81B60</color>
 
     <!-- Toolbar bg colors -->
-    <color name="comres_toolbar_bg_color_light_gray">#F2F2F2</color>
-    <color name="comres_toolbar_bg_color_gray">#8A8A8A</color>
-    <color name="comres_toolbar_bg_color_green">#45C01A</color>
+    <color name="comres_toolbarBg_lightGray">#F2F2F2</color>
+    <color name="comres_toolbarBg_gray">#8A8A8A</color>
+    <color name="comres_toolbarBg_green">#45C01A</color>
 
     <!-- Layout background colors. -->
-    <color name="comres_layout_bg_color_default">#F2F2F2</color>
-    <color name="comres_layout_bg_color_light_gray">#F2F2F2</color>
-    <color name="comres_layout_bg_color_white">#FFFFFF</color>
-    <color name="comres_layout_bg_color_blue">#1F86ED</color>
-    <color name="comres_layout_bg_color_transparent">#00000000</color>
+    <color name="comres_layoutBg_transparent">#00000000</color>
+    <color name="comres_layoutBg_white">#FFFFFF</color>
+    <color name="comres_layoutBg_lightGray">#F2F2F2</color>
+    <color name="comres_layoutBg_blue">#1F86ED</color>
 
-    <!-- Common separator default color. -->
-    <color name="comres_common_separator_color_default">#999999</color>
+    <!-- Separator color. -->
+    <color name="comres_separator_gray">#999999</color>
 
-    <!-- Common button default colors. -->
-    <color name="comres_common_btn_bg_color_default_normal">#3399FF</color>
-    <color name="comres_common_btn_bg_color_default_pressed">#3089E5</color>
-    <color name="comres_common_btn_bg_color_default_disabled">#E8E8E8</color>
-    <color name="comres_common_btn_stroke_color_default">#FFFFFF</color>
-    <color name="comres_common_btn_text_color_default">#FFFFFF</color>
+    <!-- Click button blue colors. -->
+    <color name="comres_clickButtonBgNormal_blue">#3399FF</color>
+    <color name="comres_clickButtonBgPressed_blue">#3089E5</color>
+    <color name="comres_clickButtonBgDisabled_blue">#E8E8E8</color>
+    <color name="comres_clickButtonStroke_blue">#FFFFFF</color>
+    <color name="comres_clickButtonText_blue">#FFFFFF</color>
 
-    <!-- Common toggle button default colors. -->
-    <color name="comres_common_tgl_btn_bg_color_default_checked">#3399FF</color>
-    <color name="comres_common_tgl_btn_bg_color_default_unchecked">#999999</color>
-    <color name="comres_common_tgl_btn_bg_color_default_disabled">#E8E8E8</color>
-    <color name="comres_common_tgl_btn_stroke_color_default">#FFFFFF</color>
-    <color name="comres_common_tgl_btn_text_color_default">#FFFFFF</color>
+    <!-- Click button white colors. -->
+    <color name="comres_clickButtonBgNormal_white">#FFFFFF</color>
+    <color name="comres_clickButtonBgPressed_white">#F8F8F8</color>
+    <color name="comres_clickButtonBgDisabled_white">#CACACA</color>
+    <color name="comres_clickButtonStroke_white">#FFFFFF</color>
+    <color name="comres_clickButtonText_white">#</color>
 
-    <!-- Common checkbox button default colors. -->
-    <color name="comres_common_chk_btn_bg_color_default_checked">#3399FF</color>
-    <color name="comres_common_chk_btn_bg_color_default_unchecked">#999999</color>
-    <color name="comres_common_chk_btn_bg_color_default_disabled">#E8E8E8</color>
-    <color name="comres_common_chk_btn_stroke_color_default">#FFFFFF</color>
-    <color name="comres_common_chk_btn_text_color_default">#FFFFFF</color>
+    <!-- Click button transparent colors. -->
+    <color name="comres_clickButtonBgNormal_transparent">#00000000</color>
+    <color name="comres_clickButtonBgPressed_transparent">#05FFFFFF</color>
+    <color name="comres_clickButtonBgDisabled_transparent">#CACACA</color>
+    <color name="comres_clickButtonStroke_transparent">#FFFFFF</color>
+    <color name="comres_clickButtonText_transparent">#</color>
 
-    <!-- Orange item card colors. -->
-    <color name="comres_orange_item_card_background_color_start">#FFA42D</color>
-    <color name="comres_orange_item_card_background_color_end">#FFC047</color>
-    <color name="comres_orange_item_card_stroke_color">#FFFFFF</color>
-    <color name="comres_orange_item_card_primary_text_color">#FFFFFF</color>
-    <color name="comres_orange_item_card_secondary_text_color">#FFFFFF</color>
+    <!-- Toggle button blue colors. -->
+    <color name="comres_toggleButtonBgChecked_blue">#3399FF</color>
+    <color name="comres_toggleButtonBgUnchecked_blue">#999999</color>
+    <color name="comres_toggleButtonBgDisabled_blue">#E8E8E8</color>
+    <color name="comres_toggleButtonStroke_blue">#FFFFFF</color>
+    <color name="comres_toggleButtonText_blue">#FFFFFF</color>
 
-    <!-- Common dialog default colors. -->
-    <color name="comres_common_dialog_bg_color_default_normal">#FFFFFF</color>
-    <color name="comres_common_dialog_bg_color_default_pressed">#FFFFFF</color>
-    <color name="comres_common_dialog_bg_color_default_disabled">#FFFFFF</color>
-    <color name="comres_common_dialog_stroke_color_default">#DDDDDD</color>
+    <!-- Checkbox button blue colors. -->
+    <color name="comres_checkButtonBgChecked_blue">#3399FF</color>
+    <color name="comres_checkButtonBgUnchecked_blue">#999999</color>
+    <color name="comres_checkButtonBgDisabled_blue">#E8E8E8</color>
+    <color name="comres_checkButtonStroke_blue">#FFFFFF</color>
+    <color name="comres_checkButtonText_blue">#FFFFFF</color>
 
-    <!-- Common dialog button default colors. -->
-    <color name="comres_common_dialog_btn_bg_color_default_normal">#FFFFFF</color>
-    <color name="comres_common_dialog_btn_bg_color_default_pressed">#F8F8F8</color>
-    <color name="comres_common_dialog_btn_bg_color_default_disabled">#E8E8E8</color>
-    <color name="comres_common_dialog_btn_stroke_color_default">#DDDDDD</color>
+    <!-- Item card orange colors. -->
+    <color name="comres_itemCardBgStart_orange">#FFA42D</color>
+    <color name="comres_itemCardBgEnd_orange">#FFC047</color>
+    <color name="comres_itemCardStroke_orange">#FFFFFF</color>
+    <color name="comres_itemCardLabelPrimary_orange">#FFFFFF</color>
+    <color name="comres_itemCardLabelSecondary_orange">#FFFFFF</color>
 
-    <!-- Common button blue colors. -->
-    <color name="comres_common_btn_bg_color_blue_normal">#3399FF</color>
-    <color name="comres_common_btn_bg_color_blue_pressed">#3089E5</color>
-    <color name="comres_common_btn_bg_color_blue_disabled">#E8E8E8</color>
-    <color name="comres_common_btn_stroke_color_blue">#FFFFFF</color>
-
-    <!-- Common button white colors. -->
-    <color name="comres_common_btn_bg_color_white_normal">#FFFFFF</color>
-    <color name="comres_common_btn_bg_color_white_pressed">#F8F8F8</color>
-    <color name="comres_common_btn_bg_color_white_disabled">#CACACA</color>
-    <color name="comres_common_btn_stroke_color_white">#FFFFFF</color>
-
-    <!-- Common button transparent colors. -->
-    <color name="comres_common_btn_bg_color_transparent_normal">#00000000</color>
-    <color name="comres_common_btn_bg_color_transparent_pressed">#05FFFFFF</color>
-    <color name="comres_common_btn_bg_color_transparent_disabled">#CACACA</color>
-    <color name="comres_common_btn_stroke_color_transparent">#FFFFFF</color>
+    <!-- Dialog white colors. -->
+    <color name="comres_dialogBgNormal_white">#FFFFFF</color>
+    <color name="comres_dialogStroke_white">#DDDDDD</color>
 
 
     <!-- Colors without suffix is 100Pct. -->

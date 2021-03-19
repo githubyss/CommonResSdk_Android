@@ -1,76 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Overall default text size. -->
-    <dimen name="comres_text_size_default">12sp</dimen>
+    <!-- Overall text size default dimens. -->
+    <dimen name="comres_textSize_default">12sp</dimen>
 
-    <!-- Overall default side margin. -->
-    <dimen name="comres_side_margin_default">14dp</dimen>
+    <!-- Overall side margin default dimens. -->
+    <dimen name="comres_sideMargin_default">14dp</dimen>
+
+    <!-- Click button default dimens. -->
+    <dimen name="comres_clickButtonCornerRadius_default">5dp</dimen>
+    <dimen name="comres_clickButtonStrokeWidth_default">0dp</dimen>
+    <dimen name="comres_clickButtonTextSize_default">19sp</dimen>
+
+    <!-- Toggle button default dimens. -->
+    <dimen name="comres_toggleButtonCornerRadius_default">10dp</dimen>
+    <dimen name="comres_toggleButtonStrokeWidth_default">0dp</dimen>
+    <dimen name="comres_toggleButtonTextSize_default">19sp</dimen>
+
+    <!-- Checkbox button default dimens. -->
+    <dimen name="comres_checkButtonCornerRadius_default">10dp</dimen>
+    <dimen name="comres_checkButtonStrokeWidth_default">0dp</dimen>
+    <dimen name="comres_checkButtonTextSize_default">19sp</dimen>
+
+    <!-- Item card default dimens. -->
+    <dimen name="comres_itemCardCornerRadius_default">14dp</dimen>
+    <dimen name="comres_itemCardStrokeWidth_default">0dp</dimen>
+    <dimen name="comres_itemCardLabelPrimaryTextSize_default">18sp</dimen>
+    <dimen name="comres_itemCardLabelSecondaryTextSize_default">15sp</dimen>
+
+    <!-- Label default dimens. -->
+    <dimen name="comres_labelTextSize_default">19sp</dimen>
+
+    <!-- Tips default dimens. -->
+    <dimen name="comres_tipsTextSize_default">11sp</dimen>
+
+    <!-- Dialog default dimens. -->
+    <dimen name="comres_dialogCornerRadius_default">12dp</dimen>
+    <dimen name="comres_dialogStrokeWidth_default">0dp</dimen>
 
 
-    <!-- Common separator default dimens. -->
-    <dimen name="comres_common_separator_thickness_default">1dp</dimen>
+    <!-- Separator thickness dimens. -->
+    <dimen name="comres_separatorThickness_none">0dp</dimen>
+    <dimen name="comres_separatorThickness_slightly">1dp</dimen>
+    <dimen name="comres_separatorThickness_bold">5dp</dimen>
+    <dimen name="comres_separatorThickness_margin">14dp</dimen>
 
-    <!-- Common button default dimens. -->
-    <dimen name="comres_common_btn_corner_radius_default">5dp</dimen>
-    <dimen name="comres_common_btn_stroke_width_default">0dp</dimen>
-    <dimen name="comres_common_btn_text_size_default">19sp</dimen>
+    <!-- Corner radius dimens. -->
+    <dimen name="comres_cornerRadius_none">0dp</dimen>
+    <dimen name="comres_cornerRadius_slightly">5dp</dimen>
+    <dimen name="comres_cornerRadius_circle">100dp</dimen>
 
-    <!-- Common toggle button default dimens. -->
-    <dimen name="comres_common_tgl_btn_corner_radius_default">10dp</dimen>
-    <dimen name="comres_common_tgl_btn_stroke_width_default">0dp</dimen>
-    <dimen name="comres_common_tgl_btn_text_size_default">19sp</dimen>
-
-    <!-- Common checkbox button default dimens. -->
-    <dimen name="comres_common_chk_btn_corner_radius_default">10dp</dimen>
-    <dimen name="comres_common_chk_btn_stroke_width_default">0dp</dimen>
-    <dimen name="comres_common_chk_btn_text_size_default">19sp</dimen>
-
-    <!-- Default item card dimens. -->
-    <dimen name="comres_default_item_card_corner_radius">14dp</dimen>
-    <dimen name="comres_default_item_card_stroke_width">0dp</dimen>
-    <dimen name="comres_default_item_card_primary_text_size">18sp</dimen>
-    <dimen name="comres_default_item_card_secondary_text_size">15sp</dimen>
-
-    <!-- Common label default dimens. -->
-    <dimen name="comres_common_label_text_size_default">19sp</dimen>
-
-    <!-- Default tips dimens. -->
-    <dimen name="comres_default_tips_text_size">11sp</dimen>
-
-    <!-- Common dialog default dimens. -->
-    <dimen name="comres_common_dialog_corner_radius_default">12dp</dimen>
-    <dimen name="comres_common_dialog_stroke_width_default">0dp</dimen>
-
-    <!-- Common dialog button default dimens. -->
-    <dimen name="comres_common_dialog_btn_corner_radius_default">5dp</dimen>
-    <dimen name="comres_common_dialog_btn_stroke_width_default">0dp</dimen>
+    <!-- Stroke width dimens. -->
+    <dimen name="comres_strokeWidth_none">0dp</dimen>
+    <dimen name="comres_strokeWidth_slightly">1dp</dimen>
+    <dimen name="comres_strokeWidth_bold">5dp</dimen>
 
 
     <!-- Text size named by value. -->
-    <dimen name="comres_text_size_10_sp">10sp</dimen>
-    <dimen name="comres_text_size_11_sp">11sp</dimen>
-    <dimen name="comres_text_size_12_sp">12sp</dimen>
-    <dimen name="comres_text_size_13_sp">13sp</dimen>
-    <dimen name="comres_text_size_14_sp">14sp</dimen>
-    <dimen name="comres_text_size_15_sp">15sp</dimen>
-    <dimen name="comres_text_size_16_sp">16sp</dimen>
-    <dimen name="comres_text_size_17_sp">17sp</dimen>
-    <dimen name="comres_text_size_18_sp">18sp</dimen>
-    <dimen name="comres_text_size_19_sp">19sp</dimen>
-    <dimen name="comres_text_size_20_sp">20sp</dimen>
-    <dimen name="comres_text_size_22_sp">22sp</dimen>
-    <dimen name="comres_text_size_24_sp">24sp</dimen>
-    <dimen name="comres_text_size_28_sp">28sp</dimen>
-    <dimen name="comres_text_size_36_sp">36sp</dimen>
-    <dimen name="comres_text_size_40_sp">40sp</dimen>
-
-
-    <!-- Corner radius named by value. -->
-    <dimen name="comres_corner_radius_0">0dp</dimen>
-    <dimen name="comres_corner_radius_5">5dp</dimen>
-    <dimen name="comres_corner_radius_100">100dp</dimen>
-
-    <!-- Stroke width named by value. -->
-    <dimen name="comres_stroke_width_0">0dp</dimen>
-    <dimen name="comres_stroke_width_1">1dp</dimen>
+    <dimen name="comres_textSize_10sp">10sp</dimen>
+    <dimen name="comres_textSize_11sp">11sp</dimen>
+    <dimen name="comres_textSize_12sp">12sp</dimen>
+    <dimen name="comres_textSize_13sp">13sp</dimen>
+    <dimen name="comres_textSize_14sp">14sp</dimen>
+    <dimen name="comres_textSize_15sp">15sp</dimen>
+    <dimen name="comres_textSize_16sp">16sp</dimen>
+    <dimen name="comres_textSize_17sp">17sp</dimen>
+    <dimen name="comres_textSize_18sp">18sp</dimen>
+    <dimen name="comres_textSize_19sp">19sp</dimen>
+    <dimen name="comres_textSize_20sp">20sp</dimen>
+    <dimen name="comres_textSize_22sp">22sp</dimen>
+    <dimen name="comres_textSize_24sp">24sp</dimen>
+    <dimen name="comres_textSize_28sp">28sp</dimen>
+    <dimen name="comres_textSize_36sp">36sp</dimen>
+    <dimen name="comres_textSize_40sp">40sp</dimen>
 </resources>

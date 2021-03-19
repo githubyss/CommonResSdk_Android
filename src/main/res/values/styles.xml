@@ -3,123 +3,126 @@
 
     <!-- ********** Application theme. ********** -->
 
-    <!-- Default application theme. -->
-    <style name="comres_default_app_theme"
+    <!-- Application gray theme. -->
+    <style name="comres_app_gray_theme"
            parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/comres_toolbar_color_gray_primary</item>
-        <item name="colorPrimaryDark">@color/comres_toolbar_color_gray_primary_dark</item>
-        <item name="colorAccent">@color/comres_toolbar_color_gray_accent</item>
+        <item name="colorPrimary">@color/comres_toolbarPrimary_gray</item>
+        <item name="colorPrimaryDark">@color/comres_toolbarPrimaryDark_gray</item>
+        <item name="colorAccent">@color/comres_toolbarAccent_gray</item>
     </style>
 
-    <!-- Default application translucent theme. -->
-    <style name="comres_default_app_translucent_theme"
-           parent="comres_default_app_theme">
-        <item name="android:windowBackground">@color/comres_layout_bg_color_transparent</item>
+    <!-- Application gray translucent theme. -->
+    <style name="comres_app_grayTranslucent_theme"
+           parent="comres_app_gray_theme">
+        <item name="android:windowBackground">@color/comres_layoutBg_transparent</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowAnimationStyle">@android:style/Animation</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
 
-    <!-- Default application translucent fullscreen theme. -->
-    <style name="comres_default_app_translucent_fullscreen_theme"
-           parent="comres_default_app_translucent_theme">
+    <!-- Application gray translucent fullscreen theme. -->
+    <style name="comres_app_grayTranslucentFullscreen_theme"
+           parent="comres_app_grayTranslucent_theme">
         <item name="android:windowFullscreen">true</item>
     </style>
 
     <!-- ********** Activity theme. ********** -->
 
     <!-- Activity no action bar theme. -->
-    <style name="comres_activity_no_action_bar_theme"
+    <style name="comres_activity_noActionBar_theme"
            parent="Theme.AppCompat.Light.NoActionBar" />
 
     <!-- ********** View theme. ********** -->
 
-    <!-- Default click button style. -->
-    <style name="comres_default_click_button_style">
-        <item name="android:paddingLeft">@dimen/comres_side_margin_default</item>
-        <item name="android:paddingRight">@dimen/comres_side_margin_default</item>
-        <item name="android:background">@drawable/comres_btn_common_default</item>
+    <!-- Click button rectangle blue style. -->
+    <style name="comres_clickButton_rectangle_blue_style">
+        <item name="android:paddingLeft">@dimen/comres_sideMargin_default</item>
+        <item name="android:paddingRight">@dimen/comres_sideMargin_default</item>
+        <item name="android:background">@drawable/comres_clickButton_rectangle_blue</item>
         <item name="android:enabled">true</item>
         <item name="android:clickable">true</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textColor">@color/comres_common_btn_text_color_default</item>
-        <item name="android:textSize">@dimen/comres_common_btn_text_size_default</item>
+        <item name="android:textColor">@color/comres_clickButtonText_blue</item>
+        <item name="android:textSize">@dimen/comres_clickButtonTextSize_default</item>
     </style>
 
-    <!-- Default toggle button style. -->
-    <style name="comres_default_toggle_button_style">
-        <item name="android:background">@drawable/comres_tgl_btn_common_default</item>
+    <!-- Toggle button rectangle blue style. -->
+    <style name="comres_toggleButton_rectangle_blue_style">
+        <item name="android:background">@drawable/comres_toggleButton_rectangle_blue</item>
         <item name="android:enabled">true</item>
         <item name="android:checkable">true</item>
         <item name="android:checked">false</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textColor">@color/comres_common_tgl_btn_text_color_default</item>
-        <item name="android:textSize">@dimen/comres_common_tgl_btn_text_size_default</item>
+        <item name="android:textColor">@color/comres_toggleButtonText_blue</item>
+        <item name="android:textSize">@dimen/comres_toggleButtonTextSize_default</item>
     </style>
 
-    <!-- Default checkbox button style. -->
-    <style name="comres_default_checkbox_button_style">
-        <item name="android:background">@drawable/comres_chk_btn_common_default</item>
+    <!-- Checkbox button rectangle blue style. -->
+    <style name="comres_checkboxButton_rectangle_blue_style">
+        <item name="android:background">@drawable/comres_checkButton_rectangle_blue</item>
+        <item name="android:button">@drawable/comres_checkButton_rectangle_blue</item>
         <item name="android:enabled">true</item>
         <item name="android:checkable">true</item>
         <item name="android:checked">false</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textColor">@color/comres_common_chk_btn_text_color_default</item>
-        <item name="android:textSize">@dimen/comres_common_chk_btn_text_size_default</item>
+        <item name="android:textColor">@color/comres_checkButtonText_blue</item>
+        <item name="android:textSize">@dimen/comres_checkButtonTextSize_default</item>
     </style>
 
-    <!-- Default label style. -->
-    <style name="comres_default_label_style">
+    <!-- Label dark slate gray style. -->
+    <style name="comres_label_darkSlateGray_style">
         <item name="android:background">@color/comres_color_transparent</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_gravity">center</item>
         <item name="android:textColor">@color/comres_color_darkslategray</item>
-        <item name="android:textSize">@dimen/comres_text_size_16_sp</item>
-    </style>
-
-    <!-- Default input style. -->
-    <style name="comres_default_input_style">
-        <item name="android:background">@color/comres_color_transparent</item>
+        <item name="android:textSize">@dimen/comres_textSize_16sp</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Input chocolate style. -->
+    <style name="comres_input_chocolate_style">
+        <item name="android:background">@color/comres_color_transparent</item>
         <item name="android:textColor">@color/comres_color_chocolate</item>
-        <item name="android:textSize">@dimen/comres_text_size_16_sp</item>
-    </style>
-
-    <!-- Default text style. -->
-    <style name="comres_default_text_style">
-        <item name="android:background">@color/comres_color_transparent</item>
-        <item name="android:gravity">left</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:textColor">@color/comres_color_darkslategray</item>
-        <item name="android:textSize">@dimen/comres_text_size_16_sp</item>
-    </style>
-
-    <!-- ********** List item theme. ********** -->
-
-    <!-- Orange item card style. -->
-    <style name="comres_orange_item_card_style">
-        <item name="android:background">@drawable/comres_item_card_orange</item>
+        <item name="android:textSize">@dimen/comres_textSize_16sp</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
     </style>
 
-    <!-- Orange item primary label style. -->
-    <style name="comres_orange_item_primary_label_style">
-        <item name="android:gravity">left|center</item>
-        <item name="android:textColor">@color/comres_orange_item_card_primary_text_color</item>
-        <item name="android:textSize">@dimen/comres_default_item_card_primary_text_size</item>
+    <!-- Text dark slate gray style. -->
+    <style name="comres_text_darkSlateGray_style">
+        <item name="android:background">@color/comres_color_transparent</item>
+        <item name="android:textColor">@color/comres_color_darkslategray</item>
+        <item name="android:textSize">@dimen/comres_textSize_16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
-    <!-- Orange item secondary label style. -->
-    <style name="comres_orange_item_secondary_label_style">
+    <!-- ********** Item card theme. ********** -->
+
+    <!-- Item card orange style. -->
+    <style name="comres_itemCard_orange_style">
+        <item name="android:background">@drawable/comres_itemCard_orange</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Item card label primary orange style. -->
+    <style name="comres_itemCardLabelPrimary_orange_style">
+        <item name="android:textColor">@color/comres_itemCardLabelPrimary_orange</item>
+        <item name="android:textSize">@dimen/comres_itemCardLabelPrimaryTextSize_default</item>
         <item name="android:gravity">left|center</item>
-        <item name="android:textColor">@color/comres_orange_item_card_secondary_text_color</item>
-        <item name="android:textSize">@dimen/comres_default_item_card_secondary_text_size</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <!-- Item card label secondary orange style. -->
+    <style name="comres_itemCardLabelSecondary_orange_style">
+        <item name="android:textColor">@color/comres_itemCardLabelSecondary_orange</item>
+        <item name="android:textSize">@dimen/comres_itemCardLabelSecondaryTextSize_default</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left</item>
     </style>
 
     <!--&lt;!&ndash; Common style. &ndash;&gt;-->

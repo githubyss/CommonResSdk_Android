@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:orientation="horizontal"
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         >
 
     <View
             android:layout_width="match_parent"
-            android:layout_height="@dimen/comres_common_separator_thickness_default"
-            android:background="@color/comres_common_separator_color_default"
+            android:layout_height="@dimen/comres_separatorThickness_slightly"
+            android:background="@color/comres_separator_gray"
             />
 </LinearLayout>

@@ -1,4 +1,1 @@
-<manifest
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.githubyss.mobile.common.res"
-        />
+<manifest package="com.githubyss.mobile.common.res" />
