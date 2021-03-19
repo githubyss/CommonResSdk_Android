@@ -37,67 +37,65 @@
 
     <!-- Click button rectangle blue style. -->
     <style name="comres_clickButton_rectangle_blue_style">
-        <item name="android:paddingLeft">@dimen/comres_sideMargin_default</item>
-        <item name="android:paddingRight">@dimen/comres_sideMargin_default</item>
         <item name="android:background">@drawable/comres_clickButton_rectangle_blue</item>
+        <item name="android:textColor">@color/comres_clickButtonText_blue</item>
+        <item name="android:textSize">@dimen/comres_clickButtonTextSize_default</item>
         <item name="android:enabled">true</item>
         <item name="android:clickable">true</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textColor">@color/comres_clickButtonText_blue</item>
-        <item name="android:textSize">@dimen/comres_clickButtonTextSize_default</item>
     </style>
 
     <!-- Toggle button rectangle blue style. -->
     <style name="comres_toggleButton_rectangle_blue_style">
         <item name="android:background">@drawable/comres_toggleButton_rectangle_blue</item>
+        <item name="android:textColor">@color/comres_toggleButtonText_blue</item>
+        <item name="android:textSize">@dimen/comres_toggleButtonTextSize_default</item>
         <item name="android:enabled">true</item>
         <item name="android:checkable">true</item>
         <item name="android:checked">false</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textColor">@color/comres_toggleButtonText_blue</item>
-        <item name="android:textSize">@dimen/comres_toggleButtonTextSize_default</item>
     </style>
 
     <!-- Checkbox button rectangle blue style. -->
     <style name="comres_checkboxButton_rectangle_blue_style">
         <item name="android:background">@drawable/comres_checkButton_rectangle_blue</item>
         <item name="android:button">@drawable/comres_checkButton_rectangle_blue</item>
+        <item name="android:textColor">@color/comres_checkButtonText_blue</item>
+        <item name="android:textSize">@dimen/comres_checkButtonTextSize_default</item>
         <item name="android:enabled">true</item>
         <item name="android:checkable">true</item>
         <item name="android:checked">false</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textColor">@color/comres_checkButtonText_blue</item>
-        <item name="android:textSize">@dimen/comres_checkButtonTextSize_default</item>
     </style>
 
     <!-- Label dark slate gray style. -->
     <style name="comres_label_darkSlateGray_style">
         <item name="android:background">@color/comres_color_transparent</item>
         <item name="android:textColor">@color/comres_color_darkslategray</item>
-        <item name="android:textSize">@dimen/comres_textSize_16sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/comres_labelTextSize_default</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left</item>
     </style>
 
     <!-- Input chocolate style. -->
     <style name="comres_input_chocolate_style">
         <item name="android:background">@color/comres_color_transparent</item>
         <item name="android:textColor">@color/comres_color_chocolate</item>
-        <item name="android:textSize">@dimen/comres_textSize_16sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/comres_labelTextSize_default</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left</item>
     </style>
 
-    <!-- Text dark slate gray style. -->
-    <style name="comres_text_darkSlateGray_style">
+    <!-- Tips gray style. -->
+    <style name="comres_tips_gray_style">
         <item name="android:background">@color/comres_color_transparent</item>
-        <item name="android:textColor">@color/comres_color_darkslategray</item>
-        <item name="android:textSize">@dimen/comres_textSize_16sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/comres_color_666666</item>
+        <item name="android:textSize">@dimen/comres_tipsTextSize_default</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left</item>
     </style>
 
     <!-- ********** Item card theme. ********** -->

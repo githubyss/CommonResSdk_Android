@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Overall side margin default dimens. -->
+    <dimen name="comres_sideMargin_default">14dp</dimen>
+
     <!-- Overall text size default dimens. -->
     <dimen name="comres_textSize_default">12sp</dimen>
 
-    <!-- Overall side margin default dimens. -->
-    <dimen name="comres_sideMargin_default">14dp</dimen>
+    <!-- Label default dimens. -->
+    <dimen name="comres_labelTextSize_default">16sp</dimen>
+
+    <!-- Tips default dimens. -->
+    <dimen name="comres_tipsTextSize_default">11sp</dimen>
 
     <!-- Click button default dimens. -->
     <dimen name="comres_clickButtonCornerRadius_default">5dp</dimen>
@@ -26,12 +32,6 @@
     <dimen name="comres_itemCardStrokeWidth_default">0dp</dimen>
     <dimen name="comres_itemCardLabelPrimaryTextSize_default">18sp</dimen>
     <dimen name="comres_itemCardLabelSecondaryTextSize_default">15sp</dimen>
-
-    <!-- Label default dimens. -->
-    <dimen name="comres_labelTextSize_default">19sp</dimen>
-
-    <!-- Tips default dimens. -->
-    <dimen name="comres_tipsTextSize_default">11sp</dimen>
 
     <!-- Dialog default dimens. -->
     <dimen name="comres_dialogCornerRadius_default">12dp</dimen>
