@@ -37,8 +37,30 @@
 
     <!-- Click button rectangle blue style. -->
     <style name="comres_clickButton_rectangle_blue_style">
-        <item name="android:background">@drawable/comres_clickButton_rectangle_blue</item>
+        <item name="android:background">@drawable/comres_clickButtonBg_rectangle_blue</item>
         <item name="android:textColor">@color/comres_clickButtonText_blue</item>
+        <item name="android:textSize">@dimen/comres_clickButtonTextSize_default</item>
+        <item name="android:enabled">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Click button rectangle white style. -->
+    <style name="comres_clickButton_rectangle_white_style">
+        <item name="android:background">@drawable/comres_clickButtonBg_rectangle_white</item>
+        <item name="android:textColor">@color/comres_clickButtonText_white</item>
+        <item name="android:textSize">@dimen/comres_clickButtonTextSize_default</item>
+        <item name="android:enabled">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Click button rectangle transparent style. -->
+    <style name="comres_clickButton_rectangle_transparent_style">
+        <item name="android:background">@drawable/comres_clickButtonBg_rectangle_transparent</item>
+        <item name="android:textColor">@color/comres_clickButtonText_transparent</item>
         <item name="android:textSize">@dimen/comres_clickButtonTextSize_default</item>
         <item name="android:enabled">true</item>
         <item name="android:clickable">true</item>
@@ -48,7 +70,7 @@
 
     <!-- Toggle button rectangle blue style. -->
     <style name="comres_toggleButton_rectangle_blue_style">
-        <item name="android:background">@drawable/comres_toggleButton_rectangle_blue</item>
+        <item name="android:background">@drawable/comres_toggleButtonBg_rectangle_blue</item>
         <item name="android:textColor">@color/comres_toggleButtonText_blue</item>
         <item name="android:textSize">@dimen/comres_toggleButtonTextSize_default</item>
         <item name="android:enabled">true</item>
@@ -60,8 +82,8 @@
 
     <!-- Checkbox button rectangle blue style. -->
     <style name="comres_checkboxButton_rectangle_blue_style">
-        <item name="android:background">@drawable/comres_checkButton_rectangle_blue</item>
-        <item name="android:button">@drawable/comres_checkButton_rectangle_blue</item>
+        <item name="android:background">@drawable/comres_checkButtonBg_rectangle_blue</item>
+        <item name="android:button">@drawable/comres_checkButtonBg_rectangle_blue</item>
         <item name="android:textColor">@color/comres_checkButtonText_blue</item>
         <item name="android:textSize">@dimen/comres_checkButtonTextSize_default</item>
         <item name="android:enabled">true</item>
@@ -102,7 +124,7 @@
 
     <!-- Item card orange style. -->
     <style name="comres_itemCard_orange_style">
-        <item name="android:background">@drawable/comres_itemCard_orange</item>
+        <item name="android:background">@drawable/comres_itemCardBg_orange</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
     </style>

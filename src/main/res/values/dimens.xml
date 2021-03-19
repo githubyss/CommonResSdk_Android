@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Overall side margin default dimens. -->
-    <dimen name="comres_sideMargin_default">14dp</dimen>
+    <dimen name="comres_sideMargin_default">16dp</dimen>
 
     <!-- Overall text size default dimens. -->
     <dimen name="comres_textSize_default">12sp</dimen>
@@ -14,8 +14,8 @@
 
     <!-- Click button default dimens. -->
     <dimen name="comres_clickButtonCornerRadius_default">5dp</dimen>
-    <dimen name="comres_clickButtonStrokeWidth_default">0dp</dimen>
-    <dimen name="comres_clickButtonTextSize_default">19sp</dimen>
+    <dimen name="comres_clickButtonStrokeWidth_default">1dp</dimen>
+    <dimen name="comres_clickButtonTextSize_default">13sp</dimen>
 
     <!-- Toggle button default dimens. -->
     <dimen name="comres_toggleButtonCornerRadius_default">10dp</dimen>
@@ -37,12 +37,16 @@
     <dimen name="comres_dialogCornerRadius_default">12dp</dimen>
     <dimen name="comres_dialogStrokeWidth_default">0dp</dimen>
 
+    <!-- Tag default dimens. -->
+    <dimen name="comres_tagCornerRadius_default">1dp</dimen>
+    <dimen name="comres_tagStrokeWidth_default">0dp</dimen>
+
 
     <!-- Separator thickness dimens. -->
     <dimen name="comres_separatorThickness_none">0dp</dimen>
     <dimen name="comres_separatorThickness_slightly">1dp</dimen>
     <dimen name="comres_separatorThickness_bold">5dp</dimen>
-    <dimen name="comres_separatorThickness_margin">14dp</dimen>
+    <dimen name="comres_separatorThickness_margin">10dp</dimen>
 
     <!-- Corner radius dimens. -->
     <dimen name="comres_cornerRadius_none">0dp</dimen>
