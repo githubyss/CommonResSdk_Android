@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Overall side margin default dimens. -->
-    <dimen name="comres_sideMargin_default">16dp</dimen>
+    <dimen name="comres_sideMargin_mini">12dp</dimen>
+    <dimen name="comres_sideMargin_default">14dp</dimen>
+    <dimen name="comres_sideMargin_large">16dp</dimen>
 
     <!-- Overall text size default dimens. -->
     <dimen name="comres_textSize_default">12sp</dimen>
