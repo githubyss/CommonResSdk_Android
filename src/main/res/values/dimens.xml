@@ -14,20 +14,20 @@
     <!-- Tips default dimens. -->
     <dimen name="comres_tipsTextSize_default">11sp</dimen>
 
-    <!-- Click button default dimens. -->
-    <dimen name="comres_clickButtonCornerRadius_default">5dp</dimen>
-    <dimen name="comres_clickButtonStrokeWidth_default">1dp</dimen>
-    <dimen name="comres_clickButtonTextSize_default">13sp</dimen>
+    <!-- Button click default dimens. -->
+    <dimen name="comres_buttonClickCornerRadius_default">2dp</dimen>
+    <dimen name="comres_buttonClickStrokeWidth_default">1dp</dimen>
+    <dimen name="comres_buttonClickTextSize_default">13sp</dimen>
 
-    <!-- Toggle button default dimens. -->
-    <dimen name="comres_toggleButtonCornerRadius_default">10dp</dimen>
-    <dimen name="comres_toggleButtonStrokeWidth_default">0dp</dimen>
-    <dimen name="comres_toggleButtonTextSize_default">19sp</dimen>
+    <!-- Button toggle default dimens. -->
+    <dimen name="comres_buttonToggleCornerRadius_default">2dp</dimen>
+    <dimen name="comres_buttonToggleStrokeWidth_default">1dp</dimen>
+    <dimen name="comres_buttonToggleTextSize_default">13sp</dimen>
 
-    <!-- Checkbox button default dimens. -->
-    <dimen name="comres_checkButtonCornerRadius_default">10dp</dimen>
-    <dimen name="comres_checkButtonStrokeWidth_default">0dp</dimen>
-    <dimen name="comres_checkButtonTextSize_default">19sp</dimen>
+    <!-- Button checkbox default dimens. -->
+    <dimen name="comres_buttonCheckboxCornerRadius_default">2dp</dimen>
+    <dimen name="comres_buttonCheckboxStrokeWidth_default">1dp</dimen>
+    <dimen name="comres_buttonCheckboxTextSize_default">13sp</dimen>
 
     <!-- Item card default dimens. -->
     <dimen name="comres_itemCardCornerRadius_default">14dp</dimen>
