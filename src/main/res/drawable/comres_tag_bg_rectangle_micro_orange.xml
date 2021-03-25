@@ -5,9 +5,9 @@
         >
 
     <solid android:color="@color/comres_tagBg_orange05pct" />
-    <corners android:radius="@dimen/comres_tagCornerRadius_default" />
+    <corners android:radius="@dimen/comres_cornerRadius_micro" />
     <stroke
-            android:width="@dimen/comres_tagStrokeWidth_default"
+            android:width="@dimen/comres_strokeWidth_thin"
             android:color="@color/comres_tagStroke_orange"
             />
 </shape>

@@ -7,14 +7,14 @@
     <gradient
             android:angle="90"
             android:centerY="0.5"
-            android:startColor="@color/comres_itemCardBgStart_orange"
-            android:endColor="@color/comres_itemCardBgEnd_orange"
+            android:startColor="@color/comres_cardBgStart_orange"
+            android:endColor="@color/comres_cardBgEnd_orange"
             android:type="linear"
             android:useLevel="false"
             />
-    <corners android:radius="@dimen/comres_itemCardCornerRadius_default" />
+    <corners android:radius="@dimen/comres_cornerRadius_normal" />
     <stroke
-            android:width="@dimen/comres_itemCardStrokeWidth_default"
-            android:color="@color/comres_itemCardStroke_orange"
+            android:width="@dimen/comres_strokeWidth_thin"
+            android:color="@color/comres_cardStroke_orange"
             />
 </shape>

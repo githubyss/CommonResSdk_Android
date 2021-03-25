@@ -4,8 +4,8 @@
           android:state_enabled="true">
         <shape android:shape="rectangle">
             <solid android:color="@color/comres_buttonCheckboxBgUnchecked_gray_blue" />
-            <corners android:radius="@dimen/comres_buttonCheckboxCornerRadius_default" />
-            <stroke android:width="@dimen/comres_buttonCheckboxStrokeWidth_default"
+            <corners android:radius="@dimen/comres_cornerRadius_micro" />
+            <stroke android:width="@dimen/comres_strokeWidth_thin"
                     android:color="@color/comres_buttonCheckboxStroke_gray_blue" />
         </shape>
     </item>
@@ -14,8 +14,8 @@
           android:state_enabled="true">
         <shape android:shape="rectangle">
             <solid android:color="@color/comres_buttonCheckboxBgChecked_gray_blue" />
-            <corners android:radius="@dimen/comres_buttonCheckboxCornerRadius_default" />
-            <stroke android:width="@dimen/comres_buttonCheckboxStrokeWidth_default"
+            <corners android:radius="@dimen/comres_cornerRadius_micro" />
+            <stroke android:width="@dimen/comres_strokeWidth_thin"
                     android:color="@color/comres_buttonCheckboxStroke_gray_blue" />
         </shape>
     </item>
@@ -23,8 +23,8 @@
     <item android:state_enabled="false">
         <shape android:shape="rectangle">
             <solid android:color="@color/comres_buttonCheckboxBgDisabled_gray_blue" />
-            <corners android:radius="@dimen/comres_buttonCheckboxCornerRadius_default" />
-            <stroke android:width="@dimen/comres_buttonCheckboxStrokeWidth_default"
+            <corners android:radius="@dimen/comres_cornerRadius_micro" />
+            <stroke android:width="@dimen/comres_strokeWidth_thin"
                     android:color="@color/comres_buttonCheckboxStroke_gray_blue" />
         </shape>
     </item>

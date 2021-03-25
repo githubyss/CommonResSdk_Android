@@ -71,12 +71,24 @@
     <color name="comres_buttonCheckboxStroke_gray_blue">#00000000</color>
     <color name="comres_buttonCheckboxText_gray_blue">#FFFFFF</color>
 
-    <!-- Item card orange colors. -->
-    <color name="comres_itemCardBgStart_orange">#FFA42D</color>
-    <color name="comres_itemCardBgEnd_orange">#FFC047</color>
-    <color name="comres_itemCardStroke_orange">#FFFFFF</color>
-    <color name="comres_itemCardLabelPrimary_orange">#FFFFFF</color>
-    <color name="comres_itemCardLabelSecondary_orange">#FFFFFF</color>
+    <!-- Card orange colors. -->
+    <color name="comres_cardBgStart_orange">#FFA42D</color>
+    <color name="comres_cardBgEnd_orange">#FFC047</color>
+    <color name="comres_cardStroke_orange">#00000000</color>
+    <color name="comres_cardLabelPrimary_orange">#FFFFFF</color>
+    <color name="comres_cardLabelSecondary_orange">#FFFFFF</color>
+
+    <!-- Card transparent colors. -->
+    <color name="comres_cardBg_transparent">#00000000</color>
+    <color name="comres_cardStroke_transparent">#00000000</color>
+    <color name="comres_cardLabelPrimary_transparent">#333333</color>
+    <color name="comres_cardLabelSecondary_transparent">#666666</color>
+
+    <!-- Card white colors. -->
+    <color name="comres_cardBg_white">#FFFFFF</color>
+    <color name="comres_cardStroke_white">#00000000</color>
+    <color name="comres_cardLabelPrimary_white">#333333</color>
+    <color name="comres_cardLabelSecondary_white">#666666</color>
 
     <!-- Dialog white colors. -->
     <color name="comres_dialogBg_white">#FFFFFF</color>

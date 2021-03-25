@@ -37,7 +37,7 @@
 
     <!-- Button click rectangle blue style. -->
     <style name="comres_buttonClick_rectangle_blue_style">
-        <item name="android:background">@drawable/comres_button_click_bg_rectangle_blue</item>
+        <item name="android:background">@drawable/comres_button_click_bg_rectangle_micro_blue</item>
         <item name="android:textColor">@color/comres_buttonClickText_blue</item>
         <item name="android:textSize">@dimen/comres_buttonClickTextSize_default</item>
         <item name="android:enabled">true</item>
@@ -48,7 +48,7 @@
 
     <!-- Button click rectangle white style. -->
     <style name="comres_buttonClick_rectangle_white_style">
-        <item name="android:background">@drawable/comres_button_click_bg_rectangle_white</item>
+        <item name="android:background">@drawable/comres_button_click_bg_rectangle_micro_white</item>
         <item name="android:textColor">@color/comres_buttonClickText_white</item>
         <item name="android:textSize">@dimen/comres_buttonClickTextSize_default</item>
         <item name="android:enabled">true</item>
@@ -59,7 +59,7 @@
 
     <!-- Button click rectangle transparent style. -->
     <style name="comres_buttonClick_rectangle_transparent_style">
-        <item name="android:background">@drawable/comres_button_click_bg_rectangle_transparent</item>
+        <item name="android:background">@drawable/comres_button_click_bg_rectangle_micro_transparent</item>
         <item name="android:textColor">@color/comres_buttonClickText_transparent</item>
         <item name="android:textSize">@dimen/comres_buttonClickTextSize_default</item>
         <item name="android:enabled">true</item>
@@ -70,7 +70,7 @@
 
     <!-- Button toggle rectangle gray-blue style. -->
     <style name="comres_buttonToggle_rectangle_gray_blue_style">
-        <item name="android:background">@drawable/comres_button_toggle_bg_rectangle_gray_blue</item>
+        <item name="android:background">@drawable/comres_button_toggle_bg_rectangle_micro_gray_blue</item>
         <item name="android:textColor">@color/comres_buttonToggleText_gray_blue</item>
         <item name="android:textSize">@dimen/comres_buttonToggleTextSize_default</item>
         <item name="android:enabled">true</item>
@@ -82,8 +82,8 @@
 
     <!-- Button toggle rectangle blue-transparent style. -->
     <style name="comres_buttonToggle_rectangle_blue_transparent_style">
-        <item name="android:background">@drawable/comres_button_toggle_bg_rectangle_blue_transparent</item>
-        <item name="android:textColor">@drawable/comres_button_toggle_bg_rectangle_blue_transparent</item>
+        <item name="android:background">@drawable/comres_button_toggle_bg_rectangle_micro_blue_transparent</item>
+        <item name="android:textColor">@drawable/comres_button_toggle_bg_rectangle_micro_blue_transparent</item>
         <item name="android:textSize">@dimen/comres_buttonToggleTextSize_default</item>
         <item name="android:enabled">true</item>
         <item name="android:checkable">true</item>
@@ -94,8 +94,8 @@
 
     <!-- Button checkbox rectangle gray-blue style. -->
     <style name="comres_buttonCheckbox_rectangle_gray_blue_style">
-        <item name="android:background">@drawable/comres_button_checkbox_bg_rectangle_gray_blue</item>
-        <item name="android:button">@drawable/comres_button_checkbox_bg_rectangle_gray_blue</item>
+        <item name="android:background">@drawable/comres_button_checkbox_bg_rectangle_micro_gray_blue</item>
+        <item name="android:button">@drawable/comres_button_checkbox_bg_rectangle_micro_gray_blue</item>
         <item name="android:textColor">@color/comres_buttonCheckboxText_gray_blue</item>
         <item name="android:textSize">@dimen/comres_buttonCheckboxTextSize_default</item>
         <item name="android:enabled">true</item>
@@ -113,7 +113,7 @@
         <item name="android:paddingBottom">2dp</item>
         <item name="android:paddingLeft">4dp</item>
         <item name="android:paddingRight">4dp</item>
-        <item name="android:textSize">@dimen/comres_textSize_10sp</item>
+        <item name="android:textSize">@dimen/comres_tagTextSize_default</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
     </style>
@@ -121,14 +121,14 @@
     <!-- Tag gray style. -->
     <style name="comres_tag_gray_style"
             parent="comres_tag_style">
-        <item name="android:background">@drawable/comres_tag_bg_gray</item>
+        <item name="android:background">@drawable/comres_tag_bg_rectangle_micro_gray</item>
         <item name="android:textColor">@color/comres_color_999999</item>
     </style>
 
     <!-- Tag orange style. -->
     <style name="comres_tag_orange_style"
             parent="comres_tag_style">
-        <item name="android:background">@drawable/comres_tag_bg_orange</item>
+        <item name="android:background">@drawable/comres_tag_bg_rectangle_micro_orange</item>
         <item name="android:textColor">@color/comres_color_c1a274</item>
     </style>
 
@@ -159,27 +159,50 @@
         <item name="android:layout_gravity">left</item>
     </style>
 
-    <!-- ********** Item card theme. ********** -->
+    <!-- ********** Card theme. ********** -->
 
-    <!-- Item card orange style. -->
-    <style name="comres_itemCard_orange_style">
-        <item name="android:background">@drawable/comres_item_card_bg_orange</item>
+    <!-- Card orange style. -->
+    <style name="comres_card_orange_style">
+        <item name="android:background">@drawable/comres_card_bg_rectangle_normal_orange</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
     </style>
 
-    <!-- Item card label primary orange style. -->
-    <style name="comres_itemCardLabelPrimary_orange_style">
-        <item name="android:textColor">@color/comres_itemCardLabelPrimary_orange</item>
-        <item name="android:textSize">@dimen/comres_itemCardLabelPrimaryTextSize_default</item>
+    <!-- Card label primary orange style. -->
+    <style name="comres_cardLabelPrimary_orange_style">
+        <item name="android:textColor">@color/comres_cardLabelPrimary_orange</item>
+        <item name="android:textSize">@dimen/comres_cardLabelPrimaryTextSize_default</item>
         <item name="android:gravity">left|center</item>
         <item name="android:layout_gravity">left</item>
     </style>
 
-    <!-- Item card label secondary orange style. -->
-    <style name="comres_itemCardLabelSecondary_orange_style">
-        <item name="android:textColor">@color/comres_itemCardLabelSecondary_orange</item>
-        <item name="android:textSize">@dimen/comres_itemCardLabelSecondaryTextSize_default</item>
+    <!-- Card label secondary orange style. -->
+    <style name="comres_cardLabelSecondary_orange_style">
+        <item name="android:textColor">@color/comres_cardLabelSecondary_orange</item>
+        <item name="android:textSize">@dimen/comres_cardLabelSecondaryTextSize_default</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <!-- Card transparent style. -->
+    <style name="comres_card_transparent_style">
+        <item name="android:background">@drawable/comres_card_bg_rectangle_normal_transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Card label primary orange style. -->
+    <style name="comres_cardLabelPrimary_transparent_style">
+        <item name="android:textColor">@color/comres_cardLabelPrimary_transparent</item>
+        <item name="android:textSize">@dimen/comres_cardLabelPrimaryTextSize_default</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <!-- Card label secondary orange style. -->
+    <style name="comres_cardLabelSecondary_transparent_style">
+        <item name="android:textColor">@color/comres_cardLabelSecondary_transparent</item>
+        <item name="android:textSize">@dimen/comres_cardLabelSecondaryTextSize_default</item>
         <item name="android:gravity">left|center</item>
         <item name="android:layout_gravity">left</item>
     </style>

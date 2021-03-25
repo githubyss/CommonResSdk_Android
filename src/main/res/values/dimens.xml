@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Overall side margin default dimens. -->
-    <dimen name="comres_sideMargin_mini">12dp</dimen>
-    <dimen name="comres_sideMargin_default">14dp</dimen>
+    <!-- Overall side margin dimens. -->
+    <dimen name="comres_sideMargin_none">0dp</dimen>
+    <dimen name="comres_sideMargin_micro">8dp</dimen>
+    <dimen name="comres_sideMargin_tiny">12dp</dimen>
+    <dimen name="comres_sideMargin_normal">14dp</dimen>
     <dimen name="comres_sideMargin_large">16dp</dimen>
+    <dimen name="comres_sideMargin_huge">20dp</dimen>
 
-    <!-- Overall text size default dimens. -->
-    <dimen name="comres_textSize_default">12sp</dimen>
+    <!-- Overall separator thickness dimens. -->
+    <dimen name="comres_separatorThickness_none">0dp</dimen>
+    <dimen name="comres_separatorThickness_thin">1dp</dimen>
+    <dimen name="comres_separatorThickness_thick">5dp</dimen>
+    <dimen name="comres_separatorThickness_margin">10dp</dimen>
+
+    <!-- Overall corner radius dimens. -->
+    <dimen name="comres_cornerRadius_none">0dp</dimen>
+    <dimen name="comres_cornerRadius_micro">2dp</dimen>
+    <dimen name="comres_cornerRadius_tiny">8dp</dimen>
+    <dimen name="comres_cornerRadius_normal">14dp</dimen>
+    <dimen name="comres_cornerRadius_large">50dp</dimen>
+    <dimen name="comres_cornerRadius_huge">100dp</dimen>
+
+    <!-- Overall stroke width dimens. -->
+    <dimen name="comres_strokeWidth_none">0dp</dimen>
+    <dimen name="comres_strokeWidth_thin">1dp</dimen>
+    <dimen name="comres_strokeWidth_thick">5dp</dimen>
+
+    <!-- Overall text size dimens. -->
+    <dimen name="comres_textSize_none">0sp</dimen>
+    <dimen name="comres_textSize_micro">8sp</dimen>
+    <dimen name="comres_textSize_tiny">12sp</dimen>
+    <dimen name="comres_textSize_normal">16sp</dimen>
+    <dimen name="comres_textSize_large">20dp</dimen>
+    <dimen name="comres_textSize_huge">30dp</dimen>
+
 
     <!-- Label default dimens. -->
     <dimen name="comres_labelTextSize_default">16sp</dimen>
@@ -15,50 +43,23 @@
     <dimen name="comres_tipsTextSize_default">11sp</dimen>
 
     <!-- Button click default dimens. -->
-    <dimen name="comres_buttonClickCornerRadius_default">2dp</dimen>
-    <dimen name="comres_buttonClickStrokeWidth_default">1dp</dimen>
     <dimen name="comres_buttonClickTextSize_default">13sp</dimen>
 
     <!-- Button toggle default dimens. -->
-    <dimen name="comres_buttonToggleCornerRadius_default">2dp</dimen>
-    <dimen name="comres_buttonToggleStrokeWidth_default">1dp</dimen>
     <dimen name="comres_buttonToggleTextSize_default">13sp</dimen>
 
     <!-- Button checkbox default dimens. -->
-    <dimen name="comres_buttonCheckboxCornerRadius_default">2dp</dimen>
-    <dimen name="comres_buttonCheckboxStrokeWidth_default">1dp</dimen>
     <dimen name="comres_buttonCheckboxTextSize_default">13sp</dimen>
 
-    <!-- Item card default dimens. -->
-    <dimen name="comres_itemCardCornerRadius_default">14dp</dimen>
-    <dimen name="comres_itemCardStrokeWidth_default">0dp</dimen>
-    <dimen name="comres_itemCardLabelPrimaryTextSize_default">18sp</dimen>
-    <dimen name="comres_itemCardLabelSecondaryTextSize_default">15sp</dimen>
+    <!-- Card default dimens. -->
+    <dimen name="comres_cardLabelPrimaryTextSize_default">18sp</dimen>
+    <dimen name="comres_cardLabelSecondaryTextSize_default">15sp</dimen>
 
     <!-- Dialog default dimens. -->
-    <dimen name="comres_dialogCornerRadius_default">12dp</dimen>
-    <dimen name="comres_dialogStrokeWidth_default">0dp</dimen>
+    <dimen name="comres_dialogTextSize_default">13sp</dimen>
 
     <!-- Tag default dimens. -->
-    <dimen name="comres_tagCornerRadius_default">1dp</dimen>
-    <dimen name="comres_tagStrokeWidth_default">0dp</dimen>
-
-
-    <!-- Separator thickness dimens. -->
-    <dimen name="comres_separatorThickness_none">0dp</dimen>
-    <dimen name="comres_separatorThickness_slightly">1dp</dimen>
-    <dimen name="comres_separatorThickness_bold">5dp</dimen>
-    <dimen name="comres_separatorThickness_margin">10dp</dimen>
-
-    <!-- Corner radius dimens. -->
-    <dimen name="comres_cornerRadius_none">0dp</dimen>
-    <dimen name="comres_cornerRadius_slightly">5dp</dimen>
-    <dimen name="comres_cornerRadius_circle">100dp</dimen>
-
-    <!-- Stroke width dimens. -->
-    <dimen name="comres_strokeWidth_none">0dp</dimen>
-    <dimen name="comres_strokeWidth_slightly">1dp</dimen>
-    <dimen name="comres_strokeWidth_bold">5dp</dimen>
+    <dimen name="comres_tagTextSize_default">10sp</dimen>
 
 
     <!-- Text size named by value. -->
