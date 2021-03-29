@@ -2,11 +2,11 @@
 <resources>
     <!-- Overall side margin dimens. -->
     <dimen name="comres_sideMargin_none">0dp</dimen>
-    <dimen name="comres_sideMargin_micro">8dp</dimen>
+    <dimen name="comres_sideMargin_micro">10dp</dimen>
     <dimen name="comres_sideMargin_tiny">12dp</dimen>
     <dimen name="comres_sideMargin_normal">14dp</dimen>
     <dimen name="comres_sideMargin_large">16dp</dimen>
-    <dimen name="comres_sideMargin_huge">20dp</dimen>
+    <dimen name="comres_sideMargin_huge">18dp</dimen>
 
     <!-- Overall separator thickness dimens. -->
     <dimen name="comres_separatorThickness_none">0dp</dimen>

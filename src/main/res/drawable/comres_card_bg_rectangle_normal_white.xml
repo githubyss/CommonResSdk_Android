@@ -7,7 +7,7 @@
     <solid android:color="@color/comres_cardBg_white" />
     <corners android:radius="@dimen/comres_cornerRadius_normal" />
     <stroke
-            android:width="@dimen/comres_strokeWidth_thin"
+            android:width="@dimen/comres_strokeWidth_none"
             android:color="@color/comres_cardStroke_white"
             />
 </shape>

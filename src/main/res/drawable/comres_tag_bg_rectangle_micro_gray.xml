@@ -7,7 +7,7 @@
     <solid android:color="@color/comres_tagBg_gray05pct" />
     <corners android:radius="@dimen/comres_cornerRadius_micro" />
     <stroke
-            android:width="@dimen/comres_strokeWidth_thin"
+            android:width="@dimen/comres_strokeWidth_none"
             android:color="@color/comres_tagStroke_gray"
             />
 </shape>

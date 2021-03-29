@@ -71,7 +71,7 @@
     <!-- Button toggle rectangle gray-blue style. -->
     <style name="comres_buttonToggle_rectangle_gray_blue_style">
         <item name="android:background">@drawable/comres_button_toggle_bg_rectangle_micro_gray_blue</item>
-        <item name="android:textColor">@color/comres_buttonToggleText_gray_blue</item>
+        <item name="android:textColor">@color/comres_buttonToggleTextUnchecked_gray_blue</item>
         <item name="android:textSize">@dimen/comres_buttonToggleTextSize_default</item>
         <item name="android:enabled">true</item>
         <item name="android:checkable">true</item>
@@ -96,7 +96,7 @@
     <style name="comres_buttonCheckbox_rectangle_gray_blue_style">
         <item name="android:background">@drawable/comres_button_checkbox_bg_rectangle_micro_gray_blue</item>
         <item name="android:button">@drawable/comres_button_checkbox_bg_rectangle_micro_gray_blue</item>
-        <item name="android:textColor">@color/comres_buttonCheckboxText_gray_blue</item>
+        <item name="android:textColor">@color/comres_buttonCheckboxTextUnchecked_gray_blue</item>
         <item name="android:textSize">@dimen/comres_buttonCheckboxTextSize_default</item>
         <item name="android:enabled">true</item>
         <item name="android:checkable">true</item>
