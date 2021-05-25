@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--&lt;!&ndash; Common style. &ndash;&gt;-->
+    <!--<style name="comres_common_style"></style>-->
+
+    <!--&lt;!&ndash; Match parent style. &ndash;&gt;-->
+    <!--<style name="comres_both_match_parent_style"-->
+    <!--       parent="comres_common_style">-->
+    <!--    <item name="android:layout_width">match_parent</item>-->
+    <!--    <item name="android:layout_height">match_parent</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Wrap content style. &ndash;&gt;-->
+    <!--<style name="comres_both_wrap_content_style"-->
+    <!--       parent="comres_common_style">-->
+    <!--    <item name="android:layout_width">wrap_content</item>-->
+    <!--    <item name="android:layout_height">wrap_content</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Width match height wrap layout style. &ndash;&gt;-->
+    <!--<style name="comres_only_width_match_parent_layout_style"-->
+    <!--       parent="comres_common_style">-->
+    <!--    <item name="android:layout_width">match_parent</item>-->
+    <!--    <item name="android:layout_height">wrap_content</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Width wrap height match layout style. &ndash;&gt;-->
+    <!--<style name="comres_only_height_match_parent_layout_style"-->
+    <!--       parent="comres_common_style">-->
+    <!--    <item name="android:layout_width">wrap_content</item>-->
+    <!--    <item name="android:layout_height">match_parent</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Arrange width using weight layout style. &ndash;&gt;-->
+    <!--<style name="comres_arrange_width_using_weight_layout_style">-->
+    <!--    <item name="android:layout_width">0dp</item>-->
+    <!--    <item name="android:layout_height">match_parent</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Arrange height using weight layout style. &ndash;&gt;-->
+    <!--<style name="comres_arrange_height_using_weight_layout_style">-->
+    <!--    <item name="android:layout_width">match_parent</item>-->
+    <!--    <item name="android:layout_height">0dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Arrange in one row layout style. &ndash;&gt;-->
+    <!--<style name="comres_arrange_in_one_row_layout_style">-->
+    <!--    <item name="android:layout_width">match_parent</item>-->
+    <!--    <item name="android:layout_height">wrap_content</item>-->
+    <!--    <item name="android:orientation">horizontal</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Arrange in one column layout style. &ndash;&gt;-->
+    <!--<style name="comres_arrange_in_one_column_layout_style">-->
+    <!--    <item name="android:layout_width">wrap_content</item>-->
+    <!--    <item name="android:layout_height">match_parent</item>-->
+    <!--    <item name="android:orientation">vertical</item>-->
+    <!--</style>-->
+</resources>

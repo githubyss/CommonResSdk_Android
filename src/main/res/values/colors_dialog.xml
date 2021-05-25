@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dialog white colors. -->
+    <color name="comres_dialogBg_white">#FFFFFF</color>
+    <color name="comres_dialogStroke_white">#00000000</color>
+</resources>

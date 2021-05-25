@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tag style. -->
+    <style name="comres_tag_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:textSize">@dimen/comres_tagTextSize_default</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Tag gray style. -->
+    <style name="comres_tag_gray_style"
+           parent="comres_tag_style">
+        <item name="android:background">@drawable/comres_tag_bg_rectangle_micro_gray</item>
+        <item name="android:textColor">@color/comres_color_999999</item>
+    </style>
+
+    <!-- Tag orange style. -->
+    <style name="comres_tag_orange_style"
+           parent="comres_tag_style">
+        <item name="android:background">@drawable/comres_tag_bg_rectangle_micro_orange</item>
+        <item name="android:textColor">@color/comres_color_c1a274</item>
+    </style>
+</resources>
