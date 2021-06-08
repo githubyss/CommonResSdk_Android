@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="comres_appName">通用资源组件</string>
-
     <string name="comres_ok">好</string>
     <string name="comres_cancel">取消</string>
     <string name="comres_confirm">确认</string>
