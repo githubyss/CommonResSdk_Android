@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button toggle default dimens. -->
+    <dimen name="comres_buttonToggleTextSize_default">13sp</dimen>
+</resources>

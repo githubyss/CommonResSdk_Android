@@ -1,8 +1,22 @@
-apply plugin: 'com.android.library'
+def isShellApp = project.getName() == rootProject.shellApp
+def isLaunchApp = project.getName() == rootProject.launchApp
+
+println "isShellApp: ${isShellApp}"
+println "isLaunchApp: ${isLaunchApp}"
+
+if (isLaunchApp) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion compile_sdk_version.toInteger()
     buildToolsVersion build_tools_version
+    compileSdkVersion compile_sdk_version.toInteger()
+
+    resourcePrefix 'comres_'
 
     defaultConfig {
         minSdkVersion min_sdk_version
@@ -12,26 +26,134 @@ android {
         versionName '1.0'
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    Properties properties = new Properties()
+    File propertyFile = new File("${rootDir.getAbsolutePath()}/signing.properties")
+    InputStream inputStream = propertyFile.newDataInputStream()
+    properties.load(inputStream)
+    def RELEASE_STORE_FILE = file("${rootDir.getAbsolutePath()}/${properties.getProperty('RELEASE_STORE_FILE')}")
+    def RELEASE_STORE_PASSWORD = properties.getProperty('RELEASE_STORE_PASSWORD')
+    def RELEASE_KEY_ALIAS = properties.getProperty('RELEASE_KEY_ALIAS')
+    def RELEASE_KEY_PWD = properties.getProperty('RELEASE_KEY_PWD')
+
+    signingConfigs {
+        release {
+            storeFile RELEASE_STORE_FILE
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PWD
+        }
     }
 
     buildTypes {
         debug {
             debuggable isDebuggable.toBoolean()
             minifyEnabled isMinifyEnabled.toBoolean()
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (isLaunchApp) {
+                shrinkResources isMinifyEnabled.toBoolean()
+            }
+            zipAlignEnabled isZipAlignEnabled.toBoolean()
+
+            signingConfig signingConfigs.debug
         }
 
         release {
-            debuggable isDebuggable.toBoolean()
-            minifyEnabled isMinifyEnabled.toBoolean()
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+            minifyEnabled true
+            if (isLaunchApp) {
+                shrinkResources true
+            }
+            zipAlignEnabled true
+
+            if (RELEASE_STORE_FILE.exists()) {
+                signingConfig signingConfigs.release
+            }
         }
     }
 
+    flavorDimensions 'library'
+    productFlavors {
+        if (isLaunchApp) {
+            app {
+                dimension 'library'
+                applicationId 'com.githubyss.mobile.common.res'
+                versionCode 1
+                versionName "1.0"
+                manifestPlaceholders = [APP_NAME: "通用资源库"]
+            }
+        }
+    }
+
+    sourceSets {
+        main {
+            java {
+                srcDirs 'src/main/java'
+                srcDirs 'src/main/kotlin'
+            }
+            res {
+                srcDirs 'src/main/res'
+                srcDirs 'src/main/res/common'
+
+                srcDirs 'src/main/res/activity'
+                srcDirs 'src/main/res/application'
+                srcDirs 'src/main/res/fragment'
+
+                srcDirs 'src/main/res/button'
+                srcDirs 'src/main/res/card'
+                srcDirs 'src/main/res/check_box'
+                srcDirs 'src/main/res/input'
+                srcDirs 'src/main/res/label'
+                srcDirs 'src/main/res/launcher'
+                srcDirs 'src/main/res/separator'
+                srcDirs 'src/main/res/tag'
+                srcDirs 'src/main/res/tip'
+                srcDirs 'src/main/res/toolbar'
+            }
+            manifest {
+                srcFile 'src/main/AndroidManifest.xml'
+            }
+            jniLibs {
+                srcDirs 'libs'
+            }
+        }
+
+        if (isLaunchApp) {
+            app {
+                java {
+                    srcDirs 'src/app/java'
+                    srcDirs 'src/app/kotlin'
+                }
+                res {
+                    srcDirs 'src/app/res'
+                    srcDirs 'src/app/res/common'
+
+                    srcDirs 'src/app/res/homepage'
+                }
+                manifest {
+                    srcFile 'src/app/AndroidManifest.xml'
+                }
+            }
+        }
+
+        test {
+            java {
+                srcDirs 'src/test/java'
+                srcDirs 'src/test/kotlin'
+            }
+        }
+
+        // sourceSets.all {
+        //     set -> println "${set.name} 的文件是 ${set.java.srcDirs}"
+        // }
+    }
+
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility java_version
+        targetCompatibility java_version
     }
 
     packagingOptions {
@@ -43,8 +165,20 @@ android {
         exclude 'META-INF/metadata.kotlin_module'
         exclude 'META-INF/metadata.jvm.kotlin_module'
     }
+
+    dataBinding {
+        enabled = isDataBindingEnabled.toBoolean()
+    }
+}
+
+kapt {
+    arguments {
+        arg('moduleName', project.getName())
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api "androidx.appcompat:appcompat:$androidx_appcompat_version"
 }

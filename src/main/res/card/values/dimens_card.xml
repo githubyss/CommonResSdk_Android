@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card default dimens. -->
+    <dimen name="comres_cardLabelPrimaryTextSize_default">18sp</dimen>
+    <dimen name="comres_cardLabelSecondaryTextSize_default">15sp</dimen>
+</resources>
