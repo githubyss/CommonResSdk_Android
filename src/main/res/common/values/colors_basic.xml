@@ -3,6 +3,7 @@
     <!-- Colors without suffix is 100Pct. -->
     <!-- Colors named by value. -->
     <color name="comres_color_00c29e">#00C29E</color>
+    <color name="comres_color_121a32">#121A32</color>
     <color name="comres_color_151515">#151515</color>
     <color name="comres_color_16a2ff">#16A2FF</color>
     <color name="comres_color_17cdc6">#17CDC6</color>
@@ -23,6 +24,7 @@
     <color name="comres_color_555b61">#555B61</color>
     <color name="comres_color_666666">#666666</color>
     <color name="comres_color_727272">#727272</color>
+    <color name="comres_color_8e94a8">#8E94A8</color>
     <color name="comres_color_909090">#909090</color>
     <color name="comres_color_999999">#999999</color>
     <color name="comres_color_aaaaaa">#AAAAAA</color>
@@ -37,6 +39,7 @@
     <color name="comres_color_f2f2f2">#F2F2F2</color>
     <color name="comres_color_f2f9ff">#F2F9FF</color>
     <color name="comres_color_f4f4f4">#F4F4F4</color>
+    <color name="comres_color_fa5050">#FA5050</color>
     <color name="comres_color_ff5500">#FF5500</color>
     <color name="comres_color_ff5a00">#FF5A00</color>
     <color name="comres_color_ff7100">#FF7100</color>

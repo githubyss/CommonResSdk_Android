@@ -102,6 +102,8 @@ android {
                 srcDirs 'src/main/res/application'
                 srcDirs 'src/main/res/fragment'
 
+                srcDirs 'src/main/res/flexbox_layout'
+
                 srcDirs 'src/main/res/button'
                 srcDirs 'src/main/res/card'
                 srcDirs 'src/main/res/check_box'

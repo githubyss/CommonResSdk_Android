@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Equant horizontal flex style. -->
+    <style name="comres_equant_horizontal_flex_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="flexDirection">row</item>
+        <item name="justifyContent">space_between</item>
+        <item name="alignItems">center</item>
+    </style>
+</resources>
