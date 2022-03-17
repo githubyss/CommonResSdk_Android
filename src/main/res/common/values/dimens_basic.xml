@@ -17,6 +17,7 @@
 
     <!-- Overall corner radius dimens. -->
     <dimen name="comres_cornerRadius_none">0dp</dimen>
+    <dimen name="comres_cornerRadius_nano">1dp</dimen>
     <dimen name="comres_cornerRadius_micro">2dp</dimen>
     <dimen name="comres_cornerRadius_tiny">8dp</dimen>
     <dimen name="comres_cornerRadius_normal">14dp</dimen>
@@ -30,6 +31,7 @@
 
     <!-- Overall text size dimens. -->
     <dimen name="comres_textSize_none">0sp</dimen>
+    <dimen name="comres_textSize_nano">4sp</dimen>
     <dimen name="comres_textSize_micro">8sp</dimen>
     <dimen name="comres_textSize_tiny">12sp</dimen>
     <dimen name="comres_textSize_normal">16sp</dimen>
@@ -48,9 +50,12 @@
     <dimen name="comres_textSize_18sp">18sp</dimen>
     <dimen name="comres_textSize_19sp">19sp</dimen>
     <dimen name="comres_textSize_20sp">20sp</dimen>
+    <dimen name="comres_textSize_21sp">21sp</dimen>
     <dimen name="comres_textSize_22sp">22sp</dimen>
+    <dimen name="comres_textSize_23sp">23sp</dimen>
     <dimen name="comres_textSize_24sp">24sp</dimen>
     <dimen name="comres_textSize_28sp">28sp</dimen>
+    <dimen name="comres_textSize_30sp">30sp</dimen>
     <dimen name="comres_textSize_36sp">36sp</dimen>
     <dimen name="comres_textSize_40sp">40sp</dimen>
 </resources>

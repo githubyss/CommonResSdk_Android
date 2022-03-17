@@ -184,4 +184,8 @@ kapt {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "androidx.compose.ui:ui:$androidx_compose_version"
+    implementation "androidx.compose.material:material:$androidx_compose_version"
+    implementation "androidx.compose.foundation:foundation:$androidx_compose_version"
 }
