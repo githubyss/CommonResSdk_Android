@@ -16,5 +16,13 @@ inline val Dp.Companion.BorderWidthThin: Dp
     get() = 1.dp
 
 @Stable
+inline val Dp.Companion.BorderWidthNormal: Dp
+    get() = 2.dp
+
+@Stable
 inline val Dp.Companion.BorderWidthThick: Dp
     get() = 5.dp
+
+@Stable
+inline val Dp.Companion.BorderWidthMargin: Dp
+    get() = 10.dp

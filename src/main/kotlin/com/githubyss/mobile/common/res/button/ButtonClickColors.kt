@@ -19,12 +19,20 @@ inline val Color.Companion.buttonClickBlueBgDisabled: Color
     get() = Color(0xFFE8E8E8)
 
 @Stable
-inline val Color.Companion.buttonClickBlueBorder: Color
-    get() = Color(0x00000000)
+inline val Color.Companion.buttonClickBlueTextNormal: Color
+    get() = Color(0xFFFFFFFF)
 
 @Stable
-inline val Color.Companion.buttonClickBlueText: Color
+inline val Color.Companion.buttonClickBlueTextPressed: Color
     get() = Color(0xFFFFFFFF)
+
+@Stable
+inline val Color.Companion.buttonClickBlueTextDisabled: Color
+    get() = Color(0xFFFFFFFF)
+
+@Stable
+inline val Color.Companion.buttonClickBlueBorder: Color
+    get() = Color(0x00000000)
 
 
 /** Button click white colors. */
@@ -42,12 +50,20 @@ inline val Color.Companion.buttonClickWhiteBgDisabled: Color
     get() = Color(0xFFCACACA)
 
 @Stable
-inline val Color.Companion.buttonClickWhiteBorder: Color
-    get() = Color(0x00000000)
+inline val Color.Companion.buttonClickWhiteTextNormal: Color
+    get() = Color(0xFF666666)
 
 @Stable
-inline val Color.Companion.buttonClickWhiteText: Color
+inline val Color.Companion.buttonClickWhiteTextPressed: Color
     get() = Color(0xFF666666)
+
+@Stable
+inline val Color.Companion.buttonClickWhiteTextDisabled: Color
+    get() = Color(0xFF666666)
+
+@Stable
+inline val Color.Companion.buttonClickWhiteBorder: Color
+    get() = Color(0x00000000)
 
 
 /** Button click transparent colors. */
@@ -65,9 +81,17 @@ inline val Color.Companion.buttonClickTransparentBgDisabled: Color
     get() = Color(0xFFCACACA)
 
 @Stable
-inline val Color.Companion.buttonClickTransparentBorder: Color
-    get() = Color(0xFF999999)
+inline val Color.Companion.buttonClickTransparentTextNormal: Color
+    get() = Color(0xFF666666)
 
 @Stable
-inline val Color.Companion.buttonClickTransparentText: Color
+inline val Color.Companion.buttonClickTransparentTextPressed: Color
     get() = Color(0xFF666666)
+
+@Stable
+inline val Color.Companion.buttonClickTransparentTextDisabled: Color
+    get() = Color(0xFF666666)
+
+@Stable
+inline val Color.Companion.buttonClickTransparentBorder: Color
+    get() = Color(0xFF999999)

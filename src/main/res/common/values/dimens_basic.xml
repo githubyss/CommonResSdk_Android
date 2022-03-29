@@ -2,16 +2,20 @@
 <resources>
     <!-- Overall side margin dimens. -->
     <dimen name="comres_sideMargin_none">0dp</dimen>
-    <dimen name="comres_sideMargin_nano">5dp</dimen>
-    <dimen name="comres_sideMargin_micro">10dp</dimen>
-    <dimen name="comres_sideMargin_tiny">12dp</dimen>
+    <dimen name="comres_sideMargin_nano">2dp</dimen>
+    <dimen name="comres_sideMargin_micro">5dp</dimen>
+    <dimen name="comres_sideMargin_mini">8dp</dimen>
+    <dimen name="comres_sideMargin_tiny">10dp</dimen>
+    <dimen name="comres_sideMargin_small">12dp</dimen>
     <dimen name="comres_sideMargin_normal">14dp</dimen>
-    <dimen name="comres_sideMargin_large">16dp</dimen>
-    <dimen name="comres_sideMargin_huge">18dp</dimen>
+    <dimen name="comres_sideMargin_big">16dp</dimen>
+    <dimen name="comres_sideMargin_large">20dp</dimen>
+    <dimen name="comres_sideMargin_huge">25dp</dimen>
 
     <!-- Overall separator thickness dimens. -->
     <dimen name="comres_separatorThickness_none">0dp</dimen>
     <dimen name="comres_separatorThickness_thin">1dp</dimen>
+    <dimen name="comres_separatorThickness_normal">2dp</dimen>
     <dimen name="comres_separatorThickness_thick">5dp</dimen>
     <dimen name="comres_separatorThickness_margin">10dp</dimen>
 
@@ -19,23 +23,30 @@
     <dimen name="comres_cornerRadius_none">0dp</dimen>
     <dimen name="comres_cornerRadius_nano">1dp</dimen>
     <dimen name="comres_cornerRadius_micro">2dp</dimen>
+    <dimen name="comres_cornerRadius_mini">4dp</dimen>
     <dimen name="comres_cornerRadius_tiny">8dp</dimen>
+    <dimen name="comres_cornerRadius_small">12dp</dimen>
     <dimen name="comres_cornerRadius_normal">14dp</dimen>
+    <dimen name="comres_cornerRadius_big">25dp</dimen>
     <dimen name="comres_cornerRadius_large">50dp</dimen>
     <dimen name="comres_cornerRadius_huge">100dp</dimen>
 
     <!-- Overall stroke width dimens. -->
     <dimen name="comres_strokeWidth_none">0dp</dimen>
     <dimen name="comres_strokeWidth_thin">1dp</dimen>
+    <dimen name="comres_strokeWidth_normal">2dp</dimen>
     <dimen name="comres_strokeWidth_thick">5dp</dimen>
 
     <!-- Overall text size dimens. -->
     <dimen name="comres_textSize_none">0sp</dimen>
-    <dimen name="comres_textSize_nano">4sp</dimen>
-    <dimen name="comres_textSize_micro">8sp</dimen>
+    <dimen name="comres_textSize_nano">2sp</dimen>
+    <dimen name="comres_textSize_micro">6sp</dimen>
+    <dimen name="comres_textSize_mini">10sp</dimen>
     <dimen name="comres_textSize_tiny">12sp</dimen>
+    <dimen name="comres_textSize_small">14sp</dimen>
     <dimen name="comres_textSize_normal">16sp</dimen>
-    <dimen name="comres_textSize_large">20sp</dimen>
+    <dimen name="comres_textSize_big">18sp</dimen>
+    <dimen name="comres_textSize_large">22sp</dimen>
     <dimen name="comres_textSize_huge">30sp</dimen>
 
     <!-- Text size named by value. -->

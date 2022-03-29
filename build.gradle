@@ -83,6 +83,16 @@ android {
         targetCompatibility java_version
     }
 
+    kotlinOptions {
+        jvmTarget = java_version
+        useIR = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion androidx_compose_version
+        kotlinCompilerVersion kotlin_version
+    }
+
     packagingOptions {
         exclude 'META-INF/NOTICE.txt'
         exclude 'META-INF/NOTICE'
@@ -95,6 +105,10 @@ android {
 
     dataBinding {
         enabled isDataBindingEnabled.toBoolean()
+    }
+
+    buildFeatures {
+        compose isComposeEnabled.toBoolean()
     }
 
     flavorDimensions 'library'

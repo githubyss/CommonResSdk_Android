@@ -16,6 +16,10 @@ inline val Dp.Companion.SeparatorThicknessThin: Dp
     get() = 1.dp
 
 @Stable
+inline val Dp.Companion.SeparatorThicknessNormal: Dp
+    get() = 2.dp
+
+@Stable
 inline val Dp.Companion.SeparatorThicknessThick: Dp
     get() = 5.dp
 

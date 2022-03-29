@@ -13,23 +13,35 @@ inline val TextUnit.Companion.FontSizeNone: TextUnit
 
 @Stable
 inline val TextUnit.Companion.FontSizeNano: TextUnit
-    get() = 4.sp
+    get() = 2.sp
 
 @Stable
 inline val TextUnit.Companion.FontSizeMicro: TextUnit
-    get() = 8.sp
+    get() = 6.sp
+
+@Stable
+inline val TextUnit.Companion.FontSizeMini: TextUnit
+    get() = 10.sp
 
 @Stable
 inline val TextUnit.Companion.FontSizeTiny: TextUnit
     get() = 12.sp
 
 @Stable
+inline val TextUnit.Companion.FontSizeSmall: TextUnit
+    get() = 14.sp
+
+@Stable
 inline val TextUnit.Companion.FontSizeNormal: TextUnit
     get() = 16.sp
 
 @Stable
+inline val TextUnit.Companion.FontSizeBig: TextUnit
+    get() = 18.sp
+
+@Stable
 inline val TextUnit.Companion.FontSizeLarge: TextUnit
-    get() = 20.sp
+    get() = 22.sp
 
 @Stable
 inline val TextUnit.Companion.FontSizeHuge: TextUnit

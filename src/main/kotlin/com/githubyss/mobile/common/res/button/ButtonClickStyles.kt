@@ -15,15 +15,16 @@ import com.githubyss.mobile.common.res.common.dimen.CornerRadiusMicro
 
 /** Button click blue style. */
 
+@Stable
 @Composable
-fun ButtonDefaults.buttonClickBlueColors(pressState: Boolean): ButtonColors {
+ fun ButtonDefaults.buttonClickBlueColors(pressState: Boolean): ButtonColors {
     return when {
         pressState -> ButtonDefaults.buttonColors(
-            backgroundColor = Color.buttonClickBlueBgPressed, contentColor = Color.buttonClickBlueText,
-            disabledBackgroundColor = Color.buttonClickBlueBgDisabled, disabledContentColor = Color.buttonClickBlueText)
+            backgroundColor = Color.buttonClickBlueBgPressed, contentColor = Color.buttonClickBlueTextPressed,
+            disabledBackgroundColor = Color.buttonClickBlueBgDisabled, disabledContentColor = Color.buttonClickBlueTextDisabled)
         else -> ButtonDefaults.buttonColors(
-            backgroundColor = Color.buttonClickBlueBgNormal, contentColor = Color.buttonClickBlueText,
-            disabledBackgroundColor = Color.buttonClickBlueBgDisabled, disabledContentColor = Color.buttonClickBlueText)
+            backgroundColor = Color.buttonClickBlueBgNormal, contentColor = Color.buttonClickBlueTextNormal,
+            disabledBackgroundColor = Color.buttonClickBlueBgDisabled, disabledContentColor = Color.buttonClickBlueTextDisabled)
     }
 }
 
@@ -44,7 +45,7 @@ inline val ButtonDefaults.buttonClickBlueFontSize: TextUnit
 
 @Stable
 @Composable
-fun ButtonDefaults.buttonClickWhite(pressState: Boolean): ButtonColors {
+fun ButtonDefaults.buttonClickWhiteColors(pressState: Boolean): ButtonColors {
     return when {
         pressState -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickWhiteBgPressed, disabledBackgroundColor = Color.buttonClickWhiteBgDisabled)
         else -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickWhiteBgNormal, disabledBackgroundColor = Color.buttonClickWhiteBgDisabled)
@@ -68,7 +69,7 @@ inline val ButtonDefaults.buttonClickWhiteFontSize: TextUnit
 
 @Stable
 @Composable
-fun ButtonDefaults.buttonClickTransparent(pressState: Boolean): ButtonColors {
+fun ButtonDefaults.buttonClickTransparentColors(pressState: Boolean): ButtonColors {
     return when {
         pressState -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickTransparentBgPressed, disabledBackgroundColor = Color.buttonClickTransparentBgDisabled)
         else -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickTransparentBgNormal, disabledBackgroundColor = Color.buttonClickTransparentBgDisabled)

@@ -13,14 +13,22 @@ inline val Dp.Companion.SideMarginNone: Dp
 
 @Stable
 inline val Dp.Companion.SideMarginNano: Dp
-    get() = 5.dp
+    get() = 2.dp
 
 @Stable
 inline val Dp.Companion.SideMarginMicro: Dp
-    get() = 10.dp
+    get() = 5.dp
+
+@Stable
+inline val Dp.Companion.SideMarginMini: Dp
+    get() = 8.dp
 
 @Stable
 inline val Dp.Companion.SideMarginTiny: Dp
+    get() = 10.dp
+
+@Stable
+inline val Dp.Companion.SideMarginSmall: Dp
     get() = 12.dp
 
 @Stable
@@ -28,9 +36,13 @@ inline val Dp.Companion.SideMarginNormal: Dp
     get() = 14.dp
 
 @Stable
-inline val Dp.Companion.SideMarginLarge: Dp
+inline val Dp.Companion.SideMarginBig: Dp
     get() = 16.dp
 
 @Stable
+inline val Dp.Companion.SideMarginLarge: Dp
+    get() = 20.dp
+
+@Stable
 inline val Dp.Companion.SideMarginHuge: Dp
-    get() = 18.dp
+    get() = 25.dp
