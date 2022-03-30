@@ -1,4 +1,4 @@
-package com.githubyss.mobile.common.res.button
+package com.githubyss.mobile.common.res.button_click
 
 import androidx.compose.runtime.Stable
 import androidx.compose.ui.unit.Dp

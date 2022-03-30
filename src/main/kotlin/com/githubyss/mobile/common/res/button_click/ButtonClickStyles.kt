@@ -1,4 +1,4 @@
-package com.githubyss.mobile.common.res.button
+package com.githubyss.mobile.common.res.button_click
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.shape.RoundedCornerShape
