@@ -21,8 +21,13 @@ import com.githubyss.mobile.common.res.common.dimen.SideMarginNano
 import com.githubyss.mobile.common.res.common.dimen.SideMarginTiny
 
 
+// @Composable
+// fun ButtonClickBlue(@IdRes resId: Int, enabled: Boolean = true, onClick: () -> Unit) {
+//     ButtonClickBlue(getStringFromRes(resId), enabled, onClick)
+// }
+
 @Composable
-fun CommonButtonClickBlue(text: String, enabled: Boolean = true, onClick: () -> Unit) {
+fun ButtonClickBlue(text: String, enabled: Boolean = true, onClick: () -> Unit) {
     val interactionSource = remember { MutableInteractionSource() }
     val pressState = interactionSource.collectIsPressedAsState().value
 

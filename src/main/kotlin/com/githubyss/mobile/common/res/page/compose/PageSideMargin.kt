@@ -1,0 +1,30 @@
+package com.githubyss.mobile.common.res.page.compose
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.Dp
+import com.githubyss.mobile.common.res.common.dimen.SideMarginNone
+import com.githubyss.mobile.common.res.common.dimen.SideMarginNormal
+import com.githubyss.mobile.common.res.page.pageBgLightGray
+
+
+@Composable
+inline fun PageSideMarginLightGray(background: Color = Color.pageBgLightGray, paddingHorizontal: Dp = Dp.SideMarginNormal, paddingVertical: Dp = Dp.SideMarginNone, content: @Composable ColumnScope.() -> Unit) {
+    Column(
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally,
+        content = content,
+        modifier = Modifier
+            .fillMaxWidth()
+            .fillMaxHeight()
+            .background(background)
+            .verticalScroll(rememberScrollState())
+            .padding(horizontal = paddingHorizontal, vertical = paddingVertical),
+    )
+}
