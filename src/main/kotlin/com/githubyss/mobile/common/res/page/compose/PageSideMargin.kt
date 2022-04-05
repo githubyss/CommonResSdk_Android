@@ -15,9 +15,14 @@ import com.githubyss.mobile.common.res.page.pageBgLightGray
 
 
 @Composable
-inline fun PageSideMarginLightGray(background: Color = Color.pageBgLightGray, paddingHorizontal: Dp = Dp.SideMarginNormal, paddingVertical: Dp = Dp.SideMarginNone, content: @Composable ColumnScope.() -> Unit) {
+fun PageSideMargin(
+    background: Color = Color.pageBgLightGray,
+    paddingHorizontal: Dp = Dp.SideMarginNormal,
+    paddingVertical: Dp = Dp.SideMarginNone,
+    content: @Composable ColumnScope.() -> Unit
+) {
     Column(
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally,
         content = content,
         modifier = Modifier
@@ -25,6 +30,7 @@ inline fun PageSideMarginLightGray(background: Color = Color.pageBgLightGray, pa
             .fillMaxHeight()
             .background(background)
             .verticalScroll(rememberScrollState())
-            .padding(horizontal = paddingHorizontal, vertical = paddingVertical),
+            // 先设置长高、背景、滑动，再设置 padding，padding 作用等同于 padding
+            .padding(horizontal = paddingHorizontal, vertical = paddingVertical)
     )
 }
