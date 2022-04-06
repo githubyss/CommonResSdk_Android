@@ -1,4 +1,4 @@
-package com.githubyss.mobile.common.res.text_align.compose
+package com.githubyss.mobile.common.res.text.compose
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -26,7 +26,8 @@ import androidx.compose.ui.unit.TextUnit
 fun TextColumn(
     text: String,
     modifier: Modifier = Modifier,
-    color: Color = Color.Unspecified,
+    textColor: Color = Color.Unspecified,
+    textBg: Color = Color.Unspecified,
     fontSize: TextUnit = TextUnit.Unspecified,
     fontStyle: FontStyle? = null,
     fontWeight: FontWeight? = null,
@@ -42,7 +43,6 @@ fun TextColumn(
     style: TextStyle = LocalTextStyle.current,
     verticalArrangement: Arrangement.Vertical,
     horizontalAlignment: Alignment.Horizontal,
-    textBg: Color,
 ) {
     Column(
         verticalArrangement = verticalArrangement,
@@ -51,7 +51,7 @@ fun TextColumn(
     ) {
         Text(
             text = text,
-            color = color,
+            color = textColor,
             fontSize = fontSize,
             fontStyle = fontStyle,
             fontWeight = fontWeight,

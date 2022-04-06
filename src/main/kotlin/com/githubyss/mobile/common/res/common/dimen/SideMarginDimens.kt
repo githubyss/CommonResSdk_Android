@@ -8,41 +8,41 @@ import androidx.compose.ui.unit.dp
 /** Overall side margin dimens. */
 
 @Stable
-inline val Dp.Companion.SideMarginNone: Dp
+inline val Dp.Companion.SideNone: Dp
     get() = 0.dp
 
 @Stable
-inline val Dp.Companion.SideMarginNano: Dp
+inline val Dp.Companion.SideNano: Dp
     get() = 2.dp
 
 @Stable
-inline val Dp.Companion.SideMarginMicro: Dp
+inline val Dp.Companion.SideMicro: Dp
     get() = 5.dp
 
 @Stable
-inline val Dp.Companion.SideMarginMini: Dp
+inline val Dp.Companion.SideMini: Dp
     get() = 8.dp
 
 @Stable
-inline val Dp.Companion.SideMarginTiny: Dp
+inline val Dp.Companion.SideTiny: Dp
     get() = 10.dp
 
 @Stable
-inline val Dp.Companion.SideMarginSmall: Dp
+inline val Dp.Companion.SideSmall: Dp
     get() = 12.dp
 
 @Stable
-inline val Dp.Companion.SideMarginNormal: Dp
+inline val Dp.Companion.SideNormal: Dp
     get() = 14.dp
 
 @Stable
-inline val Dp.Companion.SideMarginBig: Dp
+inline val Dp.Companion.SideBig: Dp
     get() = 16.dp
 
 @Stable
-inline val Dp.Companion.SideMarginLarge: Dp
+inline val Dp.Companion.SideLarge: Dp
     get() = 20.dp
 
 @Stable
-inline val Dp.Companion.SideMarginHuge: Dp
+inline val Dp.Companion.SideHuge: Dp
     get() = 25.dp
