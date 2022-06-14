@@ -47,14 +47,6 @@ android {
         }
     }
 
-    dataBinding {
-        enabled feature.isDataBindingEnabled
-    }
-
-    buildFeatures {
-        compose feature.isComposeEnabled
-    }
-
     flavorDimensions 'library'
     productFlavors {
         if (isLaunchApp) {
@@ -132,12 +124,19 @@ android {
             // set -> println "集合 ${set.name} 的文件是 ${set.java.srcDirs}"
         }
     }
+
+    dataBinding {
+        enabled feature.isDataBindingEnabled
+    }
+
+    buildFeatures {
+        compose feature.isComposeEnabled
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation dependenciesLib.androidx_compose_ui
     implementation dependenciesLib.androidx_compose_material
-    implementation dependenciesLib.androidx_compose_foundation
+    implementation dependenciesLib.google_flexbox
 }

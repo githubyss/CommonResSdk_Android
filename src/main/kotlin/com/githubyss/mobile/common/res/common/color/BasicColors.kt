@@ -2,7 +2,6 @@ package com.githubyss.mobile.common.res.common.color
 
 import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
-import com.githubyss.mobile.common.res.R
 
 
 /** Colors without suffix is 100Pct. */
@@ -232,80 +231,84 @@ inline val Color.Companion.xFFFFFFFF: Color
 /** Colors named by scientific name. */
 
 @Stable
+inline val Color.Companion.White100Pct: Color
+    get() = Color(0xFFFFFFFF) // 白色100%
+
+@Stable
 inline val Color.Companion.White80Pct: Color
-    get() = Color(0xCCFFFFFF) // 80%白色
+    get() = Color(0xCCFFFFFF) // 白色80%
 
 @Stable
 inline val Color.Companion.White60Pct: Color
-    get() = Color(0x99FFFFFF) // 60%白色
+    get() = Color(0x99FFFFFF) // 白色60%
 
 @Stable
 inline val Color.Companion.White40Pct: Color
-    get() = Color(0x66FFFFFF) // 40%白色
+    get() = Color(0x66FFFFFF) // 白色40%
 
 @Stable
 inline val Color.Companion.White20Pct: Color
-    get() = Color(0x33FFFFFF) // 20%白色
+    get() = Color(0x33FFFFFF) // 白色20%
 
 @Stable
 inline val Color.Companion.White12Pct: Color
-    get() = Color(0x20FFFFFF) // 12%白色
+    get() = Color(0x20FFFFFF) // 白色12%
 
 @Stable
 inline val Color.Companion.White05Pct: Color
-    get() = Color(0x0CFFFFFF) // 05%白色
+    get() = Color(0x0CFFFFFF) // 白色05%
 
 @Stable
 inline val Color.Companion.White00Pct: Color
-    get() = Color(0x00FFFFFF) // 00%白色
+    get() = Color(0x00FFFFFF) // 白色00%
+
+@Stable
+inline val Color.Companion.Black100Pct: Color
+    get() = Color(0xFF000000) // 黑色100%
 
 @Stable
 inline val Color.Companion.Black80Pct: Color
-    get() = Color(0xCC000000) // 80%黑色
+    get() = Color(0xCC000000) // 黑色80%
 
 @Stable
 inline val Color.Companion.Black60Pct: Color
-    get() = Color(0x99000000) // 60%黑色
+    get() = Color(0x99000000) // 黑色60%
 
 @Stable
 inline val Color.Companion.Black40Pct: Color
-    get() = Color(0x66000000) // 40%黑色
+    get() = Color(0x66000000) // 黑色40%
 
 @Stable
 inline val Color.Companion.Black20Pct: Color
-    get() = Color(0x33000000) // 20%黑色
+    get() = Color(0x33000000) // 黑色20%
 
 @Stable
 inline val Color.Companion.Black12Pct: Color
-    get() = Color(0x20000000) // 12%黑色
+    get() = Color(0x20000000) // 黑色12%
 
 @Stable
 inline val Color.Companion.Black05Pct: Color
-    get() = Color(0x0C000000) // 05%黑色
+    get() = Color(0x0C000000) // 黑色05%
 
 @Stable
 inline val Color.Companion.Black00Pct: Color
-    get() = Color(0x00000000) // 00%黑色
+    get() = Color(0x00000000) // 黑色00%
 
 @Stable
-inline val Color.Companion.Transparent: Color
-    get() = Color(0x00000000) // 透明
-
-@Stable
-inline val Color.Companion.White: Color
-    get() = Color(0xFFFFFFFF) // 白色
+inline val Color.Companion.Transparent00Pct: Color
+    get() = Color(0x00000000) // 透明00%
 
 @Stable
 inline val Color.Companion.Ivory: Color
     get() = Color(0xFFFFFFF0) // 象牙色
 
 @Stable
-inline val Color.Companion.Lightyellow: Color
+inline val Color.Companion.LightYellow: Color
     get() = Color(0xFFFFFFE0) // 亮黄色
 
 @Stable
-inline val Color.Companion.Yellow: Color
-    get() = Color(0xFFFFFF00) // 黄色
+inline val Color.Companion.Yellow100Pct: Color
+    get() = Color(0xFFFFFF00) // 黄色100%
 
 @Stable
 inline val Color.Companion.Snow: Color
@@ -407,13 +410,15 @@ inline val Color.Companion.Deeppink: Color
 inline val Color.Companion.Fuchsia: Color
     get() = Color(0xFFFF00FF) // 紫红色
 
-@Stable
-inline val Color.Companion.Magenta: Color
-    get() = Color(0xFFFF00FF) // 红紫色
+// @Stable
+// inline val Color.Companion.Magenta: Color
+//     get() = Color.Magenta
+//     get() = Color(0xFFFF00FF) // 红紫色
 
-@Stable
-inline val Color.Companion.Red: Color
-    get() = Color(0xFFFF0000) // 红色
+// @Stable
+// inline val Color.Companion.Red: Color
+//     get() = Color.Red
+//     get() = Color(0xFFFF0000) // 红色
 
 @Stable
 inline val Color.Companion.Oldlace: Color
@@ -667,9 +672,10 @@ inline val Color.Companion.Lightskyblue: Color
 inline val Color.Companion.Skyblue: Color
     get() = Color(0xFF87CEEB) // 天蓝色
 
-@Stable
-inline val Color.Companion.Gray: Color
-    get() = Color(0xFF808080) // 灰色
+// @Stable
+// inline val Color.Companion.Gray: Color
+//     get() = Color.Gray
+//     get() = Color(0xFF888888) // 灰色
 
 @Stable
 inline val Color.Companion.Grey: Color
@@ -815,9 +821,10 @@ inline val Color.Companion.Midnightblue: Color
 inline val Color.Companion.Aqua: Color
     get() = Color(0xFF00FFFF) // 浅绿色
 
-@Stable
-inline val Color.Companion.Cyan: Color
-    get() = Color(0xFF00FFFF) // 青色
+// @Stable
+// inline val Color.Companion.Cyan: Color
+//     get() = Color.Cyan
+//     get() = Color(0xFF00FFFF) // 青色
 
 @Stable
 inline val Color.Companion.Springgreen: Color
@@ -847,17 +854,19 @@ inline val Color.Companion.Darkcyan: Color
 inline val Color.Companion.Teal: Color
     get() = Color(0xFF008080) // 水鸭色
 
-@Stable
-inline val Color.Companion.Green: Color
-    get() = Color(0xFF008000) // 绿色
+// @Stable
+// inline val Color.Companion.Green: Color
+//     get() = Color.Green
+//     get() = Color(0xFF008000) // 绿色
 
 @Stable
 inline val Color.Companion.Darkgreen: Color
     get() = Color(0xFF006400) // 暗绿色
 
-@Stable
-inline val Color.Companion.Blue: Color
-    get() = Color(0xFF0000FF) // 蓝色
+// @Stable
+// inline val Color.Companion.Blue: Color
+//     get() = Color.Blue
+//     get() = Color(0xFF0000FF) // 蓝色
 
 @Stable
 inline val Color.Companion.Mediumblue: Color
@@ -870,7 +879,3 @@ inline val Color.Companion.Darkblue: Color
 @Stable
 inline val Color.Companion.Navy: Color
     get() = Color(0xFF000080) // 海军色
-
-@Stable
-inline val Color.Companion.Black: Color
-    get() = Color(0xFF000000) // 黑色
