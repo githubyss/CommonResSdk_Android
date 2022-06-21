@@ -10,14 +10,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
-import com.githubyss.mobile.common.res.common.dimen.CornerRadiusMicro
 
 
 /** Button click blue style. */
 
 @Stable
 @Composable
- fun ButtonDefaults.buttonClickBlueColors(pressState: Boolean): ButtonColors {
+fun ButtonDefaults.buttonClickBlueBackground(pressState: Boolean): ButtonColors {
     return when {
         pressState -> ButtonDefaults.buttonColors(
             backgroundColor = Color.buttonClickBlueBgPressed, contentColor = Color.buttonClickBlueTextPressed,
@@ -30,15 +29,15 @@ import com.githubyss.mobile.common.res.common.dimen.CornerRadiusMicro
 
 @Stable
 inline val ButtonDefaults.buttonClickBlueShape: Shape
-    get() = RoundedCornerShape(Dp.CornerRadiusMicro)
+    get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
 
 @Stable
 inline val ButtonDefaults.buttonClickBlueBorder: BorderStroke
-    get() = BorderStroke(Dp.buttonClickBlueBorder, Color.buttonClickBlueBorder)
+    get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickBlueBorderColor)
 
 @Stable
 inline val ButtonDefaults.buttonClickBlueFontSize: TextUnit
-    get() = TextUnit.buttonClickBlueFontSize
+    get() = TextUnit.buttonClickFontSize
 
 
 /** Button click white style. */
@@ -54,15 +53,15 @@ fun ButtonDefaults.buttonClickWhiteColors(pressState: Boolean): ButtonColors {
 
 @Stable
 inline val ButtonDefaults.buttonClickWhiteRoundedCorner: Shape
-    get() = RoundedCornerShape(Dp.CornerRadiusMicro)
+    get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
 
 @Stable
 inline val ButtonDefaults.buttonClickWhiteBorder: BorderStroke
-    get() = BorderStroke(Dp.buttonClickWhiteBorder, Color.buttonClickWhiteBorder)
+    get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickWhiteBorderColor)
 
 @Stable
 inline val ButtonDefaults.buttonClickWhiteFontSize: TextUnit
-    get() = TextUnit.buttonClickWhiteFontSize
+    get() = TextUnit.buttonClickFontSize
 
 
 /** Button click transparent style. */
@@ -78,12 +77,12 @@ fun ButtonDefaults.buttonClickTransparentColors(pressState: Boolean): ButtonColo
 
 @Stable
 inline val ButtonDefaults.buttonClickTransparentRoundedCorner: Shape
-    get() = RoundedCornerShape(Dp.CornerRadiusMicro)
+    get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
 
 @Stable
 inline val ButtonDefaults.buttonClickTransparentBorder: BorderStroke
-    get() = BorderStroke(Dp.buttonClickTransparentBorder, Color.buttonClickTransparentBorder)
+    get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickTransparentBorderColor)
 
 @Stable
 inline val ButtonDefaults.buttonClickTransparentFontSize: TextUnit
-    get() = TextUnit.buttonClickTransparentFontSize
+    get() = TextUnit.buttonClickFontSize

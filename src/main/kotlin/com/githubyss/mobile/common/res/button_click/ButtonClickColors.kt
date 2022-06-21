@@ -31,7 +31,7 @@ inline val Color.Companion.buttonClickBlueTextDisabled: Color
     get() = Color(0xFFFFFFFF)
 
 @Stable
-inline val Color.Companion.buttonClickBlueBorder: Color
+inline val Color.Companion.buttonClickBlueBorderColor: Color
     get() = Color(0x00000000)
 
 
@@ -62,7 +62,7 @@ inline val Color.Companion.buttonClickWhiteTextDisabled: Color
     get() = Color(0xFF666666)
 
 @Stable
-inline val Color.Companion.buttonClickWhiteBorder: Color
+inline val Color.Companion.buttonClickWhiteBorderColor: Color
     get() = Color(0x00000000)
 
 
@@ -93,5 +93,5 @@ inline val Color.Companion.buttonClickTransparentTextDisabled: Color
     get() = Color(0xFF666666)
 
 @Stable
-inline val Color.Companion.buttonClickTransparentBorder: Color
+inline val Color.Companion.buttonClickTransparentBorderColor: Color
     get() = Color(0xFF999999)
