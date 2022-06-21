@@ -44,7 +44,7 @@ inline val ButtonDefaults.buttonClickBlueFontSize: TextUnit
 
 @Stable
 @Composable
-fun ButtonDefaults.buttonClickWhiteColors(pressState: Boolean): ButtonColors {
+fun ButtonDefaults.buttonClickWhiteBackground(pressState: Boolean): ButtonColors {
     return when {
         pressState -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickWhiteBgPressed, disabledBackgroundColor = Color.buttonClickWhiteBgDisabled)
         else -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickWhiteBgNormal, disabledBackgroundColor = Color.buttonClickWhiteBgDisabled)
@@ -52,7 +52,7 @@ fun ButtonDefaults.buttonClickWhiteColors(pressState: Boolean): ButtonColors {
 }
 
 @Stable
-inline val ButtonDefaults.buttonClickWhiteRoundedCorner: Shape
+inline val ButtonDefaults.buttonClickWhiteShape: Shape
     get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
 
 @Stable
@@ -68,7 +68,7 @@ inline val ButtonDefaults.buttonClickWhiteFontSize: TextUnit
 
 @Stable
 @Composable
-fun ButtonDefaults.buttonClickTransparentColors(pressState: Boolean): ButtonColors {
+fun ButtonDefaults.buttonClickTransparentBackground(pressState: Boolean): ButtonColors {
     return when {
         pressState -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickTransparentBgPressed, disabledBackgroundColor = Color.buttonClickTransparentBgDisabled)
         else -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickTransparentBgNormal, disabledBackgroundColor = Color.buttonClickTransparentBgDisabled)
@@ -76,7 +76,7 @@ fun ButtonDefaults.buttonClickTransparentColors(pressState: Boolean): ButtonColo
 }
 
 @Stable
-inline val ButtonDefaults.buttonClickTransparentRoundedCorner: Shape
+inline val ButtonDefaults.buttonClickTransparentShape: Shape
     get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
 
 @Stable

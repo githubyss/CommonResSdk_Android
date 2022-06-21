@@ -4,7 +4,7 @@ import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
 
 
-/** Button click button blue colors. */
+/** Button click blue colors. */
 
 @Stable
 inline val Color.Companion.buttonClickBlueBgNormal: Color
