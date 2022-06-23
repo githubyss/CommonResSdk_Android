@@ -5,7 +5,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
 
-/** Overall stroke width dimens. */
+/** Overall border width dimens. */
 
 @Stable
 inline val Dp.Companion.BorderWidthNone: Dp

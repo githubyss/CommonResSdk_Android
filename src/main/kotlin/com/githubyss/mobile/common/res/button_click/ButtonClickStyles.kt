@@ -9,7 +9,11 @@ import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.TextUnit
+
+
+@Stable
+inline val ButtonDefaults.buttonClickShape: Shape
+    get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
 
 
 /** Button click blue style. */
@@ -28,16 +32,8 @@ fun ButtonDefaults.buttonClickBlueBackground(pressState: Boolean): ButtonColors 
 }
 
 @Stable
-inline val ButtonDefaults.buttonClickBlueShape: Shape
-    get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
-
-@Stable
 inline val ButtonDefaults.buttonClickBlueBorder: BorderStroke
     get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickBlueBorderColor)
-
-@Stable
-inline val ButtonDefaults.buttonClickBlueFontSize: TextUnit
-    get() = TextUnit.buttonClickFontSize
 
 
 /** Button click white style. */
@@ -46,22 +42,18 @@ inline val ButtonDefaults.buttonClickBlueFontSize: TextUnit
 @Composable
 fun ButtonDefaults.buttonClickWhiteBackground(pressState: Boolean): ButtonColors {
     return when {
-        pressState -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickWhiteBgPressed, disabledBackgroundColor = Color.buttonClickWhiteBgDisabled)
-        else -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickWhiteBgNormal, disabledBackgroundColor = Color.buttonClickWhiteBgDisabled)
+        pressState -> ButtonDefaults.buttonColors(
+            backgroundColor = Color.buttonClickWhiteBgPressed, contentColor = Color.buttonClickWhiteTextPressed,
+            disabledBackgroundColor = Color.buttonClickWhiteBgDisabled, disabledContentColor = Color.buttonClickWhiteTextDisabled)
+        else -> ButtonDefaults.buttonColors(
+            backgroundColor = Color.buttonClickWhiteBgNormal, contentColor = Color.buttonClickWhiteTextNormal,
+            disabledBackgroundColor = Color.buttonClickWhiteBgDisabled, disabledContentColor = Color.buttonClickWhiteTextDisabled)
     }
 }
 
 @Stable
-inline val ButtonDefaults.buttonClickWhiteShape: Shape
-    get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
-
-@Stable
 inline val ButtonDefaults.buttonClickWhiteBorder: BorderStroke
     get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickWhiteBorderColor)
-
-@Stable
-inline val ButtonDefaults.buttonClickWhiteFontSize: TextUnit
-    get() = TextUnit.buttonClickFontSize
 
 
 /** Button click transparent style. */
@@ -70,19 +62,15 @@ inline val ButtonDefaults.buttonClickWhiteFontSize: TextUnit
 @Composable
 fun ButtonDefaults.buttonClickTransparentBackground(pressState: Boolean): ButtonColors {
     return when {
-        pressState -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickTransparentBgPressed, disabledBackgroundColor = Color.buttonClickTransparentBgDisabled)
-        else -> ButtonDefaults.buttonColors(backgroundColor = Color.buttonClickTransparentBgNormal, disabledBackgroundColor = Color.buttonClickTransparentBgDisabled)
+        pressState -> ButtonDefaults.buttonColors(
+            backgroundColor = Color.buttonClickTransparentBgPressed, contentColor = Color.buttonClickTransparentTextPressed,
+            disabledBackgroundColor = Color.buttonClickTransparentBgDisabled, disabledContentColor = Color.buttonClickTransparentTextDisabled)
+        else -> ButtonDefaults.buttonColors(
+            backgroundColor = Color.buttonClickTransparentBgNormal, contentColor = Color.buttonClickTransparentTextNormal,
+            disabledBackgroundColor = Color.buttonClickTransparentBgDisabled, disabledContentColor = Color.buttonClickTransparentTextDisabled)
     }
 }
 
 @Stable
-inline val ButtonDefaults.buttonClickTransparentShape: Shape
-    get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
-
-@Stable
 inline val ButtonDefaults.buttonClickTransparentBorder: BorderStroke
     get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickTransparentBorderColor)
-
-@Stable
-inline val ButtonDefaults.buttonClickTransparentFontSize: TextUnit
-    get() = TextUnit.buttonClickFontSize
