@@ -5,7 +5,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
 
-/** Overall space / margin / padding dimens. */
+/* Overall space / margin / padding dimens. */
 
 @Stable
 inline val Dp.Companion.SpaceNone: Dp
@@ -47,6 +47,8 @@ inline val Dp.Companion.SpaceLarge: Dp
 inline val Dp.Companion.SpaceHuge: Dp
     get() = 25.dp
 
+
+/* Default space / margin / padding dimens. */
 
 @Stable
 inline val Dp.Companion.SpaceSideMarginDefault: Dp
