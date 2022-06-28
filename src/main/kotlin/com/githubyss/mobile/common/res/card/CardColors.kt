@@ -19,11 +19,7 @@ inline val Color.Companion.cardOrangeBorderColor: Color
     get() = Color(0x00000000)
 
 @Stable
-inline val Color.Companion.cardOrangeTextPrimary: Color
-    get() = Color(0xFFFFFFFF)
-
-@Stable
-inline val Color.Companion.cardOrangeTextSecondary: Color
+inline val Color.Companion.cardOrangeContent: Color
     get() = Color(0xFFFFFFFF)
 
 
@@ -42,12 +38,8 @@ inline val Color.Companion.cardWhiteBorderColor: Color
     get() = Color(0xFF1F86ED)
 
 @Stable
-inline val Color.Companion.cardWhiteTextPrimary: Color
+inline val Color.Companion.cardWhiteContent: Color
     get() = Color(0xFF333333)
-
-@Stable
-inline val Color.Companion.cardWhiteTextSecondary: Color
-    get() = Color(0xFF666666)
 
 
 /** Card transparent colors. */
@@ -61,9 +53,5 @@ inline val Color.Companion.cardTransparentBorderColor: Color
     get() = Color(0xFF1F86ED)
 
 @Stable
-inline val Color.Companion.cardTransparentTextPrimary: Color
+inline val Color.Companion.cardTransparentContent: Color
     get() = Color(0xFF333333)
-
-@Stable
-inline val Color.Companion.cardTransparentTextSecondary: Color
-    get() = Color(0xFF666666)

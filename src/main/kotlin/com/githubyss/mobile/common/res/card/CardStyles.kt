@@ -25,15 +25,15 @@ inline val MaterialTheme.cardOrangeBackground: Brush
 
 @Stable
 inline val MaterialTheme.cardOrangeBorder: BorderStroke
-    get() = BorderStroke(Dp.cardBorderWidth, Color.cardOrangeBorderColor)
+    get() = BorderStroke(width = Dp.cardBorderWidth, color = Color.cardOrangeBorderColor)
 
 @Stable
 inline val MaterialTheme.cardOrangeTextPrimary: TextStyle
-    get() = TextStyle(color = Color.cardOrangeTextPrimary, fontSize = TextUnit.cardPrimaryFontSize)
+    get() = TextStyle(color = Color.cardOrangeContent, fontSize = TextUnit.cardPrimaryFontSize)
 
 @Stable
 inline val MaterialTheme.cardOrangeTextSecondary: TextStyle
-    get() = TextStyle(color = Color.cardOrangeTextSecondary, fontSize = TextUnit.cardSecondaryFontSize)
+    get() = TextStyle(color = Color.cardOrangeContent, fontSize = TextUnit.cardSecondaryFontSize)
 
 
 /** Card white style. */
@@ -48,11 +48,11 @@ inline val MaterialTheme.cardWhiteBorder: BorderStroke
 
 @Stable
 inline val MaterialTheme.cardWhiteTextPrimary: TextStyle
-    get() = TextStyle(color = Color.cardWhiteTextPrimary, fontSize = TextUnit.cardPrimaryFontSize)
+    get() = TextStyle(color = Color.cardWhiteContent, fontSize = TextUnit.cardPrimaryFontSize)
 
 @Stable
 inline val MaterialTheme.cardWhiteTextSecondary: TextStyle
-    get() = TextStyle(color = Color.cardWhiteTextSecondary, fontSize = TextUnit.cardSecondaryFontSize)
+    get() = TextStyle(color = Color.cardWhiteContent, fontSize = TextUnit.cardSecondaryFontSize)
 
 
 /** Card transparent style. */
@@ -67,8 +67,8 @@ inline val MaterialTheme.cardTransparentBorder: BorderStroke
 
 @Stable
 inline val MaterialTheme.cardTransparentTextPrimary: TextStyle
-    get() = TextStyle(color = Color.cardTransparentTextPrimary, fontSize = TextUnit.cardPrimaryFontSize)
+    get() = TextStyle(color = Color.cardTransparentContent, fontSize = TextUnit.cardPrimaryFontSize)
 
 @Stable
 inline val MaterialTheme.cardTransparentTextSecondary: TextStyle
-    get() = TextStyle(color = Color.cardTransparentTextSecondary, fontSize = TextUnit.cardSecondaryFontSize)
+    get() = TextStyle(color = Color.cardTransparentContent, fontSize = TextUnit.cardSecondaryFontSize)

@@ -24,11 +24,11 @@ inline val Color.Companion.buttonClickBlueTextNormal: Color
 
 @Stable
 inline val Color.Companion.buttonClickBlueTextPressed: Color
-    get() = Color(0xFFFFFFFF)
+    get() = Color(0xFFFFFF00)
 
 @Stable
 inline val Color.Companion.buttonClickBlueTextDisabled: Color
-    get() = Color(0xFFFFFFFF)
+    get() = Color(0xFF999999)
 
 @Stable
 inline val Color.Companion.buttonClickBlueBorderColor: Color
