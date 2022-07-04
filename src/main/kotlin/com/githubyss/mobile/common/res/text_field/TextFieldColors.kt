@@ -122,7 +122,7 @@ inline val Color.Companion.textFieldTransparentLabelDisabled: Color
 
 @Stable
 inline val Color.Companion.textFieldTransparentLabelError: Color
-    get() = Color(0xFFFF5500)
+    get() = Color(0xFFFF0000)
 
 @Stable
 inline val Color.Companion.textFieldTransparentPlaceholderNormal: Color
@@ -138,7 +138,7 @@ inline val Color.Companion.textFieldTransparentCursorNormal: Color
 
 @Stable
 inline val Color.Companion.textFieldTransparentCursorError: Color
-    get() = Color(0xFFFF5500)
+    get() = Color(0xFFFF0000)
 
 @Stable
 inline val Color.Companion.textFieldTransparentIndicatorFocused: Color
@@ -154,7 +154,7 @@ inline val Color.Companion.textFieldTransparentIndicatorDisabled: Color
 
 @Stable
 inline val Color.Companion.textFieldTransparentIndicatorError: Color
-    get() = Color(0xFFFF5500)
+    get() = Color(0xFFFF0000)
 
 @Stable
 inline val Color.Companion.textFieldTransparentLeadingIconNormal: Color
@@ -166,7 +166,7 @@ inline val Color.Companion.textFieldTransparentLeadingIconDisabled: Color
 
 @Stable
 inline val Color.Companion.textFieldTransparentLeadingIconError: Color
-    get() = Color(0xFFFF5500)
+    get() = Color(0xFFFF0000)
 
 @Stable
 inline val Color.Companion.textFieldTransparentTrailingIconNormal: Color
@@ -178,7 +178,7 @@ inline val Color.Companion.textFieldTransparentTrailingIconDisabled: Color
 
 @Stable
 inline val Color.Companion.textFieldTransparentTrailingIconError: Color
-    get() = Color(0xFFFF5500)
+    get() = Color(0xFFFF0000)
 
 @Stable
 inline val Color.Companion.textFieldTransparentBorderColor: Color
