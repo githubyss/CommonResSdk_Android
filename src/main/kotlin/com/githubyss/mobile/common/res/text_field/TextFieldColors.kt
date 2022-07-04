@@ -12,23 +12,23 @@ inline val Color.Companion.textFieldBlackBackgroundNormal: Color
 
 @Stable
 inline val Color.Companion.textFieldBlackTextNormal: Color
-    get() = Color(0xFF228B22)
+    get() = Color(0xFFD3D3D3)
 
 @Stable
 inline val Color.Companion.textFieldBlackTextDisabled: Color
-    get() = Color(0xFFD3D3D3)
+    get() = Color(0xFF353D44)
 
 @Stable
 inline val Color.Companion.textFieldBlackLabelFocused: Color
-    get() = Color(0x99228B22)
+    get() = Color(0x993399FF)
 
 @Stable
 inline val Color.Companion.textFieldBlackLabelUnfocused: Color
-    get() = Color(0xFF228B22)
+    get() = Color(0xFF3399FF)
 
 @Stable
 inline val Color.Companion.textFieldBlackLabelDisabled: Color
-    get() = Color(0xFFD3D3D3)
+    get() = Color(0xFF353D44)
 
 @Stable
 inline val Color.Companion.textFieldBlackLabelError: Color
@@ -36,15 +36,15 @@ inline val Color.Companion.textFieldBlackLabelError: Color
 
 @Stable
 inline val Color.Companion.textFieldBlackPlaceholderNormal: Color
-    get() = Color(0x66FFD700)
+    get() = Color(0x66D3D3D3)
 
 @Stable
 inline val Color.Companion.textFieldBlackPlaceholderDisabled: Color
-    get() = Color(0xFFD3D3D3)
+    get() = Color(0xFF353D44)
 
 @Stable
 inline val Color.Companion.textFieldBlackCursorNormal: Color
-    get() = Color(0xFF228B22)
+    get() = Color(0xFFD3D3D3)
 
 @Stable
 inline val Color.Companion.textFieldBlackCursorError: Color
@@ -52,15 +52,15 @@ inline val Color.Companion.textFieldBlackCursorError: Color
 
 @Stable
 inline val Color.Companion.textFieldBlackIndicatorFocused: Color
-    get() = Color(0xFF228B22)
+    get() = Color(0xFFD3D3D3)
 
 @Stable
 inline val Color.Companion.textFieldBlackIndicatorUnfocused: Color
-    get() = Color(0xFFFF5A00)
+    get() = Color(0xFF151515)
 
 @Stable
 inline val Color.Companion.textFieldBlackIndicatorDisabled: Color
-    get() = Color(0xFFD3D3D3)
+    get() = Color(0xFF353D44)
 
 @Stable
 inline val Color.Companion.textFieldBlackIndicatorError: Color
@@ -68,11 +68,11 @@ inline val Color.Companion.textFieldBlackIndicatorError: Color
 
 @Stable
 inline val Color.Companion.textFieldBlackLeadingIconNormal: Color
-    get() = Color(0xFF228B22)
+    get() = Color(0xFFD3D3D3)
 
 @Stable
 inline val Color.Companion.textFieldBlackLeadingIconDisabled: Color
-    get() = Color(0xFFD3D3D3)
+    get() = Color(0xFF353D44)
 
 @Stable
 inline val Color.Companion.textFieldBlackLeadingIconError: Color
@@ -80,11 +80,11 @@ inline val Color.Companion.textFieldBlackLeadingIconError: Color
 
 @Stable
 inline val Color.Companion.textFieldBlackTrailingIconNormal: Color
-    get() = Color(0xFF228B22)
+    get() = Color(0xFFD3D3D3)
 
 @Stable
 inline val Color.Companion.textFieldBlackTrailingIconDisabled: Color
-    get() = Color(0xFFD3D3D3)
+    get() = Color(0xFF353D44)
 
 @Stable
 inline val Color.Companion.textFieldBlackTrailingIconError: Color
