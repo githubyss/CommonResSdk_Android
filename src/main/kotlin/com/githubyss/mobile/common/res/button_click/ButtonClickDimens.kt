@@ -8,7 +8,7 @@ import com.githubyss.mobile.common.res.common.dimen.CornerRadiusMicro
 import com.githubyss.mobile.common.res.common.dimen.FontSizeTiny
 
 
-/** Card corner radius. */
+/** Button click corner radius. */
 
 @Stable
 inline val Dp.Companion.buttonClickCornerRadius: Dp
