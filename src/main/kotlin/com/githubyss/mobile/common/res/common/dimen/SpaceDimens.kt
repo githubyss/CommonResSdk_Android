@@ -64,4 +64,4 @@ inline val Dp.Companion.SpaceButtonPaddingDefault: Dp
 
 @Stable
 inline val Dp.Companion.SpaceCardPaddingDefault: Dp
-    get() = Dp.SpaceTiny
+    get() = Dp.SpaceNormal

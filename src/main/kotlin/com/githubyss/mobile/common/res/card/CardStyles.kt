@@ -2,10 +2,12 @@ package com.githubyss.mobile.common.res.card
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.shape.ZeroCornerSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
@@ -13,8 +15,20 @@ import androidx.compose.ui.unit.TextUnit
 
 
 @Stable
-inline val MaterialTheme.cardShape: Shape
+inline val MaterialTheme.cardShapeRound: Shape
     get() = RoundedCornerShape(Dp.cardCornerRadius)
+
+@Stable
+inline val MaterialTheme.cardShapeRoundTop: Shape
+    get() = RoundedCornerShape(Dp.cardCornerRadius).copy(bottomStart = ZeroCornerSize, bottomEnd = ZeroCornerSize)
+
+@Stable
+inline val MaterialTheme.cardShapeRoundBottom: Shape
+    get() = RoundedCornerShape(Dp.cardCornerRadius).copy(topStart = ZeroCornerSize, topEnd = ZeroCornerSize)
+
+@Stable
+inline val MaterialTheme.cardShapeRectangle: Shape
+    get() = RectangleShape
 
 
 /** Card orange style. */
