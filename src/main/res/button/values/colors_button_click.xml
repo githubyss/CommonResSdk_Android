@@ -7,12 +7,20 @@
     <color name="comres_buttonClickStroke_blue">#00000000</color>
     <color name="comres_buttonClickText_blue">#FFFFFF</color>
 
+    <!-- Button click button dark gray colors. -->
+    <color name="comres_buttonClickBgNormal_darkGray">#464B5C</color>
+    <color name="comres_buttonClickBgPressed_darkGray">#464B5C</color>
+    <color name="comres_buttonClickBgDisabled_darkGray">#464B5C</color>
+    <color name="comres_buttonClickStroke_darkGray">#00000000</color>
+    <color name="comres_buttonClickText_darkGray">#FFFFFF</color>
+
     <!-- Button click white colors. -->
     <color name="comres_buttonClickBgNormal_white">#FFFFFF</color>
     <color name="comres_buttonClickBgPressed_white">#F8F8F8</color>
     <color name="comres_buttonClickBgDisabled_white">#CACACA</color>
     <color name="comres_buttonClickStroke_white">#00000000</color>
     <color name="comres_buttonClickText_white">#666666</color>
+    <!--<color name="comres_buttonClickText_white">#464B5C</color>-->
 
     <!-- Button click transparent colors. -->
     <color name="comres_buttonClickBgNormal_transparent">#00000000</color>

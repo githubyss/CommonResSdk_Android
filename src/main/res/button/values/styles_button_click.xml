@@ -12,6 +12,18 @@
         <item name="android:padding">@dimen/comres_sideMargin_nano</item>
     </style>
 
+    <!-- Button click rectangle dark gray style. -->
+    <style name="comres_buttonClick_rectangle_darkGray_style">
+        <item name="android:background">@drawable/comres_button_click_bg_rectangle_micro_dark_gray</item>
+        <item name="android:textColor">@color/comres_buttonClickText_darkGray</item>
+        <item name="android:textSize">@dimen/comres_buttonClickTextSize_default</item>
+        <item name="android:enabled">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/comres_sideMargin_nano</item>
+    </style>
+
     <!-- Button click rectangle white style. -->
     <style name="comres_buttonClick_rectangle_white_style">
         <item name="android:background">@drawable/comres_button_click_bg_rectangle_micro_white</item>

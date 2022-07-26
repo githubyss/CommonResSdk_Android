@@ -138,5 +138,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation dependenciesLib.androidx_compose_material
+    implementation dependenciesLib.androidx_constraintlayout_compose
     implementation dependenciesLib.google_flexbox
 }
