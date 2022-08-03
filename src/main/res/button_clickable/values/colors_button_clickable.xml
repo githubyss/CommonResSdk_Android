@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button clickable blue colors. -->
+    <color name="comres_button_clickable_bg_normal_blue">#3399FF</color>
+    <color name="comres_button_clickable_bg_pressed_blue">#3089E5</color>
+    <color name="comres_button_clickable_bg_disabled_blue">#E8E8E8</color>
+    <color name="comres_button_clickable_text_normal_blue">#FFFFFF</color>
+    <color name="comres_button_clickable_text_pressed_blue">#FFFFFF</color>
+    <color name="comres_button_clickable_text_disabled_blue">#99FFFFFF</color>
+
+    <!-- Button clickable graydark colors. -->
+    <color name="comres_button_clickable_bg_normal_graydark">#464B5C</color>
+    <color name="comres_button_clickable_bg_pressed_graydark">#CC464B5C</color>
+    <color name="comres_button_clickable_bg_disabled_graydark">#99464B5C</color>
+    <color name="comres_button_clickable_text_normal_graydark">#FFFFFF</color>
+    <color name="comres_button_clickable_text_pressed_graydark">#FFFFFF</color>
+    <color name="comres_button_clickable_text_disabled_graydark">#99FFFFFF</color>
+
+    <!-- Button clickable graylight colors. -->
+    <color name="comres_button_clickable_bg_normal_graylight">#D2D4DA</color>
+    <color name="comres_button_clickable_bg_pressed_graylight">#CCD2D4DA</color>
+    <color name="comres_button_clickable_bg_disabled_graylight">#99D2D4DA</color>
+    <color name="comres_button_clickable_text_normal_graylight">#464B5C</color>
+    <color name="comres_button_clickable_text_pressed_graylight">#464B5C</color>
+    <color name="comres_button_clickable_text_disabled_graylight">#99464B5C</color>
+
+    <!-- Button clickable white scheme 1 colors. -->
+    <color name="comres_button_clickable_bg_normal_white_scheme_1">#FFFFFF</color>
+    <color name="comres_button_clickable_bg_pressed_white_scheme_1">#F8F8F8</color>
+    <color name="comres_button_clickable_bg_disabled_white_scheme_1">#CACACA</color>
+    <color name="comres_button_clickable_stroke_white_scheme_1">#666666</color>
+    <color name="comres_button_clickable_text_normal_white_scheme_1">#666666</color>
+    <color name="comres_button_clickable_text_pressed_white_scheme_1">#666666</color>
+    <color name="comres_button_clickable_text_disabled_white_scheme_1">#99666666</color>
+
+    <!-- Button clickable white scheme 2 colors. -->
+    <color name="comres_button_clickable_bg_normal_white_scheme_2">#FFFFFF</color>
+    <color name="comres_button_clickable_bg_pressed_white_scheme_2">#F8F8F8</color>
+    <color name="comres_button_clickable_bg_disabled_white_scheme_2">#CACACA</color>
+    <color name="comres_button_clickable_stroke_white_scheme_2">#464B5C</color>
+    <color name="comres_button_clickable_text_normal_white_scheme_2">#464B5C</color>
+    <color name="comres_button_clickable_text_pressed_white_scheme_2">#464B5C</color>
+    <color name="comres_button_clickable_text_disabled_white_scheme_2">#99464B5C</color>
+
+    <!-- Button clickable transparent colors. -->
+    <color name="comres_button_clickable_bg_normal_transparent">#00000000</color>
+    <color name="comres_button_clickable_bg_pressed_transparent">#05FFFFFF</color>
+    <color name="comres_button_clickable_bg_disabled_transparent">#CACACA</color>
+    <color name="comres_button_clickable_stroke_transparent">#999999</color>
+    <color name="comres_button_clickable_text_normal_transparent">#666666</color>
+    <color name="comres_button_clickable_text_pressed_transparent">#666666</color>
+    <color name="comres_button_clickable_text_disabled_transparent">#99666666</color>
+</resources>

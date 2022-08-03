@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button clickable common style. -->
+    <style name="comres_button_clickable_common">
+        <item name="android:enabled">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/comres_sideMargin_nano</item>
+    </style>
+
+    <!-- Button clickable blue no border rectangle style. -->
+    <style name="comres_button_clickable_blue_no_border_rectangle_2dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_blue_no_border_rectangle_2dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_blue_no_border_rectangle_2dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <style name="comres_button_clickable_blue_no_border_rectangle_4dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_blue_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_blue_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <style name="comres_button_clickable_blue_no_border_rectangle_8dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_blue_no_border_rectangle_8dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_blue_no_border_rectangle_8dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <!-- Button clickable graydark no border rectangle style. -->
+    <style name="comres_button_clickable_graydark_no_border_rectangle_2dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_graydark_no_border_rectangle_2dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_graydark_no_border_rectangle_2dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <style name="comres_button_clickable_graydark_no_border_rectangle_4dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_graydark_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_graydark_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <!-- Button clickable graylight no border rectangle style. -->
+    <style name="comres_button_clickable_graylight_no_border_rectangle_4dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_graylight_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_graylight_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <style name="comres_button_clickable_graylight_no_border_rectangle_8dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_graylight_no_border_rectangle_8dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_graylight_no_border_rectangle_8dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <!-- Button clickable transparent with border rectangle style. -->
+    <style name="comres_button_clickable_transparent_with_border_rectangle_2dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_transparent_with_border_rectangle_2dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_transparent_with_border_rectangle_2dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <!-- Button clickable white no border rectangle style. -->
+    <style name="comres_button_clickable_white_no_border_rectangle_2dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_white_no_border_rectangle_2dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_white_no_border_rectangle_2dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <style name="comres_button_clickable_white_no_border_rectangle_4dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_white_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_white_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <!-- Button clickable white with border rectangle style. -->
+    <style name="comres_button_clickable_white_with_border_rectangle_2dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_white_with_border_rectangle_2dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_white_with_border_rectangle_2dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+
+    <style name="comres_button_clickable_white_with_border_rectangle_4dp_round_all"
+           parent="comres_button_clickable_common">
+        <item name="android:background">@drawable/comres_button_clickable_bg_white_with_border_rectangle_4dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_white_with_border_rectangle_4dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
+    </style>
+</resources>

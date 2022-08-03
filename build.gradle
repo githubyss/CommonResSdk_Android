@@ -76,9 +76,9 @@ android {
 
                 srcDirs 'src/main/res/flexbox_layout'
 
-                srcDirs 'src/main/res/button'
+                srcDirs 'src/main/res/button_checkable'
+                srcDirs 'src/main/res/button_clickable'
                 srcDirs 'src/main/res/card'
-                srcDirs 'src/main/res/check_box'
                 srcDirs 'src/main/res/input'
                 srcDirs 'src/main/res/label'
                 srcDirs 'src/main/res/launcher'

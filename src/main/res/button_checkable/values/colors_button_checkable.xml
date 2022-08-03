@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button checkable gray-blue colors. -->
+    <color name="comres_button_checkable_bg_normal_gray_blue">#999999</color>
+    <color name="comres_button_checkable_bg_checked_gray_blue">#3399FF</color>
+    <color name="comres_button_checkable_bg_disabled_gray_blue">#E8E8E8</color>
+    <color name="comres_button_checkable_stroke_gray_blue">#00000000</color>
+    <color name="comres_button_checkable_text_normal_gray_blue">#CCFFFFFF</color>
+    <color name="comres_button_checkable_text_checked_gray_blue">#FFFFFF</color>
+    <color name="comres_button_checkable_text_disabled_gray_blue">#99FFFFFF</color>
+
+    <!-- Button checkable blue-transparent colors. -->
+    <color name="comres_button_checkable_bg_normal_start_blue_transparent">#2D7DFF</color>
+    <color name="comres_button_checkable_bg_normal_end_blue_transparent">#3E51EA</color>
+    <color name="comres_button_checkable_bg_normal_blue_transparent">#3399FF</color>
+    <color name="comres_button_checkable_bg_checked_blue_transparent">#00000000</color>
+    <color name="comres_button_checkable_bg_disabled_blue_transparent">#E8E8E8</color>
+    <color name="comres_button_checkable_stroke_blue_transparent">#999999</color>
+    <color name="comres_button_checkable_text_normal_blue_transparent">#FFFFFF</color>
+    <color name="comres_button_checkable_text_checked_blue_transparent">#666666</color>
+    <color name="comres_button_checkable_text_disabled_blue_transparent">#99666666</color>
+</resources>

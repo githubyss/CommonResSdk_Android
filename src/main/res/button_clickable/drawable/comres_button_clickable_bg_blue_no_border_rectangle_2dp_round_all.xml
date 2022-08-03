@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/comres_button_clickable_text_normal_blue"
+          android:state_enabled="true"
+          android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comres_button_clickable_bg_normal_blue" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <item android:color="@color/comres_button_clickable_text_normal_blue"
+          android:state_enabled="true"
+          android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comres_button_clickable_bg_pressed_blue" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <item android:color="@color/comres_button_clickable_text_normal_blue"
+          android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comres_button_clickable_bg_disabled_blue" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+</selector>

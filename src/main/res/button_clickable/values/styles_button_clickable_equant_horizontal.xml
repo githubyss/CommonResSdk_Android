@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Equant horizontal button style. -->
+    <style name="comres_equant_horizontal_button_style"
+           parent="comres_button_clickable_graydark_no_border_rectangle_2dp_round_all">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="layout_flexGrow">1</item>
+    </style>
+</resources>
