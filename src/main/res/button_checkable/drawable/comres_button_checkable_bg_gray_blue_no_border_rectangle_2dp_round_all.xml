@@ -6,8 +6,6 @@
         <shape android:shape="rectangle">
             <solid android:color="@color/comres_button_checkable_bg_normal_gray_blue" />
             <corners android:radius="@dimen/comres_cornerRadius_micro" />
-            <stroke android:color="@color/comres_button_checkable_stroke_gray_blue"
-                    android:width="@dimen/comres_strokeWidth_none" />
         </shape>
     </item>
 
@@ -17,8 +15,6 @@
         <shape android:shape="rectangle">
             <solid android:color="@color/comres_button_checkable_bg_checked_gray_blue" />
             <corners android:radius="@dimen/comres_cornerRadius_micro" />
-            <stroke android:color="@color/comres_button_checkable_stroke_gray_blue"
-                    android:width="@dimen/comres_strokeWidth_none" />
         </shape>
     </item>
 
@@ -27,8 +23,6 @@
         <shape android:shape="rectangle">
             <solid android:color="@color/comres_button_checkable_bg_disabled_gray_blue" />
             <corners android:radius="@dimen/comres_cornerRadius_micro" />
-            <stroke android:color="@color/comres_button_checkable_stroke_gray_blue"
-                    android:width="@dimen/comres_strokeWidth_none" />
         </shape>
     </item>
 </selector>

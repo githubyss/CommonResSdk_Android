@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Button checkable rectangle gray-blue style. -->
-    <style name="comres_button_checkable_rectangle_gray_blue">
-        <item name="android:background">@drawable/comres_button_checkable_bg_gray_blue_rectangle_micro_all</item>
-        <item name="android:button">@null</item>
-        <item name="android:textColor">@drawable/comres_button_checkable_bg_gray_blue_rectangle_micro_all</item>
-        <item name="android:textSize">@dimen/comres_button_checkable_text_size</item>
+    <!-- Button checkable common style. -->
+    <style name="comres_button_checkable_common">
         <item name="android:enabled">true</item>
         <item name="android:checkable">true</item>
         <item name="android:checked">false</item>
@@ -13,16 +9,28 @@
         <item name="android:layout_gravity">center</item>
     </style>
 
-    <!-- Button checkable rectangle blue-transparent style. -->
-    <style name="comres_button_checkable_rectangle_blue_transparent">
-        <item name="android:background">@drawable/comres_button_checkable_bg_blue_transparent_rectangle_micro_all</item>
+    <!-- Button checkable gray-blue no border rectangle style. -->
+    <style name="comres_button_checkable_gray_blue_no_border_rectangle_2dp_round_all"
+           parent="comres_button_checkable_common">
+        <item name="android:background">@drawable/comres_button_checkable_bg_gray_blue_no_border_rectangle_2dp_round_all</item>
         <item name="android:button">@null</item>
-        <item name="android:textColor">@drawable/comres_button_checkable_bg_blue_transparent_rectangle_micro_all</item>
+        <item name="android:textColor">@drawable/comres_button_checkable_bg_gray_blue_no_border_rectangle_2dp_round_all</item>
         <item name="android:textSize">@dimen/comres_button_checkable_text_size</item>
-        <item name="android:enabled">true</item>
-        <item name="android:checkable">true</item>
-        <item name="android:checked">false</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Button checkable blue-transparent with border rectangle style. -->
+    <style name="comres_button_checkable_blue_transparent_with_border_rectangle_2dp_round_all"
+           parent="comres_button_checkable_common">
+        <item name="android:background">@drawable/comres_button_checkable_bg_blue_transparent_with_border_rectangle_2dp_round_all</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@drawable/comres_button_checkable_bg_blue_transparent_with_border_rectangle_2dp_round_all</item>
+        <item name="android:textSize">@dimen/comres_button_checkable_text_size</item>
+    </style>
+
+    <!-- Button checkable round tick style. -->
+    <style name="comres_button_checkable_round_tick"
+           parent="comres_button_checkable_common">
+        <item name="android:background">@drawable/comres_button_checkable_bg_round_tick</item>
+        <item name="android:button">@null</item>
     </style>
 </resources>
