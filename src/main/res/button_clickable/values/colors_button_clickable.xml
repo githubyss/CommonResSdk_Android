@@ -28,26 +28,43 @@
     <color name="comres_button_clickable_bg_normal_white_scheme_1">#FFFFFF</color>
     <color name="comres_button_clickable_bg_pressed_white_scheme_1">#F8F8F8</color>
     <color name="comres_button_clickable_bg_disabled_white_scheme_1">#CACACA</color>
-    <color name="comres_button_clickable_stroke_white_scheme_1">#666666</color>
     <color name="comres_button_clickable_text_normal_white_scheme_1">#666666</color>
     <color name="comres_button_clickable_text_pressed_white_scheme_1">#666666</color>
     <color name="comres_button_clickable_text_disabled_white_scheme_1">#99666666</color>
 
-    <!-- Button clickable white scheme 2 colors. -->
-    <color name="comres_button_clickable_bg_normal_white_scheme_2">#FFFFFF</color>
-    <color name="comres_button_clickable_bg_pressed_white_scheme_2">#F8F8F8</color>
-    <color name="comres_button_clickable_bg_disabled_white_scheme_2">#CACACA</color>
-    <color name="comres_button_clickable_stroke_white_scheme_2">#464B5C</color>
-    <color name="comres_button_clickable_text_normal_white_scheme_2">#464B5C</color>
-    <color name="comres_button_clickable_text_pressed_white_scheme_2">#464B5C</color>
-    <color name="comres_button_clickable_text_disabled_white_scheme_2">#99464B5C</color>
+    <!-- Button clickable transparent scheme 1 colors. -->
+    <color name="comres_button_clickable_bg_normal_transparent_scheme_1">#00FFFFFF</color>
+    <color name="comres_button_clickable_bg_pressed_transparent_scheme_1">#05FFFFFF</color>
+    <color name="comres_button_clickable_bg_disabled_transparent_scheme_1">#CACACA</color>
+    <color name="comres_button_clickable_stroke_transparent_scheme_1">#999999</color>
+    <color name="comres_button_clickable_text_normal_transparent_scheme_1">#666666</color>
+    <color name="comres_button_clickable_text_pressed_transparent_scheme_1">#666666</color>
+    <color name="comres_button_clickable_text_disabled_transparent_scheme_1">#99666666</color>
 
-    <!-- Button clickable transparent colors. -->
-    <color name="comres_button_clickable_bg_normal_transparent">#00000000</color>
-    <color name="comres_button_clickable_bg_pressed_transparent">#05FFFFFF</color>
-    <color name="comres_button_clickable_bg_disabled_transparent">#CACACA</color>
-    <color name="comres_button_clickable_stroke_transparent">#999999</color>
-    <color name="comres_button_clickable_text_normal_transparent">#666666</color>
-    <color name="comres_button_clickable_text_pressed_transparent">#666666</color>
-    <color name="comres_button_clickable_text_disabled_transparent">#99666666</color>
+    <!-- Button clickable transparent scheme 2 colors. -->
+    <color name="comres_button_clickable_bg_normal_transparent_scheme_2">#00FFFFFF</color>
+    <color name="comres_button_clickable_bg_pressed_transparent_scheme_2">#05FFFFFF</color>
+    <color name="comres_button_clickable_bg_disabled_transparent_scheme_2">#CACACA</color>
+    <color name="comres_button_clickable_stroke_transparent_scheme_2">#3F434F</color>
+    <color name="comres_button_clickable_text_normal_transparent_scheme_2">#3F434F</color>
+    <color name="comres_button_clickable_text_pressed_transparent_scheme_2">#3F434F</color>
+    <color name="comres_button_clickable_text_disabled_transparent_scheme_2">#993F434F</color>
+
+    <!-- Button clickable transparent scheme 3 colors. -->
+    <color name="comres_button_clickable_bg_normal_transparent_scheme_3">#00FFFFFF</color>
+    <color name="comres_button_clickable_bg_pressed_transparent_scheme_3">#05FFFFFF</color>
+    <color name="comres_button_clickable_bg_disabled_transparent_scheme_3">#CACACA</color>
+    <color name="comres_button_clickable_stroke_transparent_scheme_3">#464B5C</color>
+    <color name="comres_button_clickable_text_normal_transparent_scheme_3">#464B5C</color>
+    <color name="comres_button_clickable_text_pressed_transparent_scheme_3">#464B5C</color>
+    <color name="comres_button_clickable_text_disabled_transparent_scheme_3">#99464B5C</color>
+
+    <!-- Button clickable transparent scheme 4 colors. -->
+    <color name="comres_button_clickable_bg_normal_transparent_scheme_4">#00FFFFFF</color>
+    <color name="comres_button_clickable_bg_pressed_transparent_scheme_4">#05FFFFFF</color>
+    <color name="comres_button_clickable_bg_disabled_transparent_scheme_4">#CACACA</color>
+    <color name="comres_button_clickable_stroke_transparent_scheme_4">#5F7BE4</color>
+    <color name="comres_button_clickable_text_normal_transparent_scheme_4">#5F7BE4</color>
+    <color name="comres_button_clickable_text_pressed_transparent_scheme_4">#5F7BE4</color>
+    <color name="comres_button_clickable_text_disabled_transparent_scheme_4">#995F7BE4</color>
 </resources>

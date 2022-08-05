@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/comres_button_clickable_text_normal_transparent_scheme_3"
+          android:state_enabled="true"
+          android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comres_button_clickable_bg_normal_transparent_scheme_3" />
+            <corners android:radius="2dp" />
+            <stroke android:color="@color/comres_button_clickable_stroke_transparent_scheme_3"
+                    android:width="1dp" />
+        </shape>
+    </item>
+
+    <item android:color="@color/comres_button_clickable_text_normal_transparent_scheme_3"
+          android:state_enabled="true"
+          android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comres_button_clickable_bg_pressed_transparent_scheme_3" />
+            <corners android:radius="2dp" />
+            <stroke android:color="@color/comres_button_clickable_stroke_transparent_scheme_3"
+                    android:width="1dp" />
+        </shape>
+    </item>
+
+    <item android:color="@color/comres_button_clickable_text_normal_transparent_scheme_3"
+          android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comres_button_clickable_bg_disabled_transparent_scheme_3" />
+            <corners android:radius="2dp" />
+            <stroke android:color="@color/comres_button_clickable_stroke_transparent_scheme_3"
+                    android:width="1dp" />
+        </shape>
+    </item>
+</selector>
