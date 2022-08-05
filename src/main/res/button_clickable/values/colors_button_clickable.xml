@@ -16,13 +16,21 @@
     <color name="comres_button_clickable_text_pressed_graydark">#FFFFFF</color>
     <color name="comres_button_clickable_text_disabled_graydark">#99FFFFFF</color>
 
-    <!-- Button clickable graylight colors. -->
-    <color name="comres_button_clickable_bg_normal_graylight">#D2D4DA</color>
-    <color name="comres_button_clickable_bg_pressed_graylight">#CCD2D4DA</color>
-    <color name="comres_button_clickable_bg_disabled_graylight">#99D2D4DA</color>
-    <color name="comres_button_clickable_text_normal_graylight">#464B5C</color>
-    <color name="comres_button_clickable_text_pressed_graylight">#464B5C</color>
-    <color name="comres_button_clickable_text_disabled_graylight">#99464B5C</color>
+    <!-- Button clickable graylight scheme 1 colors. -->
+    <color name="comres_button_clickable_bg_normal_graylight_scheme_1">#D2D4DA</color>
+    <color name="comres_button_clickable_bg_pressed_graylight_scheme_1">#CCD2D4DA</color>
+    <color name="comres_button_clickable_bg_disabled_graylight_scheme_1">#99D2D4DA</color>
+    <color name="comres_button_clickable_text_normal_graylight_scheme_1">#464B5C</color>
+    <color name="comres_button_clickable_text_pressed_graylight_scheme_1">#464B5C</color>
+    <color name="comres_button_clickable_text_disabled_graylight_scheme_1">#99464B5C</color>
+
+    <!-- Button clickable graylight scheme 2 colors. -->
+    <color name="comres_button_clickable_bg_normal_graylight_scheme_2">#DCDEE4</color>
+    <color name="comres_button_clickable_bg_pressed_graylight_scheme_2">#CCDCDEE4</color>
+    <color name="comres_button_clickable_bg_disabled_graylight_scheme_2">#99DCDEE4</color>
+    <color name="comres_button_clickable_text_normal_graylight_scheme_2">#3F434F</color>
+    <color name="comres_button_clickable_text_pressed_graylight_scheme_2">#3F434F</color>
+    <color name="comres_button_clickable_text_disabled_graylight_scheme_2">#333F434F</color>
 
     <!-- Button clickable white scheme 1 colors. -->
     <color name="comres_button_clickable_bg_normal_white_scheme_1">#FFFFFF</color>

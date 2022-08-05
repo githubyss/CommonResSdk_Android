@@ -47,17 +47,17 @@
     </style>
 
     <!-- Button clickable graylight no border rectangle style. -->
-    <style name="comres_button_clickable_graylight_no_border_rectangle_4dp_round_all"
+    <style name="comres_button_clickable_graylight_1_no_border_rectangle_4dp_round_all"
            parent="comres_button_clickable_common">
-        <item name="android:background">@drawable/comres_button_clickable_bg_graylight_no_border_rectangle_4dp_round_all</item>
-        <item name="android:textColor">@drawable/comres_button_clickable_bg_graylight_no_border_rectangle_4dp_round_all</item>
+        <item name="android:background">@drawable/comres_button_clickable_bg_graylight_1_no_border_rectangle_4dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_graylight_1_no_border_rectangle_4dp_round_all</item>
         <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
     </style>
 
-    <style name="comres_button_clickable_graylight_no_border_rectangle_8dp_round_all"
+    <style name="comres_button_clickable_graylight_1_no_border_rectangle_8dp_round_all"
            parent="comres_button_clickable_common">
-        <item name="android:background">@drawable/comres_button_clickable_bg_graylight_no_border_rectangle_8dp_round_all</item>
-        <item name="android:textColor">@drawable/comres_button_clickable_bg_graylight_no_border_rectangle_8dp_round_all</item>
+        <item name="android:background">@drawable/comres_button_clickable_bg_graylight_1_no_border_rectangle_8dp_round_all</item>
+        <item name="android:textColor">@drawable/comres_button_clickable_bg_graylight_1_no_border_rectangle_8dp_round_all</item>
         <item name="android:textSize">@dimen/comres_button_clickable_text_size</item>
     </style>
 
