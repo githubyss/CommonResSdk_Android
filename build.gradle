@@ -125,8 +125,10 @@ android {
         }
     }
 
-    dataBinding {
-        enabled feature.isDataBindingEnabled
+    if (isLaunchApp) {
+        dataBinding {
+            enabled feature.isDataBindingEnabled
+        }
     }
 
     buildFeatures {
@@ -137,7 +139,11 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation dependenciesLib.androidx_compose_material
     implementation dependenciesLib.androidx_constraintlayout_compose
+    implementation dependenciesLib.androidx_compose_material
     implementation dependenciesLib.google_flexbox
+
+    if (isLaunchApp) {
+        appImplementation project(':CommonBaseSdk_Android')
+    }
 }
