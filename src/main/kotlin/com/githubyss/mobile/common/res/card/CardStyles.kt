@@ -15,74 +15,74 @@ import androidx.compose.ui.unit.TextUnit
 
 
 @Stable
-inline val MaterialTheme.cardShapeRound: Shape
+inline val MaterialTheme.cardShapeRound
     get() = RoundedCornerShape(Dp.cardCornerRadius)
 
 @Stable
-inline val MaterialTheme.cardShapeRoundTop: Shape
+inline val MaterialTheme.cardShapeRoundTop
     get() = RoundedCornerShape(Dp.cardCornerRadius).copy(bottomStart = ZeroCornerSize, bottomEnd = ZeroCornerSize)
 
 @Stable
-inline val MaterialTheme.cardShapeRoundBottom: Shape
+inline val MaterialTheme.cardShapeRoundBottom
     get() = RoundedCornerShape(Dp.cardCornerRadius).copy(topStart = ZeroCornerSize, topEnd = ZeroCornerSize)
 
 @Stable
-inline val MaterialTheme.cardShapeRectangle: Shape
+inline val MaterialTheme.cardShapeRectangle
     get() = RectangleShape
 
 
 /** Card orange style. */
 
 @Stable
-inline val MaterialTheme.cardOrangeBackground: Brush
+inline val MaterialTheme.cardOrangeBackground
     get() = Brush.horizontalGradient(colors = listOf(Color.cardOrangeBgStart, Color.cardOrangeBgEnd))
 
 @Stable
-inline val MaterialTheme.cardOrangeBorder: BorderStroke
+inline val MaterialTheme.cardOrangeBorder
     get() = BorderStroke(width = Dp.cardBorderWidth, color = Color.cardOrangeBorderColor)
 
 @Stable
-inline val MaterialTheme.cardOrangeTextPrimary: TextStyle
+inline val MaterialTheme.cardOrangeTextPrimary
     get() = TextStyle(color = Color.cardOrangeContent, fontSize = TextUnit.cardPrimaryFontSize)
 
 @Stable
-inline val MaterialTheme.cardOrangeTextSecondary: TextStyle
+inline val MaterialTheme.cardOrangeTextSecondary
     get() = TextStyle(color = Color.cardOrangeContent, fontSize = TextUnit.cardSecondaryFontSize)
 
 
 /** Card white style. */
 
 @Stable
-inline val MaterialTheme.cardWhiteBackground: Brush
+inline val MaterialTheme.cardWhiteBackground
     get() = Brush.horizontalGradient(colors = listOf(Color.cardWhiteBgStart, Color.cardWhiteBgEnd))
 
 @Stable
-inline val MaterialTheme.cardWhiteBorder: BorderStroke
+inline val MaterialTheme.cardWhiteBorder
     get() = BorderStroke(Dp.cardBorderWidth, Color.cardWhiteBorderColor)
 
 @Stable
-inline val MaterialTheme.cardWhiteTextPrimary: TextStyle
+inline val MaterialTheme.cardWhiteTextPrimary
     get() = TextStyle(color = Color.cardWhiteContent, fontSize = TextUnit.cardPrimaryFontSize)
 
 @Stable
-inline val MaterialTheme.cardWhiteTextSecondary: TextStyle
+inline val MaterialTheme.cardWhiteTextSecondary
     get() = TextStyle(color = Color.cardWhiteContent, fontSize = TextUnit.cardSecondaryFontSize)
 
 
 /** Card transparent style. */
 
 @Stable
-inline val MaterialTheme.cardTransparentBackground: Color
+inline val MaterialTheme.cardTransparentBackground
     get() = Color.cardTransparentBg
 
 @Stable
-inline val MaterialTheme.cardTransparentBorder: BorderStroke
+inline val MaterialTheme.cardTransparentBorder
     get() = BorderStroke(Dp.cardBorderWidth, Color.cardTransparentBorderColor)
 
 @Stable
-inline val MaterialTheme.cardTransparentTextPrimary: TextStyle
+inline val MaterialTheme.cardTransparentTextPrimary
     get() = TextStyle(color = Color.cardTransparentContent, fontSize = TextUnit.cardPrimaryFontSize)
 
 @Stable
-inline val MaterialTheme.cardTransparentTextSecondary: TextStyle
+inline val MaterialTheme.cardTransparentTextSecondary
     get() = TextStyle(color = Color.cardTransparentContent, fontSize = TextUnit.cardSecondaryFontSize)

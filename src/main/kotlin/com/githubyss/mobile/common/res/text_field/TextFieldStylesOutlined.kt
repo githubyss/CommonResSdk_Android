@@ -12,14 +12,14 @@ import androidx.compose.ui.unit.Dp
 
 
 @Stable
-inline val TextFieldDefaults.textFieldOutlinedShape: Shape
+inline val TextFieldDefaults.textFieldOutlinedShape
     get() = RoundedCornerShape(Dp.textFieldCornerRadius)
 
 
 /** Text field black style. */
 
 @Stable
-inline val TextFieldDefaults.textFieldBlackOutlinedColors: TextFieldColors
+inline val TextFieldDefaults.textFieldBlackOutlinedColors
     @Composable
     get() = TextFieldDefaults.textFieldColors(
         backgroundColor = Color.textFieldBlackOutlinedBackgroundNormal,
@@ -35,5 +35,5 @@ inline val TextFieldDefaults.textFieldBlackOutlinedColors: TextFieldColors
     )
 
 @Stable
-inline val TextFieldDefaults.textFieldBlackOutlinedBorder: BorderStroke
+inline val TextFieldDefaults.textFieldBlackOutlinedBorder
     get() = BorderStroke(Dp.textFieldBorderWidth, Color.textFieldBlackOutlinedBorderColor)

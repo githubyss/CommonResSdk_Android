@@ -11,14 +11,14 @@ import com.githubyss.mobile.common.res.common.dimen.FontSizeTiny
 /** Text field corner radius. */
 
 @Stable
-inline val Dp.Companion.textFieldCornerRadius: Dp
+inline val Dp.Companion.textFieldCornerRadius
     get() = Dp.CornerRadiusTiny
 
 
 /** Text field border width. */
 
 @Stable
-inline val Dp.Companion.textFieldBorderWidth: Dp
+inline val Dp.Companion.textFieldBorderWidth
     get() = Dp.BorderWidthThin
 
 

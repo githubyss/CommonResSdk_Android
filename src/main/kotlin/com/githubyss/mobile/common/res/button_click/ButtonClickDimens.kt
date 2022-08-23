@@ -11,14 +11,14 @@ import com.githubyss.mobile.common.res.common.dimen.FontSizeTiny
 /** Button click corner radius. */
 
 @Stable
-inline val Dp.Companion.buttonClickCornerRadius: Dp
+inline val Dp.Companion.buttonClickCornerRadius
     get() = Dp.CornerRadiusMicro
 
 
 /** Button click border width. */
 
 @Stable
-inline val Dp.Companion.buttonClickBorderWidth: Dp
+inline val Dp.Companion.buttonClickBorderWidth
     get() = Dp.BorderWidthThin
 
 

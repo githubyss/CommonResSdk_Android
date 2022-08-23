@@ -15,14 +15,14 @@ import com.githubyss.mobile.common.res.common.dimen.CornerRadiusNone
 
 
 @Stable
-inline val TextFieldDefaults.textFieldShape: Shape
+inline val TextFieldDefaults.textFieldShape
     get() = RoundedCornerShape(Dp.textFieldCornerRadius).copy(bottomStart = ZeroCornerSize, bottomEnd = CornerSize(Dp.CornerRadiusNone))
 
 
 /** Text field black style. */
 
 @Stable
-inline val TextFieldDefaults.textFieldBlackColors: TextFieldColors
+inline val TextFieldDefaults.textFieldBlackColors
     @Composable
     get() = TextFieldDefaults.textFieldColors(
         backgroundColor = Color.textFieldBlackBackgroundNormal,
@@ -38,14 +38,14 @@ inline val TextFieldDefaults.textFieldBlackColors: TextFieldColors
     )
 
 @Stable
-inline val TextFieldDefaults.textFieldBlackBorder: BorderStroke
+inline val TextFieldDefaults.textFieldBlackBorder
     get() = BorderStroke(Dp.textFieldBorderWidth, Color.textFieldBlackBorderColor)
 
 
 /** Text field transparent style. */
 
 @Stable
-inline val TextFieldDefaults.textFieldTransparentColors: TextFieldColors
+inline val TextFieldDefaults.textFieldTransparentColors
     @Composable
     get() = TextFieldDefaults.textFieldColors(
         backgroundColor = Color.textFieldTransparentBackgroundNormal,
@@ -61,5 +61,5 @@ inline val TextFieldDefaults.textFieldTransparentColors: TextFieldColors
     )
 
 @Stable
-inline val TextFieldDefaults.textFieldTransparentBorder: BorderStroke
+inline val TextFieldDefaults.textFieldTransparentBorder
     get() = BorderStroke(Dp.textFieldBorderWidth, Color.textFieldTransparentBorderColor)

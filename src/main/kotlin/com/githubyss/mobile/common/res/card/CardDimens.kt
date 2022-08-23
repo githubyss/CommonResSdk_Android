@@ -12,14 +12,14 @@ import com.githubyss.mobile.common.res.common.dimen.FontSizeSmall
 /** Card corner radius. */
 
 @Stable
-inline val Dp.Companion.cardCornerRadius: Dp
+inline val Dp.Companion.cardCornerRadius
     get() = Dp.CornerRadiusNormal
 
 
 /** Card border width. */
 
 @Stable
-inline val Dp.Companion.cardBorderWidth: Dp
+inline val Dp.Companion.cardBorderWidth
     get() = Dp.BorderWidthThin
 
 

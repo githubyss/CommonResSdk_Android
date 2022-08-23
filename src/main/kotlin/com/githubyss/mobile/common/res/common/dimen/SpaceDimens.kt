@@ -8,60 +8,60 @@ import androidx.compose.ui.unit.dp
 /* Overall space / margin / padding dimens. */
 
 @Stable
-inline val Dp.Companion.SpaceNone: Dp
+inline val Dp.Companion.SpaceNone
     get() = 0.dp
 
 @Stable
-inline val Dp.Companion.SpaceNano: Dp
+inline val Dp.Companion.SpaceNano
     get() = 2.dp
 
 @Stable
-inline val Dp.Companion.SpaceMicro: Dp
+inline val Dp.Companion.SpaceMicro
     get() = 5.dp
 
 @Stable
-inline val Dp.Companion.SpaceMini: Dp
+inline val Dp.Companion.SpaceMini
     get() = 8.dp
 
 @Stable
-inline val Dp.Companion.SpaceTiny: Dp
+inline val Dp.Companion.SpaceTiny
     get() = 10.dp
 
 @Stable
-inline val Dp.Companion.SpaceSmall: Dp
+inline val Dp.Companion.SpaceSmall
     get() = 12.dp
 
 @Stable
-inline val Dp.Companion.SpaceNormal: Dp
+inline val Dp.Companion.SpaceNormal
     get() = 14.dp
 
 @Stable
-inline val Dp.Companion.SpaceBig: Dp
+inline val Dp.Companion.SpaceBig
     get() = 16.dp
 
 @Stable
-inline val Dp.Companion.SpaceLarge: Dp
+inline val Dp.Companion.SpaceLarge
     get() = 20.dp
 
 @Stable
-inline val Dp.Companion.SpaceHuge: Dp
+inline val Dp.Companion.SpaceHuge
     get() = 25.dp
 
 
 /* Default space / margin / padding dimens. */
 
 @Stable
-inline val Dp.Companion.SpaceSideMarginDefault: Dp
+inline val Dp.Companion.SpaceSideMarginDefault
     get() = Dp.SpaceNormal
 
 @Stable
-inline val Dp.Companion.SpaceTextPaddingDefault: Dp
+inline val Dp.Companion.SpaceTextPaddingDefault
     get() = Dp.SpaceTiny
 
 @Stable
-inline val Dp.Companion.SpaceButtonPaddingDefault: Dp
+inline val Dp.Companion.SpaceButtonPaddingDefault
     get() = Dp.SpaceTiny
 
 @Stable
-inline val Dp.Companion.SpaceCardPaddingDefault: Dp
+inline val Dp.Companion.SpaceCardPaddingDefault
     get() = Dp.SpaceNormal

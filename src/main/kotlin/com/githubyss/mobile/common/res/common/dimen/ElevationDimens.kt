@@ -8,13 +8,13 @@ import androidx.compose.ui.unit.dp
 /** Overall elevation dimens. */
 
 @Stable
-inline val Dp.Companion.ElevationNone: Dp
+inline val Dp.Companion.ElevationNone
     get() = 0.dp
 
 @Stable
-inline val Dp.Companion.ElevationLow: Dp
+inline val Dp.Companion.ElevationLow
     get() = 1.dp
 
 @Stable
-inline val Dp.Companion.ElevationHigh: Dp
+inline val Dp.Companion.ElevationHigh
     get() = 10.dp

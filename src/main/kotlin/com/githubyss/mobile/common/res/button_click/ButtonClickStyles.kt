@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.Dp
 
 
 @Stable
-inline val ButtonDefaults.buttonClickShape: Shape
+inline val ButtonDefaults.buttonClickShape
     get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
 
 
@@ -32,7 +32,7 @@ fun ButtonDefaults.buttonClickBlueBackground(pressState: Boolean): ButtonColors 
 }
 
 @Stable
-inline val ButtonDefaults.buttonClickBlueBorder: BorderStroke
+inline val ButtonDefaults.buttonClickBlueBorder
     get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickBlueBorderColor)
 
 
@@ -52,7 +52,7 @@ fun ButtonDefaults.buttonClickWhiteBackground(pressState: Boolean): ButtonColors
 }
 
 @Stable
-inline val ButtonDefaults.buttonClickWhiteBorder: BorderStroke
+inline val ButtonDefaults.buttonClickWhiteBorder
     get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickWhiteBorderColor)
 
 
@@ -72,5 +72,5 @@ fun ButtonDefaults.buttonClickTransparentBackground(pressState: Boolean): Button
 }
 
 @Stable
-inline val ButtonDefaults.buttonClickTransparentBorder: BorderStroke
+inline val ButtonDefaults.buttonClickTransparentBorder
     get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickTransparentBorderColor)

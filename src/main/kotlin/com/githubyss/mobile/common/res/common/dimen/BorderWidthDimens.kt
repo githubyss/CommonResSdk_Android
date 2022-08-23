@@ -8,21 +8,21 @@ import androidx.compose.ui.unit.dp
 /** Overall border width dimens. */
 
 @Stable
-inline val Dp.Companion.BorderWidthNone: Dp
+inline val Dp.Companion.BorderWidthNone
     get() = 0.dp
 
 @Stable
-inline val Dp.Companion.BorderWidthThin: Dp
+inline val Dp.Companion.BorderWidthThin
     get() = 1.dp
 
 @Stable
-inline val Dp.Companion.BorderWidthNormal: Dp
+inline val Dp.Companion.BorderWidthNormal
     get() = 2.dp
 
 @Stable
-inline val Dp.Companion.BorderWidthThick: Dp
+inline val Dp.Companion.BorderWidthThick
     get() = 5.dp
 
 @Stable
-inline val Dp.Companion.BorderWidthMargin: Dp
+inline val Dp.Companion.BorderWidthMargin
     get() = 10.dp
