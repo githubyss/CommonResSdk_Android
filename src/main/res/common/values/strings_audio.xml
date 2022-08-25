@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
     <string name="comres_audio_player_play">播放</string>
     <string name="comres_audio_player_pause">暂停</string>
     <string name="comres_audio_player_stop">停止</string>

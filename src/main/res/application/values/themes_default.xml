@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application default theme. -->
+    <style name="comresTheme_application_default"
+           parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <!-- 主要品牌色彩 -->
+        <item name="colorPrimary">#FF6200EE</item>
+        <!-- 主要品牌色彩的替代阴影 -->
+        <item name="colorPrimaryVariant">#FF3700B3</item>
+        <!-- 主要品牌色彩形成对比的颜色 -->
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorPrimaryDark">#FF303F9F</item>
+        <!-- Secondary brand color. -->
+        <!-- 次要品牌色彩，通常是主要品牌色彩的明亮补充 -->
+        <item name="colorSecondary">#FF03DAC5</item>
+        <!-- 次要品牌色彩的替代阴影 -->
+        <item name="colorSecondaryVariant">#FF018786</item>
+        <!-- 次要品牌色彩形成对比的颜色 -->
+        <item name="colorOnSecondary">#FF000000</item>
+        <item name="colorAccent">#FFFF5500</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Background color. -->
+        <item name="android:colorForeground">#FF151515</item>
+        <item name="android:colorBackground">#FFF2F2F2</item>
+        <!-- Text color. -->
+        <item name="android:textColorPrimary">#FFFF5500</item>
+        <item name="android:textColorSecondary">#FF666666</item>
+        <item name="android:textColorTertiary">#FF999999</item>
+    </style>
+
+    <!-- Application default translucent theme. -->
+    <style name="comresTheme_application_defaultTranslucent"
+           parent="comresTheme_application_default">
+        <item name="android:windowBackground">@color/comres_layoutBg_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <!-- Application default translucent fullscreen theme. -->
+    <style name="comresTheme_application_defaultTranslucentFullscreen"
+           parent="comresTheme_application_defaultTranslucent">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

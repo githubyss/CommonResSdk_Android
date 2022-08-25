@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application theme blue colors. -->
+    <color name="comres_colorPrimary_blue">#3F51B5</color>
+    <color name="comres_colorPrimaryDark_blue">#303F9F</color>
+    <color name="comres_colorPrimaryVariant_blue">#303F9F</color>
+    <color name="comres_colorOnPrimary_blue">#303F9F</color>
+    <color name="comres_colorSecondary_blue">#3F51B5</color>
+    <color name="comres_colorSecondaryVariant_blue">#3F51B5</color>
+    <color name="comres_colorOnSecondary_blue">#3F51B5</color>
+    <color name="comres_colorAccent_blue">#FF4081</color>
+
+    <!-- Application theme gray colors. -->
+    <color name="comres_colorPrimary_gray">#008577</color>
+    <color name="comres_colorPrimaryDark_gray">#00574B</color>
+    <color name="comres_colorPrimaryVariant_gray">#00574B</color>
+    <color name="comres_colorOnPrimary_gray">#00574B</color>
+    <color name="comres_colorSecondary_gray">#00574B</color>
+    <color name="comres_colorSecondaryVariant_gray">#00574B</color>
+    <color name="comres_colorOnSecondary_gray">#00574B</color>
+    <color name="comres_colorAccent_gray">#D81B60</color>
+</resources>

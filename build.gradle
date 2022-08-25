@@ -70,9 +70,10 @@ android {
                 srcDirs 'src/main/res'
                 srcDirs 'src/main/res/common'
 
-                srcDirs 'src/main/res/activity'
                 srcDirs 'src/main/res/application'
+                srcDirs 'src/main/res/activity'
                 srcDirs 'src/main/res/fragment'
+                srcDirs 'src/main/res/layout'
 
                 srcDirs 'src/main/res/flexbox_layout'
 
@@ -139,8 +140,11 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    implementation dependenciesLib.androidx_appcompat
     implementation dependenciesLib.androidx_constraintlayout_compose
     implementation dependenciesLib.androidx_compose_material
+
+    implementation dependenciesLib.google_material
     implementation dependenciesLib.google_flexbox
 
     if (isLaunchApp) {
