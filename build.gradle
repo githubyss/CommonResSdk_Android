@@ -73,7 +73,7 @@ android {
                 srcDirs 'src/main/res/application'
                 srcDirs 'src/main/res/activity'
                 srcDirs 'src/main/res/fragment'
-                srcDirs 'src/main/res/layout'
+                srcDirs 'src/main/res/layout_container'
 
                 srcDirs 'src/main/res/flexbox_layout'
 
@@ -83,7 +83,6 @@ android {
                 srcDirs 'src/main/res/input'
                 srcDirs 'src/main/res/label'
                 srcDirs 'src/main/res/launcher'
-                srcDirs 'src/main/res/separator'
                 srcDirs 'src/main/res/tag'
                 srcDirs 'src/main/res/tip'
                 srcDirs 'src/main/res/toolbar'
