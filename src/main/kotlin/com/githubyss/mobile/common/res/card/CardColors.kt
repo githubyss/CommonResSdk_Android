@@ -6,6 +6,7 @@ import androidx.compose.ui.graphics.Color
 
 /** Card orange colors. */
 
+/**  */
 @Stable
 inline val Color.Companion.cardOrangeBgStart
     get() = Color(0xFFFFA42D)
@@ -25,6 +26,7 @@ inline val Color.Companion.cardOrangeContent
 
 /** Card white colors. */
 
+/**  */
 @Stable
 inline val Color.Companion.cardWhiteBgStart
     get() = Color(0xFFFFFFFF)
@@ -44,6 +46,7 @@ inline val Color.Companion.cardWhiteContent
 
 /** Card transparent colors. */
 
+/**  */
 @Stable
 inline val Color.Companion.cardTransparentBg
     get() = Color(0x00000000)

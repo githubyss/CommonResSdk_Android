@@ -7,13 +7,18 @@ import androidx.compose.material.ButtonDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.Dp
 
 
 @Stable
-inline val ButtonDefaults.buttonClickShape
+inline val ButtonDefaults.buttonClickShapeRound
     get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
+
+@Stable
+inline val ButtonDefaults.buttonClickShapeRectangle
+    get() = RectangleShape
 
 
 /** Button click blue style. */

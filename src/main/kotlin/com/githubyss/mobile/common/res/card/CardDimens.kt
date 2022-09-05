@@ -9,22 +9,25 @@ import com.githubyss.mobile.common.res.common.dimen.FontSizeBig
 import com.githubyss.mobile.common.res.common.dimen.FontSizeSmall
 
 
-/** Card corner radius. */
+/** Card common corner radius. */
 
+/**  */
 @Stable
 inline val Dp.Companion.cardCornerRadius
     get() = Dp.CornerRadiusNormal
 
 
-/** Card border width. */
+/** Card common border width. */
 
+/**  */
 @Stable
 inline val Dp.Companion.cardBorderWidth
     get() = Dp.BorderWidthThin
 
 
-/** Card font size. */
+/** Card common font size. */
 
+/**  */
 @Stable
 inline val TextUnit.Companion.cardPrimaryFontSize: TextUnit
     get() = TextUnit.FontSizeBig

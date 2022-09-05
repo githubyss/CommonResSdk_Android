@@ -14,6 +14,8 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 
 
+/** Card common shape style. */
+
 @Stable
 inline val MaterialTheme.cardShapeRound
     get() = RoundedCornerShape(Dp.cardCornerRadius)
@@ -33,6 +35,7 @@ inline val MaterialTheme.cardShapeRectangle
 
 /** Card orange style. */
 
+/**  */
 @Stable
 inline val MaterialTheme.cardOrangeBackground
     get() = Brush.horizontalGradient(colors = listOf(Color.cardOrangeBgStart, Color.cardOrangeBgEnd))
@@ -52,6 +55,7 @@ inline val MaterialTheme.cardOrangeTextSecondary
 
 /** Card white style. */
 
+/**  */
 @Stable
 inline val MaterialTheme.cardWhiteBackground
     get() = Brush.horizontalGradient(colors = listOf(Color.cardWhiteBgStart, Color.cardWhiteBgEnd))
@@ -71,6 +75,7 @@ inline val MaterialTheme.cardWhiteTextSecondary
 
 /** Card transparent style. */
 
+/**  */
 @Stable
 inline val MaterialTheme.cardTransparentBackground
     get() = Color.cardTransparentBg

@@ -111,6 +111,10 @@ inline val TextUnit.Companion.FontSize24Sp
     get() = 24.sp
 
 @Stable
+inline val TextUnit.Companion.FontSize25Sp
+    get() = 25.sp
+
+@Stable
 inline val TextUnit.Companion.FontSize28Sp
     get() = 28.sp
 
