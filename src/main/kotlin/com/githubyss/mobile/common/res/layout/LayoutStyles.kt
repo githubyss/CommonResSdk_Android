@@ -9,6 +9,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.unit.Dp
 import com.githubyss.mobile.common.res.common.dimen.BorderWidthNone
+import com.githubyss.mobile.common.res.common.style.borderNone
+import com.githubyss.mobile.common.res.common.style.shapeRectangle
+import com.githubyss.mobile.common.res.common.style.shapeRound
 
 
 /** Layout common shape style. */
@@ -16,17 +19,17 @@ import com.githubyss.mobile.common.res.common.dimen.BorderWidthNone
 /**  */
 @Stable
 inline val MaterialTheme.layoutShapeRound
-    get() = RoundedCornerShape(Dp.layoutCornerRadius)
+    get() = MaterialTheme.shapeRound(Dp.layoutCornerRadius)
 
 @Stable
 inline val MaterialTheme.layoutShapeRectangle
-    get() = RectangleShape
+    get() = MaterialTheme.shapeRectangle
 
 /** Layout common border style. */
 
 @Stable
 inline val MaterialTheme.layoutBorderNone
-    get() = BorderStroke(Dp.BorderWidthNone, Color.Transparent)
+    get() = MaterialTheme.borderNone
 
 
 /** Layout white style. */

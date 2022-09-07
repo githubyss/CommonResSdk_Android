@@ -66,6 +66,37 @@ inline val Color.Companion.buttonClickWhiteBorderColor
     get() = Color(0x00000000)
 
 
+/** Button click gray colors. */
+
+@Stable
+inline val Color.Companion.buttonClickGrayBgNormal
+    get() = Color(0xFFF2F2F2)
+
+@Stable
+inline val Color.Companion.buttonClickGrayBgPressed
+    get() = Color(0xFFF8F8F8)
+
+@Stable
+inline val Color.Companion.buttonClickGrayBgDisabled
+    get() = Color(0xFFCACACA)
+
+@Stable
+inline val Color.Companion.buttonClickGrayTextNormal
+    get() = Color(0xFF38CB7E)
+
+@Stable
+inline val Color.Companion.buttonClickGrayTextPressed
+    get() = Color(0xFF38CB7E)
+
+@Stable
+inline val Color.Companion.buttonClickGrayTextDisabled
+    get() = Color(0xFF666666)
+
+@Stable
+inline val Color.Companion.buttonClickGrayBorderColor
+    get() = Color(0x00000000)
+
+
 /** Button click transparent colors. */
 
 @Stable

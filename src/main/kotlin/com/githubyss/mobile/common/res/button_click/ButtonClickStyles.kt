@@ -2,23 +2,38 @@ package com.githubyss.mobile.common.res.button_click
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.shape.ZeroCornerSize
 import androidx.compose.material.ButtonColors
 import androidx.compose.material.ButtonDefaults
+import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
-import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.Dp
+import com.githubyss.mobile.common.res.common.dimen.BorderWidthNone
+import com.githubyss.mobile.common.res.common.style.*
 
 
 @Stable
 inline val ButtonDefaults.buttonClickShapeRound
-    get() = RoundedCornerShape(Dp.buttonClickCornerRadius)
+    get() = MaterialTheme.shapeRound(Dp.buttonClickCornerRadius)
+
+@Stable
+inline val ButtonDefaults.buttonClickShapeRoundTop
+    get() = MaterialTheme.shapeRoundTop(Dp.buttonClickCornerRadius)
+
+@Stable
+inline val ButtonDefaults.buttonClickShapeRoundBottom
+    get() = MaterialTheme.shapeRoundBottom(Dp.buttonClickCornerRadius)
 
 @Stable
 inline val ButtonDefaults.buttonClickShapeRectangle
-    get() = RectangleShape
+    get() = MaterialTheme.shapeRectangle
+
+@Stable
+inline val MaterialTheme.buttonClickBorderNone
+    get() = MaterialTheme.borderNone
 
 
 /** Button click blue style. */
@@ -59,6 +74,26 @@ fun ButtonDefaults.buttonClickWhiteBackground(pressState: Boolean): ButtonColors
 @Stable
 inline val ButtonDefaults.buttonClickWhiteBorder
     get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickWhiteBorderColor)
+
+
+/** Button click gray style. */
+
+@Stable
+@Composable
+fun ButtonDefaults.buttonClickGrayBackground(pressState: Boolean): ButtonColors {
+    return when {
+        pressState -> ButtonDefaults.buttonColors(
+            backgroundColor = Color.buttonClickGrayBgPressed, contentColor = Color.buttonClickGrayTextPressed,
+            disabledBackgroundColor = Color.buttonClickGrayBgDisabled, disabledContentColor = Color.buttonClickGrayTextDisabled)
+        else -> ButtonDefaults.buttonColors(
+            backgroundColor = Color.buttonClickGrayBgNormal, contentColor = Color.buttonClickGrayTextNormal,
+            disabledBackgroundColor = Color.buttonClickGrayBgDisabled, disabledContentColor = Color.buttonClickGrayTextDisabled)
+    }
+}
+
+@Stable
+inline val ButtonDefaults.buttonClickGrayBorder
+    get() = BorderStroke(Dp.buttonClickBorderWidth, Color.buttonClickGrayBorderColor)
 
 
 /** Button click transparent style. */

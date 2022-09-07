@@ -22,6 +22,10 @@ inline val Color.Companion.xFF03BE7F
     get() = Color(0xFF03BE7F)
 
 @Stable
+inline val Color.Companion.xFF09BB07
+    get() = Color(0xFF09BB07)
+
+@Stable
 inline val Color.Companion.xFF121A32
     get() = Color(0xFF121A32)
 
