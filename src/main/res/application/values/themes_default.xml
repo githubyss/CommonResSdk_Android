@@ -1,48 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Application default theme. -->
+    <!-- 全局的主题，如果 Activity 没有设置专门的主题的话，会沿用 Application 的主题 -->
     <style name="comresTheme_application_default"
            parent="Theme.AppCompat.DayNight.NoActionBar">
+
         <!-- Primary brand color. -->
-        <!-- 主要品牌色彩 -->
+        <!-- colorPrimary - 应用的主要色调，ActionBar 默认使用该颜色，Toolbar 导航栏的底色 -->
         <item name="colorPrimary">#FF6200EE</item>
-        <!-- 主要品牌色彩的替代阴影 -->
-        <item name="colorPrimaryVariant">#FF3700B3</item>
-        <!-- 主要品牌色彩形成对比的颜色 -->
-        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <!-- colorPrimaryDark - 应用的主要暗色调，statusBarColor 默认使用该颜色 -->
         <item name="colorPrimaryDark">#FF303F9F</item>
+        <!-- colorOnPrimary - 应用的主要色调形成对比的颜色 -->
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <!-- colorPrimaryVariant - 应用的主要色调的替代阴影 -->
+        <item name="colorPrimaryVariant">#FF3700B3</item>
+
         <!-- Secondary brand color. -->
-        <!-- 次要品牌色彩，通常是主要品牌色彩的明亮补充 -->
+        <!-- colorSecondary - 应用的次要色调，通常是主要品牌色彩的明亮补充 -->
         <item name="colorSecondary">#FF03DAC5</item>
-        <!-- 次要品牌色彩的替代阴影 -->
+        <!-- colorSecondaryVariant - 应用的次要色调的替代阴影 -->
         <item name="colorSecondaryVariant">#FF018786</item>
-        <!-- 次要品牌色彩形成对比的颜色 -->
+        <!-- colorOnSecondary - 应用的次要色调形成对比的颜色 -->
         <item name="colorOnSecondary">#FF000000</item>
+
+        <!-- colorAccent - CheckBox、RadioButton、SwitchCompat 等一般控件的选中效果默认采用该颜色 -->
         <item name="colorAccent">#FFFF5500</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Background color. -->
+        <!-- colorControlNormal - CheckBox、RadioButton、SwitchCompat 等默认状态的颜色 -->
+        <item name="colorControlNormal">#FF018786</item>
+        <!-- colorControlHighlight - 控件按压时的色调 -->
+        <item name="colorControlHighlight">#FF018786</item>
+        <!-- colorControlActivated - 控件选中时的颜色，默认使用 colorAccent -->
+        <item name="colorControlActivated">?attr/colorAccent</item>
+
+        <!-- colorButtonNormal - Button 默认的背景颜色 -->
+        <item name="colorButtonNormal">#00000000</item>
+        <!-- colorSwitchThumbNormal - Switch Thumbs 默认状态的颜色 (switch off) -->
+        <item name="colorSwitchThumbNormal">#00000000</item>
+
+        <!-- colorForeground - 应用的前景色，ListView 的分割线、Switch 滑动区默认使用该颜色 -->
         <item name="android:colorForeground">#FF151515</item>
+        <!-- colorBackground - 应用的背景色，popMenu 的背景默认使用该颜色 -->
         <item name="android:colorBackground">#FFF2F2F2</item>
+
         <!-- Text color. -->
-        <item name="android:textColorPrimary">#FFFF5500</item>
+        <!-- textColor - Button、TextView 的文字颜色 -->
+        <item name="android:textColor">#FF353D44</item>
+        <!-- editTextColor - 默认 EditView 输入框字体的颜色 -->
+        <item name="android:editTextColor">#FF353D44</item>
+
+        <!-- textColorPrimary - 应用的主要文字颜色，ActionBar 的标题文字默认使用该颜色 -->
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <!-- textColorPrimaryDisableOnly - RadioButton、CheckBox 等控件的文字 -->
+        <item name="android:textColorPrimaryDisableOnly">#FFFF5500</item>
+        <!-- textColorSecondary -  -->
         <item name="android:textColorSecondary">#FF666666</item>
+        <!-- textColorTertiary -  -->
         <item name="android:textColorTertiary">#FF999999</item>
+
+        <!-- statusBarColor - 状态栏颜色，默认使用 colorPrimaryDark -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <!-- windowBackground - 窗口背景颜色 -->
+        <item name="android:windowBackground">#00000000</item>
+        <!-- navigationBarColor - 底部栏颜色 -->
+        <item name="android:navigationBarColor">#00000000</item>
     </style>
 
-    <!-- Application default translucent theme. -->
-    <style name="comresTheme_application_defaultTranslucent"
+    <!-- 窗口透明 & 非全屏 -->
+    <style name="comresTheme_application_default_windowTransparent"
            parent="comresTheme_application_default">
-        <item name="android:windowBackground">@color/comres_layoutBg_transparent</item>
+        <!-- windowIsTranslucent -  -->
         <item name="android:windowIsTranslucent">true</item>
+        <!-- windowBackground -  -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- windowAnimationStyle -  -->
         <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <!-- windowContentOverlay -  -->
         <item name="android:windowContentOverlay">@null</item>
+        <!-- colorBackgroundCacheHint -  -->
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
 
-    <!-- Application default translucent fullscreen theme. -->
-    <style name="comresTheme_application_defaultTranslucentFullscreen"
-           parent="comresTheme_application_defaultTranslucent">
+    <!-- 窗口透明 & 全屏 -->
+    <style name="comresTheme_application_default_windowTransparentFullscreen"
+           parent="comresTheme_application_default_windowTransparent">
+        <!-- windowFullscreen - 设置全屏模式 -->
         <item name="android:windowFullscreen">true</item>
     </style>
+
+    <!-- 沉浸式状态、导航栏（全透明） & 窗口透明 & 非全屏 -->
+    <style name="comresTheme_application_default_statusNavigationTransparent"
+           parent="comresTheme_application_default_windowTransparent">
+        <!-- windowTranslucentStatus - Android 4.4（API 19） - Android 5.0（API 21）实现沉浸式的方式，设置为 true 可以实现沉浸式状态栏，问题是会导致标题栏和状态栏重叠了，相当于整个布局上移了 StatusBar 的高度。Android 5.0（API 21）以上无需设置，或设置 false -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <!-- windowTranslucentNavigation -  -->
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- windowDrawsSystemBarBackgrounds - Android 5.0（API 21）以上实现沉浸式的方式，Window 负责系统 bar 的 background 绘制，绘制透明背景的系统 bar（状态栏和导航栏），然后用 statusBarColor 和 navigationBarColor 的颜色填充相应的区域 -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- statusBarColor - 状态栏颜色，使用全透明实现沉浸式状态栏 -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- navigationBarColor - 底部栏颜色，使用全透明实现沉浸式底部栏 -->
+        <item name="android:navigationBarColor">#99999999</item>
+    </style>
+
+    <!-- 图片延伸到状态栏 & 窗口透明 & 非全屏 -->
+    <style name="comresTheme_application_default_statusImage"
+           parent="comresTheme_application_default_windowTransparent">
+        <!-- windowTranslucentStatus - Android 5.0（API 21）以上使图片延伸到状态栏，只需设置 windowTranslucentStatus 为 true，将 statusBarColor 设置为透明即可 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- statusBarColor - 状态栏颜色，使用全透明实现沉浸式状态栏 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- 图片延伸到导航栏 & 窗口透明 & 非全屏 -->
+    <style name="comresTheme_application_default_navigationImage"
+           parent="comresTheme_application_default_windowTransparent">
+        <!-- windowTranslucentStatus - Android 5.0（API 21）以上使图片延伸到导航栏，只需设置 windowTranslucentNavigation 为 true，将 navigationBarColor 设置为透明即可 -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- navigationBarColor - 底部栏颜色，使用全透明实现沉浸式底部栏 -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- 图片延伸到状态、导航栏 & 窗口透明 & 非全屏 -->
+    <style name="comresTheme_application_default_statusNavigationImage"
+           parent="comresTheme_application_default_windowTransparent">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
 </resources>
+
+    <!--
+    1.在activity setcontentview之前加上以下代码：
+
+     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                val window: Window = window
+                window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+                window.decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                        or View.SYSTEM_UI_FLAG_LAYOUT_STABLE)
+                window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+                window.statusBarColor = Color.TRANSPARENT
+
+                window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)
+                window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                        or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION)
+                window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+                window.navigationBarColor = Color.TRANSPARENT
+            }
+
+
+    2.android 10之后状态栏+导航栏未能全部透明的解决方案：
+    给activity配置style，添加以下属性：
+     <item name="android:enforceStatusBarContrast">false</item>
+            <item name="android:enforceNavigationBarContrast">false</item>
+
+
+    例如：
+    <style name="TransparentActivity" parent="Theme.MaterialComponents.Light.NoActionBar">
+            <item name="android:windowBackground">@color/transparent</item>
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:navigationBarColor">@color/transparent</item>
+            <item name="android:windowLightStatusBar">true</item>
+            <item name="android:enforceStatusBarContrast">false</item>
+            <item name="android:enforceNavigationBarContrast">false</item>
+
+            <item name="colorPrimary">@color/purple_500</item>
+            <item name="colorPrimaryVariant">@color/transparent</item>
+            <item name="colorOnPrimary">@color/white</item>
+    <item name="colorSecondary">@color/teal_200</item>
+    <item name="colorSecondaryVariant">@color/transparent</item>
+    <item name="colorOnSecondary">@color/black</item>
+    <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        </style>
+    -->
