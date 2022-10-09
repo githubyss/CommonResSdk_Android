@@ -106,6 +106,7 @@ android {
                     srcDirs 'src/app/res/common'
 
                     srcDirs 'src/app/res/homepage'
+                    srcDirs 'src/app/res/theme'
                 }
                 manifest {
                     srcFile 'src/app/AndroidManifest.xml'

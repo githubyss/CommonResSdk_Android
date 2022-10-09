@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+        <variable
+            name="page"
+            type="com.githubyss.common.res.app.page.theme.ThemeActivity"
+            />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/comres_layoutBg_lightGray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include
+            android:id="@+id/layout_toolbar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/layout_page"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            layout="@layout/combase_toolbar_base"
+            />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/layout_page"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            app:layout_constraintTop_toBottomOf="@id/layout_toolbar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="基础的主题"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_fullscreen"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_fullscreen"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全屏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindow"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindow"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全透明窗口"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_fullscreen"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindow_fullscreen"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindow_fullscreen"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全透明窗口 ＋ 全屏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindow"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowStatus"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowStatus"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全透明窗口 ＋ 全透明状态栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindow_fullscreen"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowNavigation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowNavigation"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全透明窗口 ＋ 全透明导航栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowStatus"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowStatusNavigation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowStatusNavigation"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全透明窗口 ＋ 全透明状态栏、导航栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowNavigation"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowExtendStatus"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowExtendStatus"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全透明窗口 ＋ 界面延伸到状态栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowStatusNavigation"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowExtendNavigation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowExtendNavigation"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全透明窗口 ＋ 界面延伸到导航栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowExtendStatus"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowExtendStatusNavigation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowExtendStatusNavigation"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全透明窗口 ＋ 界面延伸到状态栏、导航栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowExtendNavigation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

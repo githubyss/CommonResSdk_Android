@@ -60,13 +60,20 @@
         <!-- statusBarColor - 状态栏颜色，默认使用 colorPrimaryDark -->
         <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
         <!-- windowBackground - 窗口背景颜色 -->
-        <item name="android:windowBackground">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
         <!-- navigationBarColor - 底部栏颜色 -->
-        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
-    <!-- 窗口透明 & 非全屏 -->
-    <style name="comresTheme_application_default_windowTransparent"
+    <!-- 全屏 -->
+    <style name="comresTheme_application_default_fullscreen"
+           parent="comresTheme_application_default">
+        <!-- windowFullscreen - 设置全屏模式 -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 全透明窗口 -->
+    <style name="comresTheme_application_default_transparentWindow"
            parent="comresTheme_application_default">
         <!-- windowIsTranslucent -  -->
         <item name="android:windowIsTranslucent">true</item>
@@ -80,49 +87,64 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
 
-    <!-- 窗口透明 & 全屏 -->
-    <style name="comresTheme_application_default_windowTransparentFullscreen"
-           parent="comresTheme_application_default_windowTransparent">
-        <!-- windowFullscreen - 设置全屏模式 -->
+    <!-- 全透明窗口 ＋ 全屏 -->
+    <style name="comresTheme_application_default_transparentWindow_fullscreen"
+           parent="comresTheme_application_default_transparentWindow">
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <!-- 沉浸式状态、导航栏（全透明） & 窗口透明 & 非全屏 -->
-    <style name="comresTheme_application_default_statusNavigationTransparent"
-           parent="comresTheme_application_default_windowTransparent">
+    <!-- 全透明窗口 ＋ 全透明状态栏 -->
+    <style name="comresTheme_application_default_transparentWindowStatus"
+           parent="comresTheme_application_default_transparentWindow">
         <!-- windowTranslucentStatus - Android 4.4（API 19） - Android 5.0（API 21）实现沉浸式的方式，设置为 true 可以实现沉浸式状态栏，问题是会导致标题栏和状态栏重叠了，相当于整个布局上移了 StatusBar 的高度。Android 5.0（API 21）以上无需设置，或设置 false -->
         <item name="android:windowTranslucentStatus">false</item>
-        <!-- windowTranslucentNavigation -  -->
-        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- statusBarColor - 状态栏颜色，使用全透明实现沉浸式状态栏 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
         <!-- windowDrawsSystemBarBackgrounds - Android 5.0（API 21）以上实现沉浸式的方式，Window 负责系统 bar 的 background 绘制，绘制透明背景的系统 bar（状态栏和导航栏），然后用 statusBarColor 和 navigationBarColor 的颜色填充相应的区域 -->
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <!-- statusBarColor - 状态栏颜色，使用全透明实现沉浸式状态栏 -->
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
-        <!-- navigationBarColor - 底部栏颜色，使用全透明实现沉浸式底部栏 -->
-        <item name="android:navigationBarColor">#99999999</item>
     </style>
 
-    <!-- 图片延伸到状态栏 & 窗口透明 & 非全屏 -->
-    <style name="comresTheme_application_default_statusImage"
-           parent="comresTheme_application_default_windowTransparent">
-        <!-- windowTranslucentStatus - Android 5.0（API 21）以上使图片延伸到状态栏，只需设置 windowTranslucentStatus 为 true，将 statusBarColor 设置为透明即可 -->
+    <!-- 全透明窗口 ＋ 全透明导航栏 -->
+    <style name="comresTheme_application_default_transparentWindowNavigation"
+           parent="comresTheme_application_default_transparentWindow">
+        <!-- windowTranslucentNavigation - 同 windowTranslucentStatus -->
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- navigationBarColor - 底部栏颜色，使用全透明实现沉浸式底部栏 -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- 全透明窗口 ＋ 全透明状态栏、导航栏 -->
+    <style name="comresTheme_application_default_transparentWindowStatusNavigation"
+           parent="comresTheme_application_default_transparentWindow">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- 全透明窗口 ＋ 界面延伸到状态栏 -->
+    <style name="comresTheme_application_default_transparentWindowExtendStatus"
+           parent="comresTheme_application_default_transparentWindow">
+        <!-- windowTranslucentStatus - Android 5.0（API 21）以上使界面延伸到状态栏，只需设置 windowTranslucentStatus 为 true，将 statusBarColor 设置为透明即可 -->
         <item name="android:windowTranslucentStatus">true</item>
         <!-- statusBarColor - 状态栏颜色，使用全透明实现沉浸式状态栏 -->
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
-    <!-- 图片延伸到导航栏 & 窗口透明 & 非全屏 -->
-    <style name="comresTheme_application_default_navigationImage"
-           parent="comresTheme_application_default_windowTransparent">
-        <!-- windowTranslucentStatus - Android 5.0（API 21）以上使图片延伸到导航栏，只需设置 windowTranslucentNavigation 为 true，将 navigationBarColor 设置为透明即可 -->
+    <!-- 全透明窗口 ＋ 界面延伸到导航栏 -->
+    <style name="comresTheme_application_default_transparentWindowExtendNavigation"
+           parent="comresTheme_application_default_transparentWindow">
+        <!-- windowTranslucentStatus - Android 5.0（API 21）以上使界面延伸到导航栏，只需设置 windowTranslucentNavigation 为 true，将 navigationBarColor 设置为透明即可 -->
         <item name="android:windowTranslucentNavigation">true</item>
         <!-- navigationBarColor - 底部栏颜色，使用全透明实现沉浸式底部栏 -->
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
-    <!-- 图片延伸到状态、导航栏 & 窗口透明 & 非全屏 -->
-    <style name="comresTheme_application_default_statusNavigationImage"
-           parent="comresTheme_application_default_windowTransparent">
+    <!-- 全透明窗口 ＋ 界面延伸到状态栏、导航栏 -->
+    <style name="comresTheme_application_default_transparentWindowExtendStatusNavigation"
+           parent="comresTheme_application_default_transparentWindow">
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowTranslucentNavigation">true</item>
