@@ -1,43 +1,23 @@
 package com.githubyss.common.res.app.page.theme
 
-import android.view.View
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.unit.Dp
-import com.githubyss.common.base.activity_fragment.binding_reflect.BaseReflectBindingActivity
-import com.githubyss.common.base.activity_fragment.binding_reflect.BaseReflectBindingToolbarActivity
 import com.githubyss.common.base.activity_fragment.binding_reflect_view_model.BaseReflectBindingViewModelToolbarActivity
-import com.githubyss.common.base.activity_fragment.classical.BaseActivity.Companion.FRAGMENT_BASE_CONTAINER_ID
-import com.githubyss.common.base.activity_fragment.compose.BaseComposeToolbarActivity
-import com.githubyss.common.base.databinding.CombaseActivityBaseBinding
-import com.githubyss.common.base.databinding.CombaseActivityBaseToolbarBinding
-import com.githubyss.mobile.common.res.R
-import com.githubyss.mobile.common.res.common.dimen.SpaceNormal
-import com.githubyss.mobile.common.res.databinding.ComresActivityHomepageBinding
-import com.githubyss.mobile.common.res.databinding.ComresActivityThemeBinding
-import com.githubyss.mobile.common.res.databinding.ComresActivityThemeSampleToolbarBinding
+import com.githubyss.common.res.databinding.ComresActivityThemeSampleBinding
+import com.githubyss.common.res.databinding.ComresActivityThemeSampleToolbarBinding
 
 
 /**
- * ThemeActivity
+ * ThemeDefaultTransparentWindowStatusActivity
  *
  * @author Ace Yan
  * @github githubyss
- * @createdTime 2022/10/08 21:01:26
+ * @createdTime 2022/10/09 16:25:00
  */
-class ThemeDefaultTransparentWindowStatusActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivityThemeSampleToolbarBinding>() {
+class ThemeDefaultTransparentWindowStatusActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivityThemeSampleBinding>() {
 
     /** ****************************** Companion ****************************** */
 
     /**  */
     companion object {
         private val TAG: String = ThemeDefaultTransparentWindowStatusActivity::class.java.simpleName
-    }
-
-
-    /** ****************************** Override ****************************** */
-
-    /**  */
-    override fun setToolbarTitle() {
-        setToolbarTitle("全透明窗口 ＋ 全透明状态栏")
     }
 }

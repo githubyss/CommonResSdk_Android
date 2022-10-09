@@ -2,6 +2,7 @@
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
     >
 
     <data>
@@ -71,9 +72,20 @@
                     style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_theme"
                     android:onClick="@{page::onAnyButtonClick}"
-                    android:text="主题"
+                    android:text="主题（android:theme 实现）"
                     app:layout_constraintTop_toBottomOf="@id/button_color"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_theme_code"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_theme_code"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="主题（代码实现）"
+                    app:layout_constraintTop_toTopOf="@id/button_theme"
+                    app:layout_constraintBottom_toBottomOf="@id/button_theme"
+                    app:layout_constraintStart_toEndOf="@id/button_theme"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
             </androidx.constraintlayout.widget.ConstraintLayout>

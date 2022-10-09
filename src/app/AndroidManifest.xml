@@ -32,15 +32,87 @@
         </activity>
 
         <activity android:name=".app.page.theme.ThemeActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultFullscreenActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultTransparentWindowActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultTransparentWindowFullscreenActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultTransparentWindowStatusActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultTransparentWindowNavigationActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultTransparentWindowStatusNavigationActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultTransparentWindowExtendStatusActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultTransparentWindowExtendNavigationActivity" />
-        <activity android:name=".app.page.theme.ThemeDefaultTransparentWindowExtendStatusNavigationActivity" />
+
+        <activity
+            android:name=".app.page.theme.ThemeDefaultActivity"
+            android:theme="@style/comresTheme_application_default"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultFullscreenActivity"
+            android:theme="@style/comresTheme_application_default_fullscreen"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultTransparentWindowActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindow"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultTransparentWindowFullscreenActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindow_fullscreen"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultTransparentWindowStatusActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowStatus"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultTransparentWindowNavigationActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowNavigation"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultTransparentWindowStatusNavigationActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowStatusNavigation"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultTransparentWindowExtendStatusActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowExtendStatus"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultTransparentWindowExtendNavigationActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowExtendNavigation"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeDefaultTransparentWindowExtendStatusNavigationActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowExtendStatusNavigation"
+            />
+
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultActivity"
+            android:theme="@style/comresTheme_application_default"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultFullscreenActivity"
+            android:theme="@style/comresTheme_application_default_fullscreen"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultTransparentWindowActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindow"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultTransparentWindowFullscreenActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindow_fullscreen"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultTransparentWindowStatusActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowStatus"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultTransparentWindowNavigationActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowNavigation"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultTransparentWindowStatusNavigationActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowStatusNavigation"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultTransparentWindowExtendStatusActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowExtendStatus"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultTransparentWindowExtendNavigationActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowExtendNavigation"
+            />
+        <activity
+            android:name=".app.page.theme.ThemeToolbarDefaultTransparentWindowExtendStatusNavigationActivity"
+            android:theme="@style/comresTheme_application_default_transparentWindowExtendStatusNavigation"
+            />
     </application>
 </manifest>

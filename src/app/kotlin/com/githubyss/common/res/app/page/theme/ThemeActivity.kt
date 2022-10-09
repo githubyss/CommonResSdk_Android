@@ -3,8 +3,8 @@ package com.githubyss.common.res.app.page.theme
 import android.content.Intent
 import android.view.View
 import com.githubyss.common.base.activity_fragment.binding_reflect_view_model.BaseReflectBindingViewModelToolbarActivity
-import com.githubyss.mobile.common.res.R
-import com.githubyss.mobile.common.res.databinding.ComresActivityThemeBinding
+import com.githubyss.common.res.R
+import com.githubyss.common.res.databinding.ComresActivityThemeBinding
 
 
 /**
@@ -28,7 +28,7 @@ class ThemeActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivityT
 
     /**  */
     override fun setToolbarTitle() {
-        setToolbarTitle("Res调试首页")
+        binding.layoutToolbar.toolbarBase.title = "主题"
     }
 
     /**  */
@@ -73,6 +73,37 @@ class ThemeActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivityT
             }
             R.id.button_default_transparentWindowExtendStatusNavigation -> {
                 startActivity(Intent(this, ThemeDefaultTransparentWindowExtendStatusNavigationActivity::class.java))
+            }
+
+            R.id.button_default_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultActivity::class.java))
+            }
+            R.id.button_default_fullscreen_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultFullscreenActivity::class.java))
+            }
+            R.id.button_default_transparentWindow_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultTransparentWindowActivity::class.java))
+            }
+            R.id.button_default_transparentWindow_fullscreen_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultTransparentWindowFullscreenActivity::class.java))
+            }
+            R.id.button_default_transparentWindowStatus_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultTransparentWindowStatusActivity::class.java))
+            }
+            R.id.button_default_transparentWindowNavigation_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultTransparentWindowNavigationActivity::class.java))
+            }
+            R.id.button_default_transparentWindowStatusNavigation_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultTransparentWindowStatusNavigationActivity::class.java))
+            }
+            R.id.button_default_transparentWindowExtendStatus_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultTransparentWindowExtendStatusActivity::class.java))
+            }
+            R.id.button_default_transparentWindowExtendNavigation_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultTransparentWindowExtendNavigationActivity::class.java))
+            }
+            R.id.button_default_transparentWindowExtendStatusNavigation_toolbar -> {
+                startActivity(Intent(this, ThemeToolbarDefaultTransparentWindowExtendStatusNavigationActivity::class.java))
             }
         }
     }

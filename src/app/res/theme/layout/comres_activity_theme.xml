@@ -53,6 +53,18 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toTopOf="@id/button_default_fullscreen"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default"
+                    app:layout_constraintStart_toEndOf="@id/button_default"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -64,6 +76,18 @@
                     app:layout_constraintTop_toBottomOf="@id/button_default"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindow"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_fullscreen_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_fullscreen_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_fullscreen"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_fullscreen"
+                    app:layout_constraintStart_toEndOf="@id/button_default_fullscreen"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -75,6 +99,18 @@
                     app:layout_constraintTop_toBottomOf="@id/button_default_fullscreen"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindow_fullscreen"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindow_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindow_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_transparentWindow"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_transparentWindow"
+                    app:layout_constraintStart_toEndOf="@id/button_default_transparentWindow"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -86,6 +122,18 @@
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindow"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowStatus"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindow_fullscreen_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindow_fullscreen_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_transparentWindow_fullscreen"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_transparentWindow_fullscreen"
+                    app:layout_constraintStart_toEndOf="@id/button_default_transparentWindow_fullscreen"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -97,6 +145,18 @@
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindow_fullscreen"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowNavigation"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindowStatus_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowStatus_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_transparentWindowStatus"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_transparentWindowStatus"
+                    app:layout_constraintStart_toEndOf="@id/button_default_transparentWindowStatus"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -108,6 +168,18 @@
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowStatus"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowStatusNavigation"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindowNavigation_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowNavigation_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_transparentWindowNavigation"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_transparentWindowNavigation"
+                    app:layout_constraintStart_toEndOf="@id/button_default_transparentWindowNavigation"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -119,6 +191,18 @@
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowNavigation"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowExtendStatus"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindowStatusNavigation_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowStatusNavigation_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_transparentWindowStatusNavigation"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_transparentWindowStatusNavigation"
+                    app:layout_constraintStart_toEndOf="@id/button_default_transparentWindowStatusNavigation"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -130,6 +214,18 @@
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowStatusNavigation"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowExtendNavigation"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindowExtendStatus_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowExtendStatus_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_transparentWindowExtendStatus"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_transparentWindowExtendStatus"
+                    app:layout_constraintStart_toEndOf="@id/button_default_transparentWindowExtendStatus"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -141,6 +237,18 @@
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowExtendStatus"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindowExtendStatusNavigation"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindowExtendNavigation_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowExtendNavigation_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_transparentWindowExtendNavigation"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_transparentWindowExtendNavigation"
+                    app:layout_constraintStart_toEndOf="@id/button_default_transparentWindowExtendNavigation"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
 
@@ -151,6 +259,18 @@
                     android:text="全透明窗口 ＋ 界面延伸到状态栏、导航栏"
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindowExtendNavigation"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindowExtendStatusNavigation_toolbar"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_transparentWindowExtendStatusNavigation_toolbar"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="有标题栏"
+                    app:layout_constraintTop_toTopOf="@id/button_default_transparentWindowExtendStatusNavigation"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_transparentWindowExtendStatusNavigation"
+                    app:layout_constraintStart_toEndOf="@id/button_default_transparentWindowExtendStatusNavigation"
                     app:layout_constraintEnd_toEndOf="parent"
                     />
             </androidx.constraintlayout.widget.ConstraintLayout>

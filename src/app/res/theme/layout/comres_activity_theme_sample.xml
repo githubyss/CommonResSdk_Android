@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/layout_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@id/layout_toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:background="@color/comres_color_red"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+
+            <View
+                android:background="@color/comres_color_yellow"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+
+            <View
+                android:background="@color/comres_color_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+
+            <View
+                android:background="@color/comres_color_blue"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+
+            <View
+                android:background="@color/comres_color_green"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
