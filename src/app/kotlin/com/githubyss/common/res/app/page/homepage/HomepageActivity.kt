@@ -3,7 +3,6 @@ package com.githubyss.common.res.app.page.homepage
 import android.content.Intent
 import android.view.View
 import com.githubyss.common.base.activity_fragment.binding_reflect_view_model.BaseReflectBindingViewModelToolbarActivity
-import com.githubyss.common.base.databinding.CombaseActivityBaseToolbarBinding
 import com.githubyss.common.res.app.page.theme.ThemeActivity
 import com.githubyss.common.res.R
 import com.githubyss.common.res.databinding.ComresActivityHomepageBinding
@@ -49,9 +48,7 @@ class HomepageActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivi
             R.id.button_color -> {
             }
             R.id.button_dimen -> {}
-            R.id.button_theme -> {
-                startActivity(Intent(this, ThemeActivity::class.java))
-            }
+            R.id.button_theme -> startActivity(Intent(this, ThemeActivity::class.java))
         }
     }
 }

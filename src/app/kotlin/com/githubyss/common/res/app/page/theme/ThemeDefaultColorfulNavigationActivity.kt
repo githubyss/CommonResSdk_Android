@@ -5,19 +5,19 @@ import com.githubyss.common.res.databinding.ComresActivityThemeSampleToolbarBind
 
 
 /**
- * ThemeToolbarDefaultTransparentWindowExtendStatusActivity
+ * ThemeDefaultColorfulNavigationActivity
  *
  * @author Ace Yan
  * @github githubyss
- * @createdTime 2022/10/09 16:17:18
+ * @createdTime 2022/10/09 16:17:41
  */
-class ThemeToolbarDefaultTransparentWindowExtendStatusActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivityThemeSampleToolbarBinding>() {
+class ThemeDefaultColorfulNavigationActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivityThemeSampleToolbarBinding>() {
 
     /** ****************************** Companion ****************************** */
 
     /**  */
     companion object {
-        private val TAG: String = ThemeToolbarDefaultTransparentWindowExtendStatusActivity::class.java.simpleName
+        private val TAG: String = ThemeDefaultColorfulNavigationActivity::class.java.simpleName
     }
 
 
@@ -25,6 +25,6 @@ class ThemeToolbarDefaultTransparentWindowExtendStatusActivity : BaseReflectBind
 
     /**  */
     override fun setToolbarTitle() {
-        binding.layoutToolbar.toolbarBase.title = "全透明窗口 ＋ 界面延伸到状态栏"
+        binding.layoutToolbar.toolbarBase.title = "自定义颜色导航栏"
     }
 }

@@ -55,7 +55,7 @@ android {
                 applicationId 'com.githubyss.common.res'
                 versionCode 1
                 versionName "1.0"
-                manifestPlaceholders = [APP_NAME: "通用资源库"]
+                manifestPlaceholders = [APP_NAME: "通用Res库"]
             }
         }
     }

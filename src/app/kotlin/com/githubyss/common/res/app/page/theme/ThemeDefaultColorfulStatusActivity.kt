@@ -5,19 +5,19 @@ import com.githubyss.common.res.databinding.ComresActivityThemeSampleToolbarBind
 
 
 /**
- * ThemeToolbarDefaultTransparentWindowStatusActivity
+ * ThemeDefaultColorfulStatusActivity
  *
  * @author Ace Yan
  * @github githubyss
  * @createdTime 2022/10/09 16:17:46
  */
-class ThemeToolbarDefaultTransparentWindowStatusActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivityThemeSampleToolbarBinding>() {
+class ThemeDefaultColorfulStatusActivity : BaseReflectBindingViewModelToolbarActivity<ComresActivityThemeSampleToolbarBinding>() {
 
     /** ****************************** Companion ****************************** */
 
     /**  */
     companion object {
-        private val TAG: String = ThemeToolbarDefaultTransparentWindowStatusActivity::class.java.simpleName
+        private val TAG: String = ThemeDefaultColorfulStatusActivity::class.java.simpleName
     }
 
 
@@ -25,6 +25,6 @@ class ThemeToolbarDefaultTransparentWindowStatusActivity : BaseReflectBindingVie
 
     /**  */
     override fun setToolbarTitle() {
-        binding.layoutToolbar.toolbarBase.title = "全透明窗口 ＋ 全透明状态栏"
+        binding.layoutToolbar.toolbarBase.title = "自定义颜色状态栏"
     }
 }
