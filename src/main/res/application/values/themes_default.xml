@@ -57,12 +57,12 @@
         <!-- textColorTertiary -  -->
         <item name="android:textColorTertiary">#FF999999</item>
 
-        <!-- windowBackground - 窗口背景颜色，默认使用 colorBackground -->
+        <!-- windowBackground - 整个窗口的背景，包括边框和内部，默认使用 colorBackground，当 window 里的布局设置了具体颜色时，以布局颜色为准。 -->
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <!-- statusBarColor - 状态栏颜色，默认使用 colorPrimaryDark -->
-        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <!--<item name="android:statusBarColor">?attr/colorPrimaryDark</item>-->
         <!-- navigationBarColor - 导航栏颜色，默认使用 colorBackground -->
-        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <!--<item name="android:navigationBarColor">?android:attr/colorBackground</item>-->
     </style>
 
     <!-- 全屏 -->
@@ -75,22 +75,16 @@
     <!-- 全透明窗口 -->
     <style name="comresTheme_application_default_transparentWindow"
            parent="comresTheme_application_default">
-        <!-- windowIsTranslucent -  -->
+        <!-- windowIsTranslucent - 窗口是否设置为半透明 -->
         <item name="android:windowIsTranslucent">true</item>
-        <!-- windowBackground -  -->
+        <!-- windowBackground - 整个窗口的背景，需要设置成透明色，与 windowIsTranslucent 属性一起实现 window 的透明。 -->
         <item name="android:windowBackground">@android:color/transparent</item>
         <!-- windowAnimationStyle -  -->
-        <item name="android:windowAnimationStyle">@android:style/Animation</item>
-        <!-- windowContentOverlay -  -->
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation</item>-->
+        <!-- windowContentOverlay - 窗口是否有遮盖 -->
         <item name="android:windowContentOverlay">@null</item>
-        <!-- colorBackgroundCacheHint -  -->
+        <!-- colorBackgroundCacheHint - 背景缓存颜色 -->
         <item name="android:colorBackgroundCacheHint">@null</item>
-    </style>
-
-    <!-- 全透明窗口 ＋ 全屏 -->
-    <style name="comresTheme_application_default_transparentWindow_fullscreen"
-           parent="comresTheme_application_default_transparentWindow">
-        <item name="android:windowFullscreen">true</item>
     </style>
 
     <!-- 自定义颜色状态栏 -->
