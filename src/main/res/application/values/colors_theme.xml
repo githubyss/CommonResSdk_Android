@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Application theme default colors. -->
+    <color name="comres_colorPrimary_default">@color/primary_material_light</color>
+    <color name="comres_colorPrimaryDark_default">@color/primary_dark_material_light</color>
+    <color name="comres_colorPrimaryVariant_default">?attr/colorPrimaryVariant</color>
+    <color name="comres_colorOnPrimary_default">?attr/colorOnPrimary</color>
+    <color name="comres_colorSecondary_default">?attr/colorSecondary</color>
+    <color name="comres_colorSecondaryVariant_default">?attr/colorSecondaryVariant</color>
+    <color name="comres_colorOnSecondary_default">?attr/colorOnSecondary</color>
+    <color name="comres_colorAccent_default">@color/accent_material_light</color>
+    <color name="comres_colorControlNormal_default">?attr/colorControlNormal</color>
+    <color name="comres_colorControlHighlight_default">@color/ripple_material_light</color>
+    <color name="comres_colorControlActivated_default">@color/accent_material_light</color>
+    <color name="comres_colorButtonNormal_default">@color/button_material_light</color>
+    <color name="comres_colorSwitchThumbNormal_default">@color/switch_thumb_material_light</color>
+    <color name="comres_colorForeground_default">@color/foreground_material_light</color>
+    <color name="comres_colorBackground_default">@color/background_material_light</color>
+    <color name="comres_textColor_default">?android:attr/textColor</color>
+    <color name="comres_editTextColor_default">?android:attr/editTextColor</color>
+    <color name="comres_textColorPrimary_default">?android:attr/textColorPrimary</color>
+    <color name="comres_textColorPrimaryDisableOnly_default">?android:attr/textColorPrimaryDisableOnly</color>
+    <color name="comres_textColorSecondary_default">?android:attr/textColorSecondary</color>
+    <color name="comres_textColorTertiary_default">?android:attr/textColorTertiary</color>
+    <color name="comres_windowBackground_default">@color/background_material_light</color>
+    <color name="comres_statusBarColor_default">@color/primary_dark_material_light</color>
+    <color name="comres_navigationBarColor_default">@android:color/black</color>
+
     <!-- Application theme blue colors. -->
     <color name="comres_colorPrimary_blue">#3F51B5</color>
     <color name="comres_colorPrimaryDark_blue">#303F9F</color>
@@ -9,6 +35,22 @@
     <color name="comres_colorSecondaryVariant_blue">#3F51B5</color>
     <color name="comres_colorOnSecondary_blue">#3F51B5</color>
     <color name="comres_colorAccent_blue">#FF4081</color>
+    <color name="comres_colorControlNormal_blue">#FF018786</color>
+    <color name="comres_colorControlHighlight_blue">#FF018786</color>
+    <color name="comres_colorControlActivated_blue">?attr/colorAccent</color>
+    <color name="comres_colorButtonNormal_blue">#00000000</color>
+    <color name="comres_colorSwitchThumbNormal_blue">#00000000</color>
+    <color name="comres_colorForeground_blue">#FF151515</color>
+    <color name="comres_colorBackground_blue">#FFF2F2F2</color>
+    <color name="comres_textColor_blue">#FF353D44</color>
+    <color name="comres_editTextColor_blue">#FF353D44</color>
+    <color name="comres_textColorPrimary_blue">#FFFFFFFF</color>
+    <color name="comres_textColorPrimaryDisableOnly_blue">#FFFF5500</color>
+    <color name="comres_textColorSecondary_blue">#FF666666</color>
+    <color name="comres_textColorTertiary_blue">#FF999999</color>
+    <color name="comres_windowBackground_blue">?android:attr/colorBackground</color>
+    <color name="comres_statusBarColor_blue">?attr/colorPrimaryDark</color>
+    <color name="comres_navigationBarColor_blue">?android:attr/colorForeground</color>
 
     <!-- Application theme gray colors. -->
     <color name="comres_colorPrimary_gray">#008577</color>
@@ -19,4 +61,20 @@
     <color name="comres_colorSecondaryVariant_gray">#00574B</color>
     <color name="comres_colorOnSecondary_gray">#00574B</color>
     <color name="comres_colorAccent_gray">#D81B60</color>
+    <color name="comres_colorControlNormal_gray">#FF018786</color>
+    <color name="comres_colorControlHighlight_gray">#FF018786</color>
+    <color name="comres_colorControlActivated_gray">?attr/colorAccent</color>
+    <color name="comres_colorButtonNormal_gray">#00000000</color>
+    <color name="comres_colorSwitchThumbNormal_gray">#00000000</color>
+    <color name="comres_colorForeground_gray">#FF151515</color>
+    <color name="comres_colorBackground_gray">#FFF2F2F2</color>
+    <color name="comres_textColor_gray">#FF353D44</color>
+    <color name="comres_editTextColor_gray">#FF353D44</color>
+    <color name="comres_textColorPrimary_gray">#FFFFFFFF</color>
+    <color name="comres_textColorPrimaryDisableOnly_gray">#FFFF5500</color>
+    <color name="comres_textColorSecondary_gray">#FF666666</color>
+    <color name="comres_textColorTertiary_gray">#FF999999</color>
+    <color name="comres_windowBackground_gray">?android:attr/colorBackground</color>
+    <color name="comres_statusBarColor_gray">?attr/colorPrimaryDark</color>
+    <color name="comres_navigationBarColor_gray">?android:attr/colorForeground</color>
 </resources>

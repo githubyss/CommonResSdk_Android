@@ -50,7 +50,7 @@
                     android:onClick="@{page::onAnyButtonClick}"
                     android:text="基础的主题"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toTopOf="@id/button_default_fullscreen"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindow"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/button_default_code"
                     />
@@ -69,34 +69,11 @@
 
                 <Button
                     style="@style/comres_button_clickable_margin_all"
-                    android:id="@+id/button_default_fullscreen"
-                    android:onClick="@{page::onAnyButtonClick}"
-                    android:text="全屏"
-                    app:layout_constraintTop_toBottomOf="@id/button_default"
-                    app:layout_constraintBottom_toTopOf="@id/button_default_transparentWindow"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toStartOf="@id/button_default_fullscreen_code"
-                    />
-
-                <Button
-                    style="@style/comres_button_clickable_margin_all"
-                    android:id="@+id/button_default_fullscreen_code"
-                    android:layout_width="wrap_content"
-                    android:onClick="@{page::onAnyButtonClick}"
-                    android:text="代码动态控制"
-                    app:layout_constraintTop_toTopOf="@id/button_default_fullscreen"
-                    app:layout_constraintBottom_toBottomOf="@id/button_default_fullscreen"
-                    app:layout_constraintStart_toEndOf="@id/button_default_fullscreen"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    />
-
-                <Button
-                    style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_default_transparentWindow"
                     android:onClick="@{page::onAnyButtonClick}"
                     android:text="全透明窗口"
-                    app:layout_constraintTop_toBottomOf="@id/button_default_fullscreen"
-                    app:layout_constraintBottom_toTopOf="@id/button_default_colorfulStatus"
+                    app:layout_constraintTop_toBottomOf="@id/button_default"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_fullscreenStatus"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/button_default_transparentWindow_code"
                     />
@@ -115,10 +92,79 @@
 
                 <Button
                     style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_fullscreenStatus"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全屏状态栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindow"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_fullscreenNavigation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_fullscreenStatus_code"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_fullscreenStatus_code"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="代码动态控制"
+                    app:layout_constraintTop_toTopOf="@id/button_default_fullscreenStatus"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_fullscreenStatus"
+                    app:layout_constraintStart_toEndOf="@id/button_default_fullscreenStatus"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_fullscreenNavigation"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全屏导航栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_fullscreenStatus"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_fullscreenStatusNavigation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_fullscreenNavigation_code"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_fullscreenNavigation_code"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="代码动态控制"
+                    app:layout_constraintTop_toTopOf="@id/button_default_fullscreenNavigation"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_fullscreenNavigation"
+                    app:layout_constraintStart_toEndOf="@id/button_default_fullscreenNavigation"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_fullscreenStatusNavigation"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="全屏状态栏、导航栏"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_fullscreenNavigation"
+                    app:layout_constraintBottom_toTopOf="@id/button_default_colorfulStatus"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button_default_fullscreenStatusNavigation_code"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
+                    android:id="@+id/button_default_fullscreenStatusNavigation_code"
+                    android:layout_width="wrap_content"
+                    android:onClick="@{page::onAnyButtonClick}"
+                    android:text="代码动态控制"
+                    app:layout_constraintTop_toTopOf="@id/button_default_fullscreenStatusNavigation"
+                    app:layout_constraintBottom_toBottomOf="@id/button_default_fullscreenStatusNavigation"
+                    app:layout_constraintStart_toEndOf="@id/button_default_fullscreenStatusNavigation"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <Button
+                    style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_default_colorfulStatus"
                     android:onClick="@{page::onAnyButtonClick}"
                     android:text="自定义颜色状态栏"
-                    app:layout_constraintTop_toBottomOf="@id/button_default_transparentWindow"
+                    app:layout_constraintTop_toBottomOf="@id/button_default_fullscreenStatusNavigation"
                     app:layout_constraintBottom_toTopOf="@id/button_default_colorfulNavigation"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/button_default_colorfulStatus_code"
@@ -186,7 +232,7 @@
                     style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_default_translucentStatusExtend"
                     android:onClick="@{page::onAnyButtonClick}"
-                    android:text="半透明状态栏 ＋ 界面延伸到状态栏"
+                    android:text="半透明状态栏 ＋ 界面延伸"
                     app:layout_constraintTop_toBottomOf="@id/button_default_colorfulStatusNavigation"
                     app:layout_constraintBottom_toTopOf="@id/button_default_translucentNavigationExtend"
                     app:layout_constraintStart_toStartOf="parent"
@@ -209,7 +255,7 @@
                     style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_default_translucentNavigationExtend"
                     android:onClick="@{page::onAnyButtonClick}"
-                    android:text="半透明导航栏 ＋ 界面延伸到导航栏"
+                    android:text="半透明导航栏 ＋ 界面延伸"
                     app:layout_constraintTop_toBottomOf="@id/button_default_translucentStatusExtend"
                     app:layout_constraintBottom_toTopOf="@id/button_default_translucentStatusNavigationExtend"
                     app:layout_constraintStart_toStartOf="parent"
@@ -232,7 +278,7 @@
                     style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_default_translucentStatusNavigationExtend"
                     android:onClick="@{page::onAnyButtonClick}"
-                    android:text="半透明状态栏、导航栏 ＋ 界面延伸到状态栏、导航栏"
+                    android:text="半透明状态栏、导航栏 ＋ 界面延伸"
                     app:layout_constraintTop_toBottomOf="@id/button_default_translucentNavigationExtend"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentStatusExtend"
                     app:layout_constraintStart_toStartOf="parent"
@@ -255,7 +301,7 @@
                     style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_default_transparentStatusExtend"
                     android:onClick="@{page::onAnyButtonClick}"
-                    android:text="全透明状态栏 ＋ 界面延伸到状态栏"
+                    android:text="全透明状态栏 ＋ 界面延伸"
                     app:layout_constraintTop_toBottomOf="@id/button_default_translucentStatusNavigationExtend"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentNavigationExtend"
                     app:layout_constraintStart_toStartOf="parent"
@@ -278,7 +324,7 @@
                     style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_default_transparentNavigationExtend"
                     android:onClick="@{page::onAnyButtonClick}"
-                    android:text="全透明状态栏 ＋ 界面延伸到状态栏"
+                    android:text="全透明导航栏 ＋ 界面延伸"
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentStatusExtend"
                     app:layout_constraintBottom_toTopOf="@id/button_default_transparentStatusNavigationExtend"
                     app:layout_constraintStart_toStartOf="parent"
@@ -301,7 +347,7 @@
                     style="@style/comres_button_clickable_margin_all"
                     android:id="@+id/button_default_transparentStatusNavigationExtend"
                     android:onClick="@{page::onAnyButtonClick}"
-                    android:text="全透明状态栏、导航栏 ＋ 界面延伸到状态栏、导航栏"
+                    android:text="全透明状态栏、导航栏 ＋ 界面延伸"
                     app:layout_constraintTop_toBottomOf="@id/button_default_transparentNavigationExtend"
                     app:layout_constraintBottom_toTopOf="@id/v_color"
                     app:layout_constraintStart_toStartOf="parent"
