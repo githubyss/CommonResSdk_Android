@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Application gray theme. -->
-    <style name="comresTheme_application_gray"
-           parent="Theme.AppCompat.DayNight.NoActionBar">
+    <!-- 灰色主题，定制灰色配色 -->
+    <style name="comresTheme_gray"
+           parent="comresTheme_default">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/comres_colorPrimary_gray</item>
         <item name="colorPrimaryDark">@color/comres_colorPrimaryDark_gray</item>
         <item name="colorPrimaryVariant">@color/comres_colorPrimaryVariant_gray</item>
         <item name="colorOnPrimary">@color/comres_colorOnPrimary_gray</item>
+
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/comres_colorSecondary_gray</item>
         <item name="colorSecondaryVariant">@color/comres_colorSecondaryVariant_gray</item>
         <item name="colorOnSecondary">@color/comres_colorOnSecondary_gray</item>
+
         <!-- Accent color. -->
-        <item name="colorAccent">@color/comres_colorAccent_gray</item><!-- Control color. -->
+        <item name="colorAccent">@color/comres_colorAccent_gray</item>
+
         <!-- Control color. -->
         <item name="colorControlNormal">@color/comres_colorControlNormal_gray</item>
         <item name="colorControlHighlight">@color/comres_colorControlHighlight_gray</item>
         <item name="colorControlActivated">@color/comres_colorControlActivated_gray</item>
+
         <!-- Button color. -->
         <item name="colorButtonNormal">@color/comres_colorButtonNormal_gray</item>
         <item name="colorSwitchThumbNormal">@color/comres_colorSwitchThumbNormal_gray</item>
+
         <!-- Ground color. -->
         <item name="android:colorForeground">@color/comres_colorForeground_gray</item>
         <item name="android:colorBackground">@color/comres_colorBackground_gray</item>
+
         <!-- Text color. -->
         <item name="android:textColor">@color/comres_textColor_gray</item>
         <item name="android:editTextColor">@color/comres_editTextColor_gray</item>
@@ -31,16 +37,18 @@
         <item name="android:textColorPrimaryDisableOnly">@color/comres_textColorPrimaryDisableOnly_gray</item>
         <item name="android:textColorSecondary">@color/comres_textColorSecondary_gray</item>
         <item name="android:textColorTertiary">@color/comres_textColorTertiary_gray</item>
+
         <!-- Window color. -->
         <item name="android:windowBackground">@color/comres_windowBackground_gray</item>
+
         <!-- Bar color. -->
         <item name="android:statusBarColor">@color/comres_statusBarColor_gray</item>
         <item name="android:navigationBarColor">@color/comres_navigationBarColor_gray</item>
     </style>
 
-    <!-- Application gray translucent theme. -->
-    <style name="comresTheme_application_grayTranslucent"
-           parent="comresTheme_application_gray">
+    <!-- 全透明窗口 -->
+    <style name="comresTheme_gray_transparentWindow"
+           parent="comresTheme_gray">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowAnimationStyle">@android:style/Animation</item>

@@ -69,10 +69,10 @@ android {
             res {
                 srcDirs 'src/main/res'
                 srcDirs 'src/main/res/common'
-
-                srcDirs 'src/main/res/application'
+                srcDirs 'src/main/res/theme'
                 srcDirs 'src/main/res/activity'
-                srcDirs 'src/main/res/fragment'
+                srcDirs 'src/main/res/application'
+
                 srcDirs 'src/main/res/layout_container'
 
                 srcDirs 'src/main/res/flexbox_layout'

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Activity no action bar theme. -->
-    <style name="comresTheme_activity_noActionBar"
-           parent="Theme.AppCompat.DayNight.NoActionBar" />
-</resources>

@@ -133,7 +133,9 @@ open class ThemeActivity : BaseReflectBindingViewModelActivity<ComresActivityThe
                     window.navigationBarColor = resources.getColor(R.color.comres_navigationBarColor_default)
                 }
             }
-            R.id.button_default_transparentWindow_code -> {}
+            R.id.button_default_transparentWindow_code -> {
+                // 暂时没有找到动态设置透明窗口的方案
+            }
             R.id.button_default_fullscreenStatus_code -> {
                 // window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
 

@@ -10,7 +10,7 @@
 
     <application
         android:name=".app.application.ComresApplication"
-        android:theme="@style/comresTheme_application_default"
+        android:theme="@style/comresTheme_default"
         android:allowBackup="false"
         android:icon="@mipmap/comres_ic_launcher_default"
         android:label="${APP_NAME}"
@@ -21,7 +21,7 @@
 
         <activity
             android:name=".app.page.homepage.HomepageActivity"
-            android:theme="@style/comresTheme_application_default"
+            android:theme="@style/comresTheme_default"
             android:exported="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
@@ -34,44 +34,44 @@
 
         <activity
             android:name=".app.page.theme.ThemeActivity"
-            android:theme="@style/comresTheme_application_default"
+            android:theme="@style/comresTheme_default"
             />
 
         <activity
             android:name=".app.page.theme.ThemeDefaultActivity"
-            android:theme="@style/comresTheme_application_default"
+            android:theme="@style/comresTheme_default"
             />
         <activity
             android:name=".app.page.theme.ThemeDefaultFullscreenActivity"
-            android:theme="@style/comresTheme_application_default_fullscreen"
+            android:theme="@style/comresTheme_default_fullscreen"
             />
         <activity
             android:name=".app.page.theme.ThemeDefaultTransparentWindowActivity"
-            android:theme="@style/comresTheme_application_default_transparentWindow"
+            android:theme="@style/comresTheme_default_transparentWindow"
             />
         <activity
             android:name=".app.page.theme.ThemeDefaultColorfulStatusActivity"
-            android:theme="@style/comresTheme_application_default_colorfulStatus"
+            android:theme="@style/comresTheme_default_colorfulStatus"
             />
         <activity
             android:name=".app.page.theme.ThemeDefaultColorfulNavigationActivity"
-            android:theme="@style/comresTheme_application_default_colorfulNavigation"
+            android:theme="@style/comresTheme_default_colorfulNavigation"
             />
         <activity
             android:name=".app.page.theme.ThemeDefaultColorfulStatusNavigationActivity"
-            android:theme="@style/comresTheme_application_default_colorfulStatusNavigation"
+            android:theme="@style/comresTheme_default_colorfulStatusNavigation"
             />
         <activity
             android:name=".app.page.theme.ThemeDefaultTranslucentStatusExtendActivity"
-            android:theme="@style/comresTheme_application_default_translucentStatusExtend"
+            android:theme="@style/comresTheme_default_translucentStatusExtend"
             />
         <activity
             android:name=".app.page.theme.ThemeDefaultTranslucentNavigationExtendActivity"
-            android:theme="@style/comresTheme_application_default_translucentNavigationExtend"
+            android:theme="@style/comresTheme_default_translucentNavigationExtend"
             />
         <activity
             android:name=".app.page.theme.ThemeDefaultTranslucentStatusNavigationExtendActivity"
-            android:theme="@style/comresTheme_application_default_translucentStatusNavigationExtend"
+            android:theme="@style/comresTheme_default_translucentStatusNavigationExtend"
             />
     </application>
 </manifest>

@@ -23,6 +23,8 @@
             android:id="@+id/layout_page"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingTop="@dimen/comres_sideMargin_huge"
+            android:paddingBottom="@dimen/comres_sideMargin_huge"
             android:fillViewport="true"
             android:scrollbars="none"
             >
