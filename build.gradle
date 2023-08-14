@@ -68,25 +68,38 @@ android {
             }
             res {
                 srcDirs 'src/main/res'
-                srcDirs 'src/main/res/common'
+
+                srcDirs 'src/main/res/string'
+                srcDirs 'src/main/res/color'
+                srcDirs 'src/main/res/dimen'
                 srcDirs 'src/main/res/theme'
-                srcDirs 'src/main/res/activity'
+                srcDirs 'src/main/res/style'
+                srcDirs 'src/main/res/font'
+
+                srcDirs 'src/main/res/image/svg'
+                srcDirs 'src/main/res/image/png'
+                srcDirs 'src/main/res/image/webp'
+                srcDirs 'src/main/res/image/.9'
+
+                srcDirs 'src/main/res/anim/xml'
+                srcDirs 'src/main/res/anim/svga'
+                srcDirs 'src/main/res/anim/lottie'
+
                 srcDirs 'src/main/res/application'
+                srcDirs 'src/main/res/activity'
 
-                srcDirs 'src/main/res/layout_container'
-
-                srcDirs 'src/main/res/flexbox_layout'
-
-                srcDirs 'src/main/res/button_checkable'
-                srcDirs 'src/main/res/button_clickable'
-                srcDirs 'src/main/res/separator'
-                srcDirs 'src/main/res/card'
-                srcDirs 'src/main/res/input'
-                srcDirs 'src/main/res/label'
-                srcDirs 'src/main/res/launcher'
-                srcDirs 'src/main/res/tag'
-                srcDirs 'src/main/res/tip'
-                srcDirs 'src/main/res/toolbar'
+                srcDirs 'src/main/res/ui/layout_container'
+                srcDirs 'src/main/res/ui/flexbox_layout'
+                srcDirs 'src/main/res/ui/button_checkable'
+                srcDirs 'src/main/res/ui/button_clickable'
+                srcDirs 'src/main/res/ui/separator'
+                srcDirs 'src/main/res/ui/card'
+                srcDirs 'src/main/res/ui/input'
+                srcDirs 'src/main/res/ui/label'
+                srcDirs 'src/main/res/ui/launcher'
+                srcDirs 'src/main/res/ui/tag'
+                srcDirs 'src/main/res/ui/tip'
+                srcDirs 'src/main/res/ui/toolbar'
             }
             manifest {
                 srcFile 'src/main/AndroidManifest.xml'
